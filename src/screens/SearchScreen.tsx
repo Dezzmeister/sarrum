@@ -28,7 +28,6 @@ const QUERY_CUTOFF = 4;
 
 const styles = StyleSheet.create({
 	page: {
-		height: "100%",
 		alignItems: "center",
 		backgroundColor: Colors.dark,
 	},
@@ -70,11 +69,12 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 	const {dict} = useContext(DictContext);
 	const {width, height} = useWindowDimensions();
 	const maxDim = Math.max(width, height);
-	const pageStyle = height > width ? {height} : {flex: 1};
 	const [query, setQuery] = useState("");
 	const [defnPairs, setDefnPairs] = useState<DefnPair[] | undefined>(
 		undefined,
 	);
+
+	const pageStyle = height > width && !defnPairs ? {height} : {flex: 1};
 
 	const onSubmit = () => {
 		const words = dict!.search(query, QUERY_LIMIT, QUERY_CUTOFF, engl);

@@ -16,7 +16,6 @@ type HomeScreenProps = NavProps;
 
 const styles = StyleSheet.create({
 	page: {
-		height: "100%",
 		alignItems: "center",
 		backgroundColor: Colors.dark,
 		padding: 0,
@@ -24,7 +23,7 @@ const styles = StyleSheet.create({
 	},
 	title: {
 		...GlobalStyles.header1,
-		marginTop: "8%",
+		marginTop: 0,
 	},
 	buttonContainer: {
 		marginTop: "10%",
@@ -37,7 +36,8 @@ const styles = StyleSheet.create({
 		flex: 1,
 	},
 	smallButtonContainer: {
-		marginBottom: 20,
+		marginTop: 30,
+		marginBottom: 30,
 	},
 	smallButtonText: {
 		...GlobalStyles.smallButtonText,
@@ -52,7 +52,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({navigation}) => {
 	return (
 		<View style={pageStyle}>
 			<ScrollView
-				contentContainerStyle={[styles.page, {height: maxDim}]}
+				contentContainerStyle={[styles.page, {minHeight: maxDim}]}
 				style={GlobalStyles.scrollView}>
 				<SafeAreaView>
 					<Text style={styles.title}>šarrum</Text>

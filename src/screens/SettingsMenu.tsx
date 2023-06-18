@@ -20,18 +20,17 @@ type SettingsMenuProps = NavProps;
 
 const styles = StyleSheet.create({
 	page: {
-		height: "100%",
 		alignItems: "center",
 		backgroundColor: Colors.dark,
 	},
 	title: {
 		...GlobalStyles.header3,
-		marginTop: "8%",
+		marginTop: 0,
 		marginBottom: 10,
 	},
 	labelCard: {
 		width: "80%",
-		marginTop: "15%",
+		marginTop: "8%",
 	},
 	cardText: {
 		fontSize: 15,
@@ -66,7 +65,8 @@ const styles = StyleSheet.create({
 		marginBottom: 15,
 	},
 	smallButtonContainer: {
-		marginBottom: 20,
+		marginTop: 30,
+		marginBottom: 30,
 	},
 	smallButtonText: {
 		fontSize: 12,

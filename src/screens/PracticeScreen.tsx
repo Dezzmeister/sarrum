@@ -30,7 +30,6 @@ type WordDefn = {
 
 const styles = StyleSheet.create({
 	page: {
-		height: "100%",
 		alignItems: "center",
 		backgroundColor: Colors.dark,
 	},
