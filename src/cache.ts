@@ -22,7 +22,7 @@ export async function getMaxLines(): Promise<number> {
 }
 
 export async function setMaxLines(maxLines: number): Promise<void> {
-	await AsyncStorage.setItem(Consts.cacheKeys.lines, `${maxLines}`);
+	await AsyncStorage.setItem(Consts.cacheKeys.maxLines, `${maxLines}`);
 }
 
 export async function getLines(): Promise<number> {
