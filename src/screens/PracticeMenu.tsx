@@ -1,8 +1,16 @@
 import React from "react";
-import {SafeAreaView, StyleSheet, Text} from "react-native";
-import {Colors} from "../colors";
+import {
+	SafeAreaView,
+	ScrollView,
+	StyleSheet,
+	Text,
+	View,
+	useWindowDimensions,
+} from "react-native";
+import {Colors, GlobalStyles} from "../styles";
 import {Button} from "../components/Button";
 import {NavProps, Paths} from "../nav";
+import {InfoCard} from "../components/InfoCard";
 
 type PracticeMenuProps = NavProps;
 
@@ -13,47 +21,57 @@ const styles = StyleSheet.create({
 		backgroundColor: Colors.dark,
 	},
 	title: {
-		fontSize: 50,
-		fontWeight: "600",
-		color: Colors.light,
+		...GlobalStyles.header2,
 		marginTop: "8%",
 	},
-	desc: {
-		fontSize: 20,
-		color: Colors.light,
+	descContainer: {
 		marginTop: "15%",
-		width: "50%",
+		width: "60%",
+	},
+	desc: {
+		...GlobalStyles.desc1,
 	},
 	buttonContainer: {
 		marginTop: "15%",
-		width: "50%",
+		width: "60%",
 	},
 	buttonText: {
-		fontSize: 25,
-		fontWeight: "normal",
+		...GlobalStyles.mediumButtonText,
 	},
 });
 
 export const PracticeMenu: React.FC<PracticeMenuProps> = ({navigation}) => {
+	const {width, height} = useWindowDimensions();
+	const maxDim = Math.max(width, height);
+	const pageStyle = height > width ? {height} : {flex: 1};
+
 	return (
-		<SafeAreaView style={styles.page}>
-			<Text style={styles.title}>Practice</Text>
-			<Text style={styles.desc}>
-				Practice translating Akkadian words into English and English
-				words into Akkadian.
-			</Text>
-			<Button
-				title="Akkadian to English"
-				onPress={() => navigation.navigate(Paths.practiceAkk)}
-				containerStyle={styles.buttonContainer}
-				textStyle={styles.buttonText}
-			/>
-			<Button
-				title="English to Akkadian"
-				onPress={() => navigation.navigate(Paths.practiceEngl)}
-				containerStyle={styles.buttonContainer}
-				textStyle={styles.buttonText}
-			/>
-		</SafeAreaView>
+		<View style={pageStyle}>
+			<ScrollView
+				contentContainerStyle={[styles.page, {height: maxDim}]}
+				style={GlobalStyles.scrollView}>
+				<SafeAreaView>
+					<Text style={styles.title}>Practice</Text>
+				</SafeAreaView>
+				<InfoCard style={styles.descContainer}>
+					<Text style={styles.desc}>
+						Practice translating Akkadian words into English and
+						English words into Akkadian.
+					</Text>
+				</InfoCard>
+				<Button
+					title="Akkadian to English"
+					onPress={() => navigation.navigate(Paths.practiceAkk)}
+					containerStyle={styles.buttonContainer}
+					textStyle={styles.buttonText}
+				/>
+				<Button
+					title="English to Akkadian"
+					onPress={() => navigation.navigate(Paths.practiceEngl)}
+					containerStyle={styles.buttonContainer}
+					textStyle={styles.buttonText}
+				/>
+			</ScrollView>
+		</View>
 	);
 };

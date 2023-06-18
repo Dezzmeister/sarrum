@@ -1,6 +1,14 @@
 import React from "react";
-import {Image, SafeAreaView, StyleSheet, Text, View} from "react-native";
-import {Colors} from "../colors";
+import {
+	Image,
+	SafeAreaView,
+	ScrollView,
+	StyleSheet,
+	Text,
+	View,
+	useWindowDimensions,
+} from "react-native";
+import {Colors, GlobalStyles} from "../styles";
 import {Button} from "../components/Button";
 import {NavProps, Paths} from "../nav";
 
@@ -11,19 +19,19 @@ const styles = StyleSheet.create({
 		height: "100%",
 		alignItems: "center",
 		backgroundColor: Colors.dark,
+		padding: 0,
+		margin: 0,
 	},
 	title: {
-		fontSize: 80,
-		fontWeight: "700",
-		color: Colors.light,
+		...GlobalStyles.header1,
 		marginTop: "8%",
 	},
 	buttonContainer: {
-		marginTop: "15%",
+		marginTop: "10%",
 		width: "50%",
 	},
 	buttonText: {
-		fontSize: 40,
+		...GlobalStyles.bigButtonText,
 	},
 	spacer: {
 		flex: 1,
@@ -32,34 +40,44 @@ const styles = StyleSheet.create({
 		marginBottom: 20,
 	},
 	smallButtonText: {
-		fontSize: 12,
+		...GlobalStyles.smallButtonText,
 	},
 });
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({navigation}) => {
+	const {width, height} = useWindowDimensions();
+	const maxDim = Math.max(width, height);
+	const pageStyle = height > width ? {height} : {flex: 1};
+
 	return (
-		<SafeAreaView style={styles.page}>
-			<Text style={styles.title}>šarrum</Text>
-			<Image source={require("../../assets/images/king.jpg")} />
-			<Button
-				title="Practice"
-				onPress={() => navigation.navigate(Paths.practiceMenu)}
-				containerStyle={styles.buttonContainer}
-				textStyle={styles.buttonText}
-			/>
-			<Button
-				title="Lookup"
-				onPress={() => navigation.navigate(Paths.lookupMenu)}
-				containerStyle={styles.buttonContainer}
-				textStyle={styles.buttonText}
-			/>
-			<View style={styles.spacer} />
-			<Button
-				title="Settings"
-				onPress={() => navigation.navigate(Paths.settingsMenu)}
-				containerStyle={styles.smallButtonContainer}
-				textStyle={styles.smallButtonText}
-			/>
-		</SafeAreaView>
+		<View style={pageStyle}>
+			<ScrollView
+				contentContainerStyle={[styles.page, {height: maxDim}]}
+				style={GlobalStyles.scrollView}>
+				<SafeAreaView>
+					<Text style={styles.title}>šarrum</Text>
+				</SafeAreaView>
+				<Image source={require("../../assets/images/king.jpg")} />
+				<Button
+					title="Practice"
+					onPress={() => navigation.navigate(Paths.practiceMenu)}
+					containerStyle={styles.buttonContainer}
+					textStyle={styles.buttonText}
+				/>
+				<Button
+					title="Lookup"
+					onPress={() => navigation.navigate(Paths.lookupMenu)}
+					containerStyle={styles.buttonContainer}
+					textStyle={styles.buttonText}
+				/>
+				<View style={styles.spacer} />
+				<Button
+					title="Settings"
+					onPress={() => navigation.navigate(Paths.settingsMenu)}
+					containerStyle={styles.smallButtonContainer}
+					textStyle={styles.smallButtonText}
+				/>
+			</ScrollView>
+		</View>
 	);
 };

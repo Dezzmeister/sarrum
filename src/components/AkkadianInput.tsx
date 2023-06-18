@@ -6,7 +6,7 @@ import {
 	View,
 	TextInputSelectionChangeEventData,
 } from "react-native";
-import {Colors} from "../colors";
+import {Colors} from "../styles";
 import {Button} from "../components/Button";
 
 export type AkkadianInputProps = TextInput["props"] & {

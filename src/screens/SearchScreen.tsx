@@ -2,12 +2,15 @@ import React, {useContext, useState} from "react";
 import {
 	FlatList,
 	ListRenderItemInfo,
+	SafeAreaView,
+	ScrollView,
 	StyleSheet,
 	Text,
 	TextInput,
 	View,
+	useWindowDimensions,
 } from "react-native";
-import {Colors} from "../colors";
+import {Colors, GlobalStyles} from "../styles";
 import {ScreenProps} from "../nav";
 import {DictEntry} from "../dict/dict";
 import {AkkadianInput} from "../components/AkkadianInput";
@@ -30,14 +33,12 @@ const styles = StyleSheet.create({
 		backgroundColor: Colors.dark,
 	},
 	title: {
-		fontSize: 40,
-		fontWeight: "400",
-		color: Colors.light,
+		...GlobalStyles.header3,
 		marginTop: "8%",
 		marginBottom: 10,
 	},
 	textInput: {
-		width: "60%",
+		width: "75%",
 		backgroundColor: Colors.dark,
 		color: Colors.light,
 		borderWidth: 1,
@@ -46,23 +47,20 @@ const styles = StyleSheet.create({
 		borderRadius: 10,
 		marginBottom: 10,
 	},
+	emptyResults: {
+		color: Colors.lightFaded,
+		fontSize: 12,
+	},
 	akkContainer: {
-		width: "60%",
+		width: "75%",
 		marginBottom: 10,
 	},
-	buttonContainer: {
-		marginTop: "15%",
-		width: "50%",
-	},
-	buttonText: {
-		fontSize: 40,
-	},
 	list: {
-		width: "100%",
+		width: "80%",
 	},
 	listItem: {
 		marginTop: 10,
-		width: "80%",
+		width: "100%",
 		alignSelf: "center",
 	},
 });
@@ -70,6 +68,9 @@ const styles = StyleSheet.create({
 export const SearchScreen: React.FC<SearchScreenProps> = props => {
 	const engl = props.route.params.engl;
 	const {dict} = useContext(DictContext);
+	const {width, height} = useWindowDimensions();
+	const maxDim = Math.max(width, height);
+	const pageStyle = height > width ? {height} : {flex: 1};
 	const [query, setQuery] = useState("");
 	const [defnPairs, setDefnPairs] = useState<DefnPair[] | undefined>(
 		undefined,
@@ -105,6 +106,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 					style={styles.textInput}
 					// TODO: ios
 					cursorColor={Colors.light}
+					autoCapitalize="none"
 				/>
 			);
 		}
@@ -117,6 +119,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 				style={styles.akkContainer}
 				// TODO: ios
 				cursorColor={Colors.light}
+				autoCapitalize="none"
 			/>
 		);
 	};
@@ -142,7 +145,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 		}
 
 		if (defnPairs.length === 0) {
-			return <Text>No results</Text>;
+			return <Text style={styles.emptyResults}>No results</Text>;
 		}
 
 		return (
@@ -150,15 +153,22 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 				data={defnPairs}
 				renderItem={renderDefnPair}
 				style={styles.list}
+				nestedScrollEnabled
 			/>
 		);
 	};
 
 	return (
-		<View style={styles.page}>
-			{renderTitle()}
-			{renderInput()}
-			{renderResults()}
+		<View style={pageStyle}>
+			<ScrollView
+				contentContainerStyle={[styles.page, {height: maxDim}]}
+				style={GlobalStyles.scrollView}
+				nestedScrollEnabled
+				keyboardShouldPersistTaps="always">
+				<SafeAreaView>{renderTitle()}</SafeAreaView>
+				{renderInput()}
+				{renderResults()}
+			</ScrollView>
 		</View>
 	);
 };

@@ -2,12 +2,15 @@ import React, {useContext, useState} from "react";
 import {
 	FlatList,
 	ListRenderItemInfo,
+	SafeAreaView,
+	ScrollView,
 	StyleSheet,
 	Text,
 	TextInput,
 	View,
+	useWindowDimensions,
 } from "react-native";
-import {Colors} from "../colors";
+import {Colors, GlobalStyles} from "../styles";
 import {ScreenProps} from "../nav";
 import {DictEntry, GrammarKinds, WordAttrs} from "../dict/dict";
 import {AkkadianInput} from "../components/AkkadianInput";
@@ -32,20 +35,17 @@ const styles = StyleSheet.create({
 		backgroundColor: Colors.dark,
 	},
 	title: {
-		fontSize: 40,
-		fontWeight: "400",
-		color: Colors.light,
+		...GlobalStyles.header3,
 		marginTop: "8%",
 		marginBottom: 10,
 	},
 	desc: {
-		fontSize: 20,
-		color: Colors.light,
+		...GlobalStyles.desc1,
 		marginTop: 20,
-		width: "60%",
+		width: "75%",
 	},
 	questionContainer: {
-		width: "60%",
+		width: "75%",
 		marginTop: 15,
 		marginBottom: 15,
 	},
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 		color: Colors.light,
 	},
 	textInput: {
-		width: "60%",
+		width: "75%",
 		backgroundColor: Colors.dark,
 		color: Colors.light,
 		borderWidth: 1,
@@ -74,25 +74,20 @@ const styles = StyleSheet.create({
 		justifyContent: "space-between",
 		alignItems: "center",
 		flexWrap: "wrap",
-		width: "60%",
+		width: "75%",
+		marginTop: 5,
+		marginBottom: 5,
 	},
 	akkContainer: {
-		width: "60%",
+		width: "75%",
 		marginBottom: 10,
 	},
-	buttonContainer: {
-		marginTop: "15%",
-		width: "50%",
-	},
-	buttonText: {
-		fontSize: 40,
-	},
 	list: {
-		width: "100%",
+		width: "75%",
 	},
 	listItem: {
 		marginTop: 10,
-		width: "80%",
+		width: "100%",
 		alignSelf: "center",
 	},
 });
@@ -147,6 +142,9 @@ function questionAttrs(entry: DictEntry): string {
 export const PracticeScreen: React.FC<PracticeScreenProps> = props => {
 	const engl = props.route.params.engl;
 	const {dict} = useContext(DictContext);
+	const {width, height} = useWindowDimensions();
+	const maxDim = Math.max(width, height);
+	const pageStyle = height > width ? {height} : {flex: 1};
 	const [[questionWord, questionEntry], setQuestion] = useState(() =>
 		dict!.randomEntry(engl),
 	);
@@ -215,6 +213,9 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = props => {
 					style={styles.textInput}
 					// TODO: ios
 					cursorColor={Colors.light}
+					autoCapitalize="none"
+					placeholder="Enter answer here"
+					placeholderTextColor={Colors.lightFaded}
 				/>
 			);
 		}
@@ -228,6 +229,9 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = props => {
 				style={styles.akkContainer}
 				// TODO: ios
 				cursorColor={Colors.light}
+				autoCapitalize="none"
+				placeholder="Enter answer here"
+				placeholderTextColor={Colors.lightFaded}
 			/>
 		);
 	};
@@ -270,25 +274,33 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = props => {
 					data={summary}
 					renderItem={renderWordDefn}
 					style={styles.list}
+					nestedScrollEnabled
 				/>
 			</View>
 		);
 	};
 
 	return (
-		<View style={styles.page}>
-			{renderTitle()}
-			<Text style={styles.desc}>
-				Directions: Translate the word or phrase given into the target
-				language. Note the part of speech and grammatical abbreviations.
-			</Text>
-			<InfoCard style={styles.questionContainer}>
-				<Text style={styles.cardText}>
-					{questionWord} {questionAttrs(questionEntry)}
+		<View style={pageStyle}>
+			<ScrollView
+				contentContainerStyle={[styles.page, {height: maxDim}]}
+				style={GlobalStyles.scrollView}
+				nestedScrollEnabled
+				keyboardShouldPersistTaps="always">
+				<SafeAreaView>{renderTitle()}</SafeAreaView>
+				<Text style={styles.desc}>
+					Directions: Translate the word or phrase given into the
+					target language. Note the part of speech and grammatical
+					abbreviations.
 				</Text>
-			</InfoCard>
-			{renderInput()}
-			{renderAnswer()}
+				<InfoCard style={styles.questionContainer}>
+					<Text style={styles.cardText}>
+						{questionWord} {questionAttrs(questionEntry)}
+					</Text>
+				</InfoCard>
+				{renderInput()}
+				{renderAnswer()}
+			</ScrollView>
 		</View>
 	);
 };

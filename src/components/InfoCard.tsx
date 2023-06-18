@@ -1,6 +1,6 @@
 import React from "react";
 import {StyleSheet, View} from "react-native";
-import {Colors} from "../colors";
+import {Colors} from "../styles";
 
 export type InfoCardProps = {
 	children: React.ReactNode;

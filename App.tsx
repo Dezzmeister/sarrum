@@ -6,7 +6,7 @@ import {HomeScreen} from "./src/screens/HomeScreen";
 import {PracticeMenu} from "./src/screens/PracticeMenu";
 import {DictContext, DictProvider} from "./src/dict/context";
 import {ActivityIndicator, Alert, StyleSheet} from "react-native";
-import {Colors} from "./src/colors";
+import {Colors} from "./src/styles";
 import {SafeAreaView} from "react-native-safe-area-context";
 import {LookupMenu} from "./src/screens/LookupMenu";
 import {SearchScreen} from "./src/screens/SearchScreen";

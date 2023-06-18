@@ -1,6 +1,6 @@
 import React from "react";
 import {StyleSheet, Text, View} from "react-native";
-import {Colors} from "../colors";
+import {Colors} from "../styles";
 import {
 	DictEntry,
 	GrammarKinds,

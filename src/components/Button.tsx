@@ -5,7 +5,7 @@ import {
 	Text,
 	GestureResponderEvent,
 } from "react-native";
-import {Colors} from "../colors";
+import {Colors} from "../styles";
 
 export type ButtonProps = {
 	title: string;
