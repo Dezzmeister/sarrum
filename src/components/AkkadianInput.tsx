@@ -71,181 +71,192 @@ function substChar(
  * up behind the GBoard toolbar. Not every Android has GBoard so it's not feasible to just
  * add a constant to the toolbar's position.
  */
-export const AkkadianInput: React.FC<AkkadianInputProps> = props => {
-	const {
-		inputStyle,
-		toolbarStyle,
-		buttonContainerStyle,
-		buttonTextStyle,
-		style: containerStyle,
-		onSelectionChange,
-		onChangeText,
-		value,
-		selection,
-		...rest
-	} = props;
-	const [sel, setSel] = useState<Selection>({start: 0, end: 0});
-	const [nextSel, setNextSel] = useState<Selection | undefined>(undefined);
-	const [text, setText] = useState("");
+export const AkkadianInput = React.forwardRef<TextInput, AkkadianInputProps>(
+	(props, ref) => {
+		const {
+			inputStyle,
+			toolbarStyle,
+			buttonContainerStyle,
+			buttonTextStyle,
+			style: containerStyle,
+			onSelectionChange,
+			onChangeText,
+			value,
+			selection,
+			...rest
+		} = props;
+		const [sel, setSel] = useState<Selection>({start: 0, end: 0});
+		const [nextSel, setNextSel] = useState<Selection | undefined>(
+			undefined,
+		);
+		const [text, setText] = useState("");
 
-	// If one of the Akkadian keys is pressed, we need to update the text selection,
-	// but only for one render cycle. Feeding the selection back into the TextInput
-	// on every render cycle causes the selection to jump between the old selection and the
-	// new selection
-	useEffect(() => {
-		if (!nextSel) {
-			return;
-		}
+		// If one of the Akkadian keys is pressed, we need to update the text selection,
+		// but only for one render cycle. Feeding the selection back into the TextInput
+		// on every render cycle causes the selection to jump between the old selection and the
+		// new selection
+		useEffect(() => {
+			if (!nextSel) {
+				return;
+			}
 
-		setNextSel(undefined);
-	}, [nextSel]);
+			setNextSel(undefined);
+		}, [nextSel]);
 
-	const newOnSelectionChange = (
-		event: NativeSyntheticEvent<TextInputSelectionChangeEventData>,
-	) => {
-		if (onSelectionChange) {
-			onSelectionChange(event);
-		}
+		useEffect(() => {
+			if (value !== undefined) {
+				setText(value);
+			}
+		}, [value]);
 
-		setSel(event.nativeEvent.selection);
+		const newOnSelectionChange = (
+			event: NativeSyntheticEvent<TextInputSelectionChangeEventData>,
+		) => {
+			if (onSelectionChange) {
+				onSelectionChange(event);
+			}
 
-		console.log(event.nativeEvent.selection);
-	};
+			setSel(event.nativeEvent.selection);
 
-	const newOnChangeText = (txt: string) => {
-		if (onChangeText) {
-			onChangeText(txt);
-		}
+			console.log(event.nativeEvent.selection);
+		};
 
-		setText(txt);
-	};
+		const newOnChangeText = (txt: string) => {
+			if (onChangeText) {
+				onChangeText(txt);
+			}
 
-	const simulateKeypress = (key: string) => {
-		const subst = substChar(text, sel.start, sel.end, key);
-		newOnChangeText(subst);
-		setNextSel({start: sel.start + 1, end: sel.start + 1});
-	};
+			setText(txt);
+		};
 
-	return (
-		<View style={containerStyle}>
-			<TextInput
-				{...rest}
-				style={[styles.textInput, inputStyle]}
-				onSelectionChange={newOnSelectionChange}
-				onChangeText={newOnChangeText}
-				value={value || text}
-				selection={selection || nextSel}
-			/>
-			<View style={[styles.toolbar, toolbarStyle]}>
-				<Button
-					title="š"
-					onPress={() => simulateKeypress("š")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
+		const simulateKeypress = (key: string) => {
+			const subst = substChar(text, sel.start, sel.end, key);
+			newOnChangeText(subst);
+			setNextSel({start: sel.start + 1, end: sel.start + 1});
+		};
+
+		return (
+			<View style={containerStyle}>
+				<TextInput
+					{...rest}
+					style={[styles.textInput, inputStyle]}
+					onSelectionChange={newOnSelectionChange}
+					onChangeText={newOnChangeText}
+					value={value !== undefined ? value : text}
+					selection={selection || nextSel}
+					ref={ref}
 				/>
-				<Button
-					title="ṣ"
-					onPress={() => simulateKeypress("ṣ")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="ṭ"
-					onPress={() => simulateKeypress("ṭ")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="ẖ"
-					onPress={() => simulateKeypress("ẖ")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="ā"
-					onPress={() => simulateKeypress("ā")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="â"
-					onPress={() => simulateKeypress("â")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="ē"
-					onPress={() => simulateKeypress("ē")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="ê"
-					onPress={() => simulateKeypress("ê")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="ī"
-					onPress={() => simulateKeypress("ī")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="î"
-					onPress={() => simulateKeypress("î")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="ū"
-					onPress={() => simulateKeypress("ū")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
-				<Button
-					title="û"
-					onPress={() => simulateKeypress("û")}
-					containerStyle={[
-						styles.buttonContainer,
-						buttonContainerStyle,
-					]}
-					textStyle={[styles.buttonText, buttonTextStyle]}
-				/>
+				<View style={[styles.toolbar, toolbarStyle]}>
+					<Button
+						title="š"
+						onPress={() => simulateKeypress("š")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="ṣ"
+						onPress={() => simulateKeypress("ṣ")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="ṭ"
+						onPress={() => simulateKeypress("ṭ")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="ẖ"
+						onPress={() => simulateKeypress("ẖ")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="ā"
+						onPress={() => simulateKeypress("ā")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="â"
+						onPress={() => simulateKeypress("â")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="ē"
+						onPress={() => simulateKeypress("ē")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="ê"
+						onPress={() => simulateKeypress("ê")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="ī"
+						onPress={() => simulateKeypress("ī")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="î"
+						onPress={() => simulateKeypress("î")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="ū"
+						onPress={() => simulateKeypress("ū")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+					<Button
+						title="û"
+						onPress={() => simulateKeypress("û")}
+						containerStyle={[
+							styles.buttonContainer,
+							buttonContainerStyle,
+						]}
+						textStyle={[styles.buttonText, buttonTextStyle]}
+					/>
+				</View>
 			</View>
-		</View>
-	);
-};
+		);
+	},
+);

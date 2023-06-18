@@ -10,6 +10,7 @@ import {Colors} from "./src/colors";
 import {SafeAreaView} from "react-native-safe-area-context";
 import {LookupMenu} from "./src/screens/LookupMenu";
 import {SearchScreen} from "./src/screens/SearchScreen";
+import {PracticeScreen} from "./src/screens/PracticeScreen";
 
 const styles = StyleSheet.create({
 	page: {
@@ -74,6 +75,18 @@ const Main = () => {
 				<Stack.Screen
 					name={Paths.lookupEngl}
 					component={SearchScreen as React.FC<{}>}
+					initialParams={{engl: true}}
+					options={{headerShown: false}}
+				/>
+				<Stack.Screen
+					name={Paths.practiceAkk}
+					component={PracticeScreen as React.FC<{}>}
+					initialParams={{engl: false}}
+					options={{headerShown: false}}
+				/>
+				<Stack.Screen
+					name={Paths.practiceEngl}
+					component={PracticeScreen as React.FC<{}>}
 					initialParams={{engl: true}}
 					options={{headerShown: false}}
 				/>

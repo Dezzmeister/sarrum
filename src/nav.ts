@@ -16,5 +16,7 @@ export const Paths = {
 	practiceMenu: "practice_menu",
 	lookupMenu: "lookup_menu",
 	lookupAkk: "lookup_akk",
-	lookupEngl: "lookupEngl",
+	lookupEngl: "lookup_engl",
+	practiceAkk: "practice_akk",
+	practiceEngl: "practice_engl",
 };

@@ -1,8 +1,8 @@
 import React from "react";
-import {Alert, SafeAreaView, StyleSheet, Text} from "react-native";
+import {SafeAreaView, StyleSheet, Text} from "react-native";
 import {Colors} from "../colors";
 import {Button} from "../components/Button";
-import {NavProps} from "../nav";
+import {NavProps, Paths} from "../nav";
 
 type PracticeMenuProps = NavProps;
 
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
 	},
 });
 
-export const PracticeMenu: React.FC<PracticeMenuProps> = _ => {
+export const PracticeMenu: React.FC<PracticeMenuProps> = ({navigation}) => {
 	return (
 		<SafeAreaView style={styles.page}>
 			<Text style={styles.title}>Practice</Text>
@@ -44,13 +44,13 @@ export const PracticeMenu: React.FC<PracticeMenuProps> = _ => {
 			</Text>
 			<Button
 				title="Akkadian to English"
-				onPress={() => Alert.alert("Akkadian words")}
+				onPress={() => navigation.navigate(Paths.practiceAkk)}
 				containerStyle={styles.buttonContainer}
 				textStyle={styles.buttonText}
 			/>
 			<Button
 				title="English to Akkadian"
-				onPress={() => Alert.alert("English words")}
+				onPress={() => navigation.navigate(Paths.practiceEngl)}
 				containerStyle={styles.buttonContainer}
 				textStyle={styles.buttonText}
 			/>

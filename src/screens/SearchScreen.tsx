@@ -71,7 +71,9 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 	const engl = props.route.params.engl;
 	const {dict} = useContext(DictContext);
 	const [query, setQuery] = useState("");
-	const [defnPairs, setDefnPairs] = useState<DefnPair[]>([]);
+	const [defnPairs, setDefnPairs] = useState<DefnPair[] | undefined>(
+		undefined,
+	);
 
 	const onSubmit = () => {
 		const words = dict!.search(query, QUERY_LIMIT, QUERY_CUTOFF, engl);
@@ -101,6 +103,8 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 					onSubmitEditing={onSubmit}
 					autoFocus
 					style={styles.textInput}
+					// TODO: ios
+					cursorColor={Colors.light}
 				/>
 			);
 		}
@@ -111,6 +115,8 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 				onSubmitEditing={onSubmit}
 				autoFocus
 				style={styles.akkContainer}
+				// TODO: ios
+				cursorColor={Colors.light}
 			/>
 		);
 	};
@@ -130,15 +136,29 @@ export const SearchScreen: React.FC<SearchScreenProps> = props => {
 		);
 	};
 
-	return (
-		<View style={styles.page}>
-			{renderTitle()}
-			{renderInput()}
+	const renderResults = () => {
+		if (defnPairs === undefined) {
+			return null;
+		}
+
+		if (defnPairs.length === 0) {
+			return <Text>No results</Text>;
+		}
+
+		return (
 			<FlatList
 				data={defnPairs}
 				renderItem={renderDefnPair}
 				style={styles.list}
 			/>
+		);
+	};
+
+	return (
+		<View style={styles.page}>
+			{renderTitle()}
+			{renderInput()}
+			{renderResults()}
 		</View>
 	);
 };

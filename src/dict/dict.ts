@@ -1,3 +1,4 @@
+import {arrCmp} from "../util";
 import {basicSearch, englSearch, levSearch} from "./search";
 
 type StrMap = {
@@ -195,6 +196,17 @@ export class Dictionary {
 		}
 
 		return levSearch(this, query, limit, cutoff);
+	}
+
+	randomEntry(engl: boolean): [string, DictEntry] {
+		const keys = engl ? this.englKeys : this.akkKeys;
+		const dict = engl ? this.englToAkk : this.akkToEngl;
+
+		const word = keys[Math.floor(Math.random() * keys.length)];
+		const entries = dict[word];
+		const entry = entries[Math.floor(Math.random() * entries.length)];
+
+		return [word, entry];
 	}
 
 	static async create(url: string): Promise<Dictionary | undefined> {
@@ -477,23 +489,6 @@ function parseWordAttrs(str: string): [WordAttr[], WordRelation[]] | undefined {
 
 function isValOf<T extends StrMap>(map: T, str: string): str is T[keyof T] {
 	return keyFromVal(map, str) !== undefined;
-}
-
-/**
- * Returns true if two arrays have the same values, in the same order.
- */
-function arrCmp<T>(xs: T[], ys: T[]): boolean {
-	if (xs.length !== ys.length) {
-		return false;
-	}
-
-	for (let i = 0; i < xs.length; i++) {
-		if (xs[i] !== ys[i]) {
-			return false;
-		}
-	}
-
-	return true;
 }
 
 /**
