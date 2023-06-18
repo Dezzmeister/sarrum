@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-sarrum-sarrumTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-sarrum-sarrumTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B6B810D59D3746B0A124E2DC /* TimesNewRoman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A1670DF5B45F2AD2B5722 /* TimesNewRoman-Bold.ttf */; };
+		A9B2F0F412F0449399FBD72E /* TimesNewRoman-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 581A9B987BE34541A744B336 /* TimesNewRoman-BoldItalic.ttf */; };
+		662F39FBDE28408BA87B1A6D /* TimesNewRoman-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF10295735BF4B2EA7DEB854 /* TimesNewRoman-Italic.ttf */; };
+		5891114855704D9B89043D9B /* TimesNewRoman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4F2302C1F0544B38E48CC43 /* TimesNewRoman.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sarrum/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-sarrum-sarrumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sarrum-sarrumTests.release.xcconfig"; path = "Target Support Files/Pods-sarrum-sarrumTests/Pods-sarrum-sarrumTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		8D5A1670DF5B45F2AD2B5722 /* TimesNewRoman-Bold.ttf */ = {isa = PBXFileReference; name = "TimesNewRoman-Bold.ttf"; path = "../assets/fonts/TimesNewRoman-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		581A9B987BE34541A744B336 /* TimesNewRoman-BoldItalic.ttf */ = {isa = PBXFileReference; name = "TimesNewRoman-BoldItalic.ttf"; path = "../assets/fonts/TimesNewRoman-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF10295735BF4B2EA7DEB854 /* TimesNewRoman-Italic.ttf */ = {isa = PBXFileReference; name = "TimesNewRoman-Italic.ttf"; path = "../assets/fonts/TimesNewRoman-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4F2302C1F0544B38E48CC43 /* TimesNewRoman.ttf */ = {isa = PBXFileReference; name = "TimesNewRoman.ttf"; path = "../assets/fonts/TimesNewRoman.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8BA12867BAD3455BAF510011 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +156,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		8BA12867BAD3455BAF510011 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				8D5A1670DF5B45F2AD2B5722 /* TimesNewRoman-Bold.ttf */,
+				581A9B987BE34541A744B336 /* TimesNewRoman-BoldItalic.ttf */,
+				CF10295735BF4B2EA7DEB854 /* TimesNewRoman-Italic.ttf */,
+				F4F2302C1F0544B38E48CC43 /* TimesNewRoman.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B6B810D59D3746B0A124E2DC /* TimesNewRoman-Bold.ttf in Resources */,
+				A9B2F0F412F0449399FBD72E /* TimesNewRoman-BoldItalic.ttf in Resources */,
+				662F39FBDE28408BA87B1A6D /* TimesNewRoman-Italic.ttf in Resources */,
+				5891114855704D9B89043D9B /* TimesNewRoman.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,45 @@ export type DictText = {
 	version: number | null;
 };
 
+export async function getMaxLines(): Promise<number> {
+	const maxLines = await AsyncStorage.getItem(Consts.cacheKeys.maxLines)
+		.then(v => (v !== null ? Number(v) : null))
+		.catch(_ => null);
+
+	if (maxLines === null) {
+		return -1;
+	}
+
+	console.log(`Loaded max lines from cache: ${maxLines} lines`);
+
+	return maxLines;
+}
+
+export async function setMaxLines(maxLines: number): Promise<void> {
+	await AsyncStorage.setItem(Consts.cacheKeys.lines, `${maxLines}`);
+}
+
+export async function getLines(): Promise<number> {
+	const lines = await AsyncStorage.getItem(Consts.cacheKeys.lines)
+		.then(v => (v !== null ? Number(v) : null))
+		.catch(_ => null);
+
+	if (lines === null) {
+		return -1;
+	}
+
+	console.log(`Loaded lines from cache: ${lines} lines`);
+
+	return lines;
+}
+
+export async function setLines(lines: number): Promise<void> {
+	await AsyncStorage.setItem(Consts.cacheKeys.lines, `${lines}`);
+}
+
 export async function getDictText(): Promise<DictText | undefined> {
 	const cachedVersion = await AsyncStorage.getItem(Consts.cacheKeys.version)
-		.then(v => Number(v))
+		.then(v => (v !== null ? Number(v) : null))
 		.catch(_ => null);
 
 	const version: number | null = await fetch(Consts.dictVersionUrl)

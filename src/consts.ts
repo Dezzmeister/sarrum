@@ -4,5 +4,7 @@ export const Consts = {
 	cacheKeys: {
 		dict: "@dict",
 		version: "@version",
+		lines: "@lines",
+		maxLines: "@max_lines",
 	},
 };

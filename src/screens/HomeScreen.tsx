@@ -1,5 +1,5 @@
 import React from "react";
-import {Image, SafeAreaView, StyleSheet, Text} from "react-native";
+import {Image, SafeAreaView, StyleSheet, Text, View} from "react-native";
 import {Colors} from "../colors";
 import {Button} from "../components/Button";
 import {NavProps, Paths} from "../nav";
@@ -25,13 +25,22 @@ const styles = StyleSheet.create({
 	buttonText: {
 		fontSize: 40,
 	},
+	spacer: {
+		flex: 1,
+	},
+	smallButtonContainer: {
+		marginBottom: 20,
+	},
+	smallButtonText: {
+		fontSize: 12,
+	},
 });
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({navigation}) => {
 	return (
 		<SafeAreaView style={styles.page}>
 			<Text style={styles.title}>šarrum</Text>
-			<Image source={require("../../assets/king.jpg")} />
+			<Image source={require("../../assets/images/king.jpg")} />
 			<Button
 				title="Practice"
 				onPress={() => navigation.navigate(Paths.practiceMenu)}
@@ -43,6 +52,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({navigation}) => {
 				onPress={() => navigation.navigate(Paths.lookupMenu)}
 				containerStyle={styles.buttonContainer}
 				textStyle={styles.buttonText}
+			/>
+			<View style={styles.spacer} />
+			<Button
+				title="Settings"
+				onPress={() => navigation.navigate(Paths.settingsMenu)}
+				containerStyle={styles.smallButtonContainer}
+				textStyle={styles.smallButtonText}
 			/>
 		</SafeAreaView>
 	);

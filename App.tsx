@@ -11,6 +11,7 @@ import {SafeAreaView} from "react-native-safe-area-context";
 import {LookupMenu} from "./src/screens/LookupMenu";
 import {SearchScreen} from "./src/screens/SearchScreen";
 import {PracticeScreen} from "./src/screens/PracticeScreen";
+import {SettingsMenu} from "./src/screens/SettingsMenu";
 
 const styles = StyleSheet.create({
 	page: {
@@ -64,6 +65,11 @@ const Main = () => {
 				<Stack.Screen
 					name={Paths.lookupMenu}
 					component={LookupMenu}
+					options={{headerShown: false}}
+				/>
+				<Stack.Screen
+					name={Paths.settingsMenu}
+					component={SettingsMenu}
 					options={{headerShown: false}}
 				/>
 				<Stack.Screen

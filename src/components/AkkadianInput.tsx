@@ -117,8 +117,6 @@ export const AkkadianInput = React.forwardRef<TextInput, AkkadianInputProps>(
 			}
 
 			setSel(event.nativeEvent.selection);
-
-			console.log(event.nativeEvent.selection);
 		};
 
 		const newOnChangeText = (txt: string) => {

@@ -15,6 +15,7 @@ export const Paths = {
 	home: "home",
 	practiceMenu: "practice_menu",
 	lookupMenu: "lookup_menu",
+	settingsMenu: "settings_menu",
 	lookupAkk: "lookup_akk",
 	lookupEngl: "lookup_engl",
 	practiceAkk: "practice_akk",

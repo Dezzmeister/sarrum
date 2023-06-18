@@ -4,7 +4,7 @@ import {Colors} from "../colors";
 
 export type InfoCardProps = {
 	children: React.ReactNode;
-	style: object;
+	style?: object;
 };
 
 const styles = StyleSheet.create({

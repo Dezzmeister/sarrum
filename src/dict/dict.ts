@@ -1,6 +1,6 @@
 import {arrCmp} from "../util";
 import {basicSearch, englSearch, levSearch} from "./search";
-import {getDictText} from "../cache";
+import {getDictText, getMaxLines, setMaxLines} from "../cache";
 
 type StrMap = {
 	[key: string]: string;
@@ -172,6 +172,7 @@ export class Dictionary {
 	readonly englKeys: string[];
 	readonly akkKeys: string[];
 	readonly totalLines: number;
+	readonly maxLines: number;
 
 	private constructor(
 		englToAkk: DictEntries,
@@ -179,12 +180,14 @@ export class Dictionary {
 		englKeys: string[],
 		akkKeys: string[],
 		totalLines: number,
+		maxLines: number,
 	) {
 		this.englToAkk = englToAkk;
 		this.akkToEngl = akkToEngl;
 		this.englKeys = englKeys;
 		this.akkKeys = akkKeys;
 		this.totalLines = totalLines;
+		this.maxLines = maxLines;
 	}
 
 	getDefn(word: string, engl: boolean): DictEntry[] {
@@ -244,6 +247,15 @@ export class Dictionary {
 
 		let lineNum = 1;
 
+		const totalLines = rows.length;
+		const knownMaxLines = await getMaxLines();
+		let maxLines = knownMaxLines;
+
+		if (knownMaxLines < totalLines) {
+			await setMaxLines(totalLines);
+			maxLines = totalLines;
+		}
+
 		for (const row of rows) {
 			if (lines !== -1 && lineNum - 1 >= lines) {
 				break;
@@ -301,7 +313,7 @@ export class Dictionary {
 			`Read ${lineNum - 1} lines, ${akkKeys.length} Akkadian entries, and ${englKeys.length} English entries`,
 		);
 
-		return new Dictionary(englToAkk, akkToEngl, englKeys, akkKeys, lines === -1 ? rows.length : lines);
+		return new Dictionary(englToAkk, akkToEngl, englKeys, akkKeys, lines === -1 ? rows.length : lines, maxLines);
 	}
 
 	static insertDefn(dict: DictEntries, keys: string[], word: string, entry: DictEntry): void {
