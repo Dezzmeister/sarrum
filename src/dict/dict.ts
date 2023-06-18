@@ -171,12 +171,20 @@ export class Dictionary {
 	readonly akkToEngl: DictEntries;
 	readonly englKeys: string[];
 	readonly akkKeys: string[];
+	readonly totalLines: number;
 
-	private constructor(englToAkk: DictEntries, akkToEngl: DictEntries, englKeys: string[], akkKeys: string[]) {
+	private constructor(
+		englToAkk: DictEntries,
+		akkToEngl: DictEntries,
+		englKeys: string[],
+		akkKeys: string[],
+		totalLines: number,
+	) {
 		this.englToAkk = englToAkk;
 		this.akkToEngl = akkToEngl;
 		this.englKeys = englKeys;
 		this.akkKeys = akkKeys;
+		this.totalLines = totalLines;
 	}
 
 	getDefn(word: string, engl: boolean): DictEntry[] {
@@ -210,7 +218,12 @@ export class Dictionary {
 		return [word, entry];
 	}
 
-	static async create(): Promise<Dictionary | undefined> {
+	/**
+	 * Creates a dictionary from the dictionary URL or the cache. `lines` is the number of
+	 * lines in the original dictionary file to keep, or -1 (default) to keep them all.
+	 * This corresponds to the number of words that will exist in the dictionary object.
+	 */
+	static async create(lines = -1): Promise<Dictionary | undefined> {
 		const rawDictText = await getDictText();
 
 		if (rawDictText === undefined) {
@@ -232,6 +245,10 @@ export class Dictionary {
 		let lineNum = 1;
 
 		for (const row of rows) {
+			if (lines !== -1 && lineNum - 1 >= lines) {
+				break;
+			}
+
 			const fields = row.trim().split(",");
 
 			if (fields.length < 3 || fields.length > 4) {
@@ -284,7 +301,7 @@ export class Dictionary {
 			`Read ${lineNum - 1} lines, ${akkKeys.length} Akkadian entries, and ${englKeys.length} English entries`,
 		);
 
-		return new Dictionary(englToAkk, akkToEngl, englKeys, akkKeys);
+		return new Dictionary(englToAkk, akkToEngl, englKeys, akkKeys, lines === -1 ? rows.length : lines);
 	}
 
 	static insertDefn(dict: DictEntries, keys: string[], word: string, entry: DictEntry): void {
