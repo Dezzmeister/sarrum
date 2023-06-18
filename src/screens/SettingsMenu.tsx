@@ -38,6 +38,9 @@ const styles = StyleSheet.create({
 	italic: {
 		fontStyle: "italic",
 	},
+	bold: {
+		fontWeight: "bold",
+	},
 	slider: {
 		width: "80%",
 		height: 40,
@@ -54,6 +57,7 @@ const styles = StyleSheet.create({
 	},
 	descCard: {
 		width: "80%",
+		marginBottom: 15,
 	},
 	smallButtonContainer: {
 		marginBottom: 20,
@@ -123,6 +127,15 @@ export const SettingsMenu: React.FC<SettingsMenuProps> = ({navigation}) => {
 							dezzmeister16@gmail.com
 						</Text>
 						.
+					</Text>
+				</InfoCard>
+				<InfoCard style={styles.descCard}>
+					<Text style={[styles.cardText, styles.bold]}>
+						Privacy Statement
+					</Text>
+					<Text style={styles.cardText}>
+						This app does not collect, store, or handle any user
+						data.
 					</Text>
 				</InfoCard>
 			</View>
