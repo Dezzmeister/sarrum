@@ -1,6 +1,5 @@
 import React, {useState, useEffect, useCallback} from "react";
 import {Dictionary} from "./dict";
-import {Consts} from "../consts";
 
 export type DictContextType = {
 	loading: boolean;
@@ -22,7 +21,7 @@ export const DictProvider: React.FC<React.PropsWithChildren<{}>> = ({
 	const [error, setError] = useState(false);
 
 	const getDictionary = useCallback(async () => {
-		const localDict = await Dictionary.create(Consts.dictUrl);
+		const localDict = await Dictionary.create();
 		setLoading(false);
 
 		if (!localDict) {

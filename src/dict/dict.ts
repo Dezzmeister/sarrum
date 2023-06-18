@@ -1,5 +1,6 @@
 import {arrCmp} from "../util";
 import {basicSearch, englSearch, levSearch} from "./search";
+import {getDictText} from "../cache";
 
 type StrMap = {
 	[key: string]: string;
@@ -209,14 +210,16 @@ export class Dictionary {
 		return [word, entry];
 	}
 
-	static async create(url: string): Promise<Dictionary | undefined> {
-		const rawText: string | undefined = await fetch(url)
-			.then(res => res.text())
-			.catch(_ => undefined);
+	static async create(): Promise<Dictionary | undefined> {
+		const rawDictText = await getDictText();
 
-		if (!rawText) {
+		if (rawDictText === undefined) {
 			return undefined;
 		}
+
+		console.log(`Dictionary v${rawDictText.version} obtained by '${rawDictText.method}' method`);
+
+		const rawText = rawDictText.text;
 
 		const rows = rawText.replace("\r", "").trim().split("\n");
 		const unresolvedRels: [string, GrammarKind, WordRelation[]][] = [];
