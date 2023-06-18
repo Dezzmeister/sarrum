@@ -1,0 +1,20 @@
+export type NavProps = {
+	navigation: {
+		navigate: (screen: string, props?: object) => void;
+		goBack: () => void;
+	};
+};
+
+export type ScreenProps<T extends object> = {
+	route: {
+		params: T;
+	};
+};
+
+export const Paths = {
+	home: "home",
+	practiceMenu: "practice_menu",
+	lookupMenu: "lookup_menu",
+	lookupAkk: "lookup_akk",
+	lookupEngl: "lookupEngl",
+};

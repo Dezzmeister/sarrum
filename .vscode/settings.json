@@ -1,0 +1,6 @@
+{
+	"editor.formatOnSave": true,
+	"prettier.configPath": ".prettierrc",
+	"eslint.run": "onSave",
+	"eslint.format.enable": true
+}
