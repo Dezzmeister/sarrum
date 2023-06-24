@@ -108,6 +108,7 @@ function questionAttrs(entry: DictEntry): string {
 	let isGenOf = false;
 	let isAccOf = false;
 	let isDatOf = false;
+	let isBfOf = false;
 
 	for (const rel of entry.relations) {
 		if (rel.kind === "PreteriteOf") {
@@ -118,6 +119,8 @@ function questionAttrs(entry: DictEntry): string {
 			isAccOf = true;
 		} else if (rel.kind === "DativeOf") {
 			isDatOf = true;
+		} else if (rel.kind === "BoundFormOf") {
+			isBfOf = true;
 		}
 	}
 
@@ -133,6 +136,10 @@ function questionAttrs(entry: DictEntry): string {
 		out += ", acc";
 	} else if (isDatOf) {
 		out += ", dat";
+	}
+
+	if (isBfOf) {
+		out += ", bf";
 	}
 
 	return "(" + out + ")";
