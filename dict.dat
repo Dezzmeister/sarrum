@@ -1,0 +1,1533 @@
+§1 Lesson 1
+abum,father,n,s;nom;m
+abim,father,n,s;gen(abum);m
+abam,father,n,s;acc(abum);m
+abū,fathers,n,pl;nom;m
+abī,fathers,n,pl;gen(abū);acc(abū);m
+ālum,town;city,n,s;nom;m
+ālim,town;city,n,s;gen(ālum);m
+ālam,town;city,n,s;acc(ālum);m
+ālū,towns;cities,n,pl;nom;m
+ālī,towns;cities,n,pl;gen(ālū);acc(ālū);m
+amtum,female slave;womanservant,n,s;nom;f
+amtim,female slave;womanservant,n,s;gen(amtum);f
+amtam,female slave;womanservant,n,s;acc(amtum);f
+amātum,female slaves;womanservants,n,pl;nom;f
+amātim,female slaves;womanservants,n,pl;gen(amātum);acc(amātum);f
+bēlum,lord;master;owner,n,s;nom;m
+bēlim,lord;master;owner,n,s;gen(bēlum);m
+bēlam,lord;master;owner,n,s;acc(bēlum);m
+bēlū,lords;masters;owners,n,pl;nom;m
+bēlī,lords;masters;owners,n,pl;gen(bēlū);acc(bēlū);m
+ẖurāṣum,gold,n,s;nom;m
+ẖurāṣim,gold,n,s;gen(ẖurāṣum);m
+ẖurāṣam,gold,n,s;acc(ẖurāṣum);m
+iltum,goddess,n,s;nom;f
+iltim,goddess,n,s;gen(iltum);f
+iltam,goddess,n,s;acc(iltum);f
+ilātum,goddesses,n,pl;nom;f
+ilātim,goddesses,n,pl;gen(ilātum);acc(ilātum);f
+ilum,god,n,s;nom;m
+ilim,god,n,s;gen(ilum);m
+ilam,god,n,s;acc(ilum);m
+ilū,gods,n,pl;nom;m
+ilī,gods,n,pl;gen(ilū);acc(ilū);m
+kaspum,silver,n,s;nom;m
+kaspim,silver,n,s;gen(kaspum);m
+kaspam,silver,n,s;acc(kaspum);m
+mārtum,daughter,n,s;nom;f
+mārtim,daughter,n,s;gen(mārtum);f
+mārtam,daughter,n,s;acc(mārtum);f
+mārātum,daughters,n,pl;nom;f
+mārātim,daughters,n,pl;gen(mārātum);acc(mārātum);f
+mārum,son,n,s;nom;m
+mārim,son,n,s;gen(mārum);m
+māram,son,n,s;acc(mārum);m
+mārū,sons,n,pl;nom;m
+mārī,sons,n,pl;gen(mārū);acc(mārū);m
+qaqqadum,head;top;person;principal amount,n,s;nom;m
+qaqqadim,head;top;person;principal amount,n,s;gen(qaqqadum);m
+qaqqadam,head;top;person;principal amount,n,s;acc(qaqqadum);m
+qaqqadū,heads;principal amounts,n,pl;nom;m
+qaqqadī,heads;principal amounts,n,pl;gen(qaqqadū);acc(qaqqadū);m
+ṣābum,gang;army;troops;worker;soldier,n,s;nom;m
+ṣābim,gang;army;troops;worker;soldier,n,s;gen(ṣābum);m
+ṣābam,gang;army;troops;worker;soldier,n,s;acc(ṣābum);m
+ṣābū,gangs;armies;troops;workers;soldiers,n,pl;nom;m
+ṣābī,gangs;armies;troops;workers;soldiers,n,pl;gen(ṣābū);acc(ṣābū);m
+šarratum,queen,n,s;nom;f
+šarratim,queen,n,s;gen(šarratum);f
+šarratam,queen,n,s;acc(šarratum);f
+šarrātum,queens,n,pl;nom;f
+šarrātim,queens,n,pl;gen(šarrātum);acc(šarrātum);f
+šarrum,king,n,s;nom;m
+šarrim,king,n,s;gen(šarrum);m
+šarram,king,n,s;acc(šarrum);m
+šarrū,kings,n,pl;nom;m
+šarrī,kings,n,pl;gen(šarrū);acc(šarrū);m
+wardum,male slave;manservant,n,s;nom;m
+wardim,male slave;manservant,n,s;gen(wardum);m
+wardam,male slave;manservant,n,s;acc(wardum);m
+wardū,male slaves;manservants,n,pl;nom;m
+wardī,male slaves;manservants,n,pl;gen(wardū);acc(wardū);m
+u,and,conj
+
+§2 Lesson 2
+aššatum,wife,n,s;nom;f
+aššatim,wife,n,s;gen(aššatum);f
+aššatam,wife,n,s;acc(aššatum);f
+aššātum,wives,n,pl;nom;f
+aššātim,wives,n,pl;gen(aššātum);acc(aššātum);f
+bītum,house;estate;household,n,s;nom;m
+bītim,house;estate;household,n,s;gen(bītum);m
+bītam,house;estate;household,n,s;acc(bītum);m
+bītātum,houses;estates;households,n,pl;nom;f
+bītātim,houses;estates;households,n,pl;gen(bītātum);acc(bītātum);f
+emūqum,strength;power;force;ability;armed forces;value,n,s;nom;m
+emūqim,strength;power;force;ability;armed forces;value,n,s;gen(emūqum);m
+emūqam,strength;power;force;ability;armed forces;value,n,s;acc(emūqum);m
+emūqān,strength;power;force;ability;armed forces;value,n,dual;nom;f
+emūqīn,strength;power;force;ability;armed forces;value,n,dual;gen(emūqān);acc(emūqān);f
+emūqū,strengths;powers;forces;abilities;armed forces;values,n,pl;nom;m
+emūqī,strengths;powers;forces;abilities;armed forces;values,n,pl;gen(emūqū);acc(emūqū);m
+emūqātum,strengths;powers;forces;abilities;armed forces;values,n,pl;nom;f
+emūqātim,strengths;powers;forces;abilities;armed forces;values,n,pl;gen(emūqātum);acc(emūqātum);f
+īnum,eye;spring,n,s;nom;f
+īnim,eye;spring,n,s;gen(īnum);f
+īnam,eye;spring,n,s;acc(īnum);f
+īnān,eyes,n,dual;nom;f
+īnīn,eyes,n,dual;gen(īnān);acc(īnān);f
+īnātum,eyes;springs,n,pl;nom;f
+īnātim,eyes;springs,n,pl;gen(īnātum);acc(īnātum);f
+išdum,base;foundation;bottom;administration,n,s;nom;m
+išdim,base;foundation;bottom;administration,n,s;gen(išdum);m
+išdam,base;foundation;bottom;administration,n,s;acc(išdum);m
+išdān,base;foundation;bottom;administration;buttocks,n,dual;nom;f
+išdīn,base;foundation;bottom;administration;buttocks,n,dual;gen(išdān);acc(išdān);f
+išdātum,bases;foundations;bottoms;administrations,n,pl;nom;f
+išdātim,bases;foundations;bottoms;administrations,n,pl;gen(išdātum);acc(išdātum);f
+libbum,heart;mind;thought;wish;inside;center;midst,n,s;nom;m
+libbim,heart;mind;thought;wish;inside;center;midst,n,s;gen(libbum);m
+libbam,heart;mind;thought;wish;inside;center;midst,n,s;acc(libbum);m
+libbū,hearts;minds;thoughts;wishes;insides;centers;midsts,n,pl;nom;m
+libbī,hearts;minds;thoughts;wishes;insides;centers;midsts,n,pl;gen(libbū);acc(libbū);m
+mutum,husband;man,n,s;nom;m
+mutim,husband;man,n,s;gen(mutum);m
+mutam,husband;man,n,s;acc(mutum);m
+mutū,husbands;men,n,pl;nom;m
+mutī,husbands;men,n,pl;gen(mutū);acc(mutū);m
+nārum,river;canal,n,s;nom;f
+nārim,river;canal,n,s;gen(nārum);f
+nāram,river;canal,n,s;acc(nārum);f
+nārātum,rivers;canals,n,pl;nom;f
+nārātim,rivers;canals,n,pl;gen(nārātum);acc(nārātum);f
+šīpātum,wool,n,pl;nom;f
+šīpātim,wool,n,pl;gen(šīpātum);acc(šīpātum);f
+ṭuppum,tablet;document;letter,n,s;nom;m;f
+ṭuppim,tablet;document;letter,n,s;gen(ṭuppum);m;f
+ṭuppam,tablet;document;letter,n,s;acc(ṭuppum);m;f
+ṭuppū,tablets;documents;letters,n,pl;nom;m
+ṭuppī,tablets;documents;letters,n,pl;gen(ṭuppū);acc(ṭuppū);m
+ṭuppātum,tablets;documents;letters,n,pl;nom;f
+ṭuppātim,tablets;documents;letters,n,pl;gen(ṭuppātum);acc(ṭuppātum);f
+ummum,mother,n,s;nom;f
+ummim,mother,n,s;gen(ummum);f
+ummam,mother,n,s;acc(ummum);f
+ummātum,mothers,n,pl;nom;f
+ummātim,mothers,n,pl;gen(ummātum);acc(ummātum);f
+uznum,ear;wisdom;understanding,n,s;nom;f
+uznim,ear;wisdom;understanding,n,s;gen(uznum);f
+uznam,ear;wisdom;understanding,n,s;acc(uznum);f
+uznān,ears,n,dual;nom;f
+uznīn,ears,n,dual;gen(uznān);acc(uznān);f
+ana,to;toward;unto;for;temporally 'for';temporally '(with)in',prep
+ina,in;into;at;among;with (things);by means of;by;from;from within (a place);temporally 'in';temporally 'on';at the time of,prep
+ištu,from;out of;away from (a place);temporally 'since',prep
+itti,with persons;with deities;in the company of;from (a person),prep
+ša,the one of;of,pr,s
+anāku,I,pr,m;f
+atta,you,pr,s;m
+atti,you,pr,s;f
+šū,he;it,pr,s;m
+šī,she;it,pr,s;f
+nīnu,we,pr,pl;m;f
+attunu,you,pr,pl;m
+attina,you,pr,pl;f
+šunu,they,pr,pl;m
+šina,they,pr,pl;f
+
+§3 Lesson 3: The G Infinitive and Preterite
+damāqum,to become good;to become better;to improve;to prosper,v,inf;G
+idmiq,he/she became good;he/she became better;he/she improved;he/she prospered,v,pret(damāqum);m;f
+tadmiq,you became good;you became better;you improved;you prospered,v,pret(damāqum);s;m
+tadmiqī,you became good;you became better;you improved;you prospered,v,pret(damāqum);s;f
+admiq,I became good;I became better;I improved;I prospered,v,pret(damāqum);s;m;f
+idmiqū,they became good;they became better;they improved;they prospered,v,pret(damāqum);pl;m
+idmiqā,they became good;they became better;they improved;they prospered,v,pret(damāqum);pl;f
+tadmiqā,you became good;you became better;you improved;you prospered,v,pret(damāqum);pl;m;f
+nidmiq,we became good;we became better;we improved;we prospered,v,pret(damāqum);pl;m;f
+danānum,to become strong,v,inf;G
+idnin,he/she became strong,v,pret(danānum);s;m;f
+tadnin,you became strong,v,pret(danānum);s;m
+tadninī,you became strong,v,pret(danānum);s;f
+adnin,I became strong,v,pret(danānum);s;m;f
+idninū,they became strong,v,pret(danānum);pl;m
+idninā,they became strong,v,pret(danānum);pl;f
+tadninā,you became strong,v,pret(danānum);pl;m;f
+nidnin,we became strong,v,pret(danānum);pl;m;f
+ẖalāqum,to disappear;to go missing;to get lost;to escape;to perish,v,inf;G
+iẖliq,he/she disappeared;he/she went missing;he/she got lost;he/she escaped;he/she perished,v,pret(ẖalāqum);s;m;f
+taẖliq,you disappeared;you went missing;you got lost;you escaped;you perished,v,pret(ẖalāqum);s;m
+taẖliqī,you disappeared;you went missing;you got lost;you escaped;you perished,v,pret(ẖalāqum);s;f
+aẖliq,I disappeared;I went missing;I got lost;I escaped;I perished,v,pret(ẖalāqum);s;m;f
+iẖliqū,they disappeared;they went misssing;they got lost;they escaped;they perished,v,pret(ẖalāqum);pl;m
+iẖliqā,they disappeared;they went misssing;they got lost;they escaped;they perished,v,pret(ẖalāqum);pl;f
+taẖliqā,you disappeared;you went missing;you got lost;you escaped;you perished,v,pret(ẖalāqum);pl;m;f
+niẖliq,we disappeared;we went missing;we got lost;we escaped;we perished,v,pret(ẖalāqum);pl;m;f
+kašādum,to arrive;to reach;to achieve;to conquer;to defeat,v,inf;G
+ikšud,he/she arrived;he/she reached;he/she achieved;he/she conquered;he/she defeated,v,pret(kašādum);s;m;f
+takšud,you arrived;you reached;you achieved;you conquered;you defeated,v,pret(kašādum);s;m
+takšudī,you arrived;you reached;you achieved;you conquered;you defeated,v,pret(kašādum);s;f
+akšud,I arrived;I reached;I achieved;I conquered;I defeated,v,pret(kašādum);s;m;f
+ikšudū,they arrived;they reached;they achieved;they conquered;they defeated,v,pret(kašādum);pl;m
+ikšudā,they arrived;they reached;they achieved;they conquered;they defeated,v,pret(kašādum);pl;f
+takšudā,you arrived;you reached;you achieved;you conquered;you defeated,v,pret(kašādum);pl;m;f
+nikšud,we arrived;we reached;we achieved;we conquered;we defeated,v,pret(kašādum);pl;m;f
+maẖāṣum,to strike;to hit;to smite;to wound;to kill,v,inf;G
+imẖaṣ,he/she struck;he/she hit;he/she smote;he/she wounded;he/she killed,v,pret(maẖāṣum);s;m;f
+tamẖaṣ,you struck;you hit;you smote;you wounded;you killed,v,pret(maẖāṣum);s;m
+tamẖaṣī,you struck;you hit;you smote;you wounded;you killed,v,pret(maẖāṣum);s;f
+amẖaṣ,I struck;I hit;I smote;I wounded;I killed,v,pret(maẖāṣum);s;m;f
+imẖaṣū,they struck;they hit;they smote;they wounded;they killed,v,pret(maẖāṣum);pl;m
+imẖaṣā,they struck;they hit;they smote;they wounded;they killed,v,pret(maẖāṣum);pl;f
+tamẖaṣā,you struck;you hit;you smote;you wounded;you killed,v,pret(maẖāṣum);pl;m;f
+nimẖaṣ,we struck;we hit;we smote;we wounded;we killed,v,pret(maẖāṣum);pl;m;f
+maqātum,to fall;to fall down;to collapse;to arrive (news);to happen;to fall upon,v,inf;G
+imqut,he/she fell;he/she fell down;he/she collapsed;it arrived (news);it happened;he/she fell upon,v,pret(maqātum);s;m;f
+tamqut,you fell;you fell down;you collapsed;you fell upon,v,pret(maqātum);s;m
+tamqutī,you fell;you fell down;you collapsed;you fell upon,v,pret(maqātum);s;f
+amqut,I fell;I fell down;I collapsed;I fell upon,v,pret(maqātum);s;m;f
+imqutū,they fell;they fell down;they collapsed;they fell upon;they arrived (news),v,pret(maqātum);pl;m
+imqutā,they fell;they fell down;they collapsed;they fell upon;they arrived (news),v,pret(maqātum);pl;f
+tamqutā,you fell;you fell down;you collapsed;you fell upon,v,pret(maqātum);pl;m;f
+nimqut,we fell;we fell down;we collapsed;we fell upon,v,pret(maqātum);pl;m;f
+marāṣum,to become sick;to fall ill;to be painful;to become painful;to become troublesome;to become difficult,v,inf;G
+imraṣ,he/she became sick;he/she fell ill;he/she was painful;he/she became painful;he/she became troublesome;he/she became difficult,v,pret(marāṣum);s;m;f
+tamraṣ,you became sick;you fell ill;you were painful;you became painful;you became troublesome;you became difficult,v,pret(marāṣum);s;m
+tamraṣī,you became sick;you fell ill;you were painful;you became painful;you became troublesome;you became difficult,v,pret(marāṣum);s;f
+amraṣ,I became sick;I fell ill;I was painful;I became painful;I became troublesome;I became difficult,v,pret(marāṣum);s;m;f
+imraṣū,they became sick;they fell ill;they were painful;they became painful;they became troublesome;they became difficult,v,pret(marāṣum);pl;m
+imraṣā,they became sick;they fell ill;they were painful;they became painful;they became troublesome;they became difficult,v,pret(marāṣum);pl;f
+tamraṣā,you became sick;you fell ill;you were painful;you became painful;you became troublesome;you became difficult,v,pret(marāṣum);pl;m;f
+nimraṣ,we became sick;we fell ill;we were painful;we became painful;we became troublesome;we became difficult,v,pret(marāṣum);pl;m;f
+rapāšum,to become wide;to become broad,v,inf;G
+irpiš,he/she became wide;he/she became broad,v,pret(rapāšum);s;m;f
+tarpiš,you became wide;you became broad,v,pret(rapāšum);s;m
+tarpišī,you became wide;you became broad,v,pret(rapāšum);s;f
+arpiš,I became wide;I became broad,v,pret(rapāšum);m;f
+irpišū,they became wide;they became broad,v,pret(rapāšum);pl;m
+irpišā,they became wide;they became broad,v,pret(rapāšum);pl;f
+tarpišā,you became wide;you became broad,v,pret(rapāšum);pl;m;f
+nirpiš,we became wide;we became broad,v,pret(rapāšum);pl;m;f
+ṣabātum,to seize;to take hold of;to arrest;to capture,v,inf;G
+iṣbat,he/she seized;he/she took hold of;he/she arrested;he/she captured,v,pret(ṣabātum);s;m;f
+taṣbat,you seized;you took hold of;you arrested;you captured,v,pret(ṣabātum);s;m
+taṣbatī,you seized;you took hold of;you arrested;you captured,v,pret(ṣabātum);s;f
+aṣbat,I seized;I took hold of;I arrested;I captured,v,pret(ṣabātum);s;m;f
+iṣbatū,they seized;they took hold of;they arrested;they captured,v,pret(ṣabātum);pl;m
+iṣbatā,they seized;they took hold of;they arrested;they captured,v,pret(ṣabātum);pl;f
+taṣbatā,you seized;you took hold of;you arrested;you captured,v,pret(ṣabātum);pl;m;f
+niṣbat,we seized;we took hold of;we arrested;we captured,v,pret(ṣabātum);pl;m;f
+šakānum,to place;to set;to put;to establish;to install;to appoint;to assign;to impose,v,inf;G
+iškun,he/she placed;he/she set;he/she put;he/she established;he/she installed;he/she appointed;he/she assigned;he/she imposed,v,pret(šakānum);s;m;f
+taškun,you placed;you set;you put;you established;you installed;you appointed;you assigned;you imposed,v,pret(šakānum);s;m
+taškunī,you placed;you set;you put;you established;you installed;you appointed;you assigned;you imposed,v,pret(šakānum);s;f
+aškun,I placed;I set;I put;I established;I installed;I appointed;I assigned;I imposed,v,pret(šakānum);s;m;f
+iškunū,they placed;they set;they put;they established;they installed;they appointed;they assigned;they imposed,v,pret(šakānum);pl;m
+iškunā,they placed;they set;they put;they established;they installed;they appointed;they assigned;they imposed,v,pret(šakānum);pl;f
+taškunā,you placed;you set;you put;you established;you installed;you appointed;you assigned;you imposed,v,pret(šakānum);pl;m;f
+niškun,we placed;we set;we put;we established;we installed;we appointed;we assigned;we imposed,v,pret(šakānum);pl;m;f
+šarāqum,to steal,v,inf;G
+išriq,he/she stole,v,pret(šarāqum);s;m;f
+tašriq,you stole,v,pret(šarāqum);s;m
+tašriqī,you stole,v,pret(šarāqum);s;f
+ašriq,I stole,v,pret(šarāqum);s;m;f
+išriqū,they stole,v,pret(šarāqum);pl;m
+išriqā,they stole,v,pret(šarāqum);pl;f
+tašriqā,you stole,v,pret(šarāqum);pl;m;f
+nišriq,we stole,v,pret(šarāqum);pl;m;f
+awīlum,human being;person;grown man;free man;boss;man,n,s;nom;m
+awīlim,human being;person;grown man;free man;boss;man,n,s;gen(awīlum);m
+awīlam,human being;person;grown man;free man;boss;man,n,s;acc(awīlum);m
+awīlū,human beings;people;grown men;free men;bosses;men,n,pl;nom;m
+awīlī,human beings;people;grown men;free men;bosses;men,n,pl;gen(awīlū);acc(awīlū);m
+mātum,country;native land;land;open country,n,s;nom;f
+mātim,country;native land;land;open country,n,s;gen(mātum);f
+mātam,country;native land;land;open country,n,s;acc(mātum);f
+mātātum,countries;native lands;lands,n,pl;nom;f
+mātātim,countries;native lands;lands,n,pl;gen(mātātum);acc(mātātum);f
+qātum,hand;care;charge;responsibility,n,s;nom;f
+qātim,hand;care;charge;responsibility,n,s;gen(qātum);f
+qātam,hand;care;charge;responsibility,n,s;acc(qātum);f
+qātān,hands,n,dual;nom;f
+qātīn,hands,n,dual;gen(qātān);acc(qātān);f
+qātātum,guarantee;security;pledge,n,pl;nom;f
+qātātim,guarantee;security;pledge,n,pl;gen(qātātum);acc(qātātum);f
+qātam ṣabātum,to help,v,id
+qātam šakānum,to begin,v,id
+šarrāqum,thief,n,s;nom;m
+šarrāqim,thief,n,s;gen(šarrāqum);m
+šarrāqam,thief,n,s;acc(šarrāqum);m
+šarrāqū,thieves,n,pl;nom;m
+šarrāqī,thieves,n,pl;gen(šarrāqū);acc(šarrāqū);m
+eli,on;upon;over;above;towards;against;beyond;more than,prep
+
+§4 Lesson 4: The G Verbal Adjective
+balāṭum,to live;to be alive;to be healthy;to get well;to recover,v,inf;G
+balāṭum,life,n,s;nom;m
+balāṭim,life,n,s;gen(balāṭum);m
+balāṭam,life,n,s;acc(balāṭum);m
+ibluṭ,he/she lived;he/she was alive;he/she was healthy;he/she got well;he/she recovered,v,pret(balāṭum);s;m;f
+tabluṭ,you lived;you were alive;you were healthy;you got well;you recovered,v,pret(balāṭum);s;m
+tabluṭī,you lived;you were alive;you were healthy;you got well;you recovered,v,pret(balāṭum);s;f
+abluṭ,I lived;I was alive;I was healthy;I got well;I recovered,v,pret(balāṭum);s;m;f
+ibluṭū,they lived;they were alive;they were healthy;they got well;they recovered,v,pret(balāṭum);pl;m
+ibluṭā,they lived;they were alive;they were healthy;they got well;they recovered,v,pret(balāṭum);pl;f
+tabluṭā,you lived;you were alive;you were healthy;you got well;you recovered,v,pret(balāṭum);pl;m;f
+nibluṭ,we lived;we were alive;we were healthy;we got well;we recovered,v,pret(balāṭum);pl;m;f
+balṭum,alive;healthy;safe,adj,va(balāṭum);s;nom;m
+balṭim,alive;healthy;safe,adj,va(balāṭum);s;gen(balṭum);m
+balṭam,alive;healthy;safe,adj,va(balāṭum);s;acc(balṭum);m
+balṭūtum,alive;healthy;safe,adj,va(balāṭum);pl;nom;m
+balṭūtim,alive;healthy;safe,adj,va(balāṭum);pl;gen(balṭūtum);acc(balṭūtum);m
+balittum,alive;healthy;safe,adj,va(balāṭum);s;nom;f
+balittim,alive;healthy;safe,adj,va(balāṭum);s;gen(balittum);f
+balittam,alive;healthy;safe,adj,va(balāṭum);s;acc(balittum);f
+balṭātum,alive;healthy;safe,adj,va(balāṭum);pl;nom;f
+balṭātim,alive;healthy;safe,adj,va(balāṭum);pl;gen(balṭātum);acc(balṭātum);f
+gamārum,to bring to an end;to annihilate;to use up;to settle;to encompass;to control;to finish;to come to an end,v,inf;G
+igmur,he/she brought to an end;he/she annihilated;he/she used up;he/she settled;he/she encompassed;he/she controlled;he/she finished;he/she came to an end,v,pret(gamārum);s;m;f
+tagmur,you brought to an end;you annihilated;you used up;you settled;you encompassed;you controlled;you finished;you came to an end,v,pret(gamārum);s;m
+tagmurī,you brought to an end;you annihilated;you used up;you settled;you encompassed;you controlled;you finished;you came to an end,v,pret(gamārum);s;m
+agmur,I brought to an end;I annihilated;I used up;I settled;I encompassed;I controlled;I finished;I came to an end,v,pret(gamārum);s;m;f
+igmurū,they brought to an end;they annihilated;they used up;they settled;they encompassed;they controlled;they finished;they came to an end,v,pret(gamārum);pl;m
+igmurā,they brought to an end;they annihilated;they used up;they settled;they encompassed;they controlled;they finished;they came to an end,v,pret(gamārum);pl;f
+tagmurā,you brought to an end;you annihilated;you used up;you settled;you encompassed;you controlled;you finished;you came to an end,v,pret(gamārum);pl;m;f
+nigmur,we brought to an end;we annihilated;we used up;we settled;we encompassed;we controlled;we finished,v,pret(gamārum);pl;m;f
+gamrum,finished;settled;complete;entire;full,adj,va(gamārum);s;nom;m
+gamrim,finished;settled;complete;entire;full,adj,va(gamārum);s;gen(gamrum);m
+gamram,finished;settled;complete;entire;full,adj,va(gamārum);s;acc(gamrum);m
+gamrūtum,finished;settled;complete;entire;full,adj,va(gamārum);pl;nom;m
+gamrūtim,finished;settled;complete;entire;full,adj,va(gamārum);pl;gen(gamrūtum);acc(gamrūtum);m
+gamirtum,finished;settled;complete;entire;full,adj,va(gamārum);s;nom;f
+gamirtim,finished;settled;complete;entire;full,adj,va(gamārum);s;gen(gamirtum);f
+gamirtam,finished;settled;complete;entire;full,adj,va(gamārum);s;acc(gamirtum);f
+gamrātum,finished;settled;complete;entire;full,adj,va(gamārum);pl;nom;f
+gamrātim,finished;settled;complete;entire;full,adj,va(gamārum);pl;gen(gamrātum);acc(gamrātum);f
+kanākum,to seal;to place under seal,v,inf;G
+iknuk,he/she sealed;he/she placed under seal,v,pret(kanākum);s;m;f
+taknuk,you sealed;you placed under seal,v,pret(kanākum);s;m
+taknukī,you sealed;you placed under seal,v,pret(kanākum);s;f
+aknuk,I sealed;I placed under seal,v,pret(kanākum);s;m;f
+iknukū,they sealed;they placed under seal,v,pret(kanākum);pl;m
+iknukā,they sealed;they placed under seal,v,pret(kanākum);pl;f
+taknukā,you sealed;you placed under seal,v,pret(kanākum);pl;m;f
+niknuk,we sealed;we placed under seal,v,pret(kanākum);pl;m;f
+kankum,sealed;under seal,adj,va(kanākum);s;nom;m
+kankim,sealed;under seal,adj,va(kanākum);s;gen(kankum);m
+kankam,sealed;under seal,adj,va(kanākum);s;acc(kankum);m
+kankūtum,sealed;under seal,adj,va(kanākum);pl;nom;m
+kankūtim,sealed;under seal,adj,va(kanākum);pl;gen(kankūtum);acc(kankūtum);m
+kaniktum,sealed;under seal,adj,va(kanākum);s;nom;f
+kaniktim,sealed;under seal,adj,va(kanākum);s;gen(kaniktum);f
+kaniktam,sealed;under seal,adj,va(kanākum);s;acc(kaniktum);f
+kankātum,sealed;under seal,adj,va(kanākum);pl;nom;f
+kankātim,sealed;under seal,adj,va(kanākum);pl;gen(kankātum);acc(kankātum);f
+maẖārum,to accept;to receive;to approach;to meet;to confront,v,inf;G
+imẖur,he/she accepted;he/she received;he/she approached;he/she met;he/she confronted,v,pret(maẖārum);s;m;f
+tamẖur,you accepted;you received;you approached;you met;you confronted,v,pret(maẖārum);s;m
+tamẖurī,you accepted;you received;you approached;you met;you confronted,v,pret(maẖārum);s;f
+amẖur,I accepted;I received;I approached;I met;I confronted,v,pret(maẖārum);s;m;f
+imẖurū,they accepted;they received;they approached;they met;they confronted,v,pret(maẖārum);pl;m
+imẖurā,they accepted;they received;they approached;they met;they confronted,v,pret(maẖārum);pl;f
+tamẖurā,you accepted;you received;you approached;you met;you confronted,v,pret(maẖārum);pl;m;f
+nimẖur,we accepted;we received;we approached;we met;we confronted,v,pret(maẖārum);pl;m;f
+maẖrum,received,adj,va(maẖārum);s;nom;m
+maẖrim,received,adj,va(maẖārum);s;gen(maẖrum);m
+maẖram,received,adj,va(maẖārum);s;acc(maẖrum);m
+maẖrūtum,received,adj,va(maẖārum);pl;nom;m
+maẖrūtim,received,adj,va(maẖārum);pl;gen(maẖrūtum);acc(maẖrūtum);m
+maẖirtum,received,adj,va(maẖārum);s;nom;f
+maẖirtim,received,adj,va(maẖārum);s;gen(maẖirtum);f
+maẖirtam,received,adj,va(maẖārum);s;acc(maẖirtum);f
+maẖrātum,received,adj,va(maẖārum);pl;nom;f
+maẖrātim,received,adj,va(maẖārum);pl;gen(maẖrātum);acc(maẖrātum);f
+īnam ša X maẖārum,to please X,v,id
+šalāmum,to become whole;to become sound;to become well;to become uninjured;to become safe;to recover;to arrive safely;to succeed;to prosper;to be completed,v,inf;G
+išlim,he/she became whole;he/she became sound;he/she became well;he/she became uninjured;he/she became safe;he/she recovered;he/she arrived safely;he/she succeeded;he/she prospered;it was completed,v,pret(šalāmum);s;m;f
+tašlim,you became whole;you became sound;you became well;you became uninjured;you became safe;you recovered;you arrived safely;you succeeded;you prospered,v,pret(šalāmum);s;m
+tašlimī,you became whole;you became sound;you became well;you became uninjured;you became safe;you recovered;you arrived safely;you succeeded;you prospered,v,pret(šalāmum);s;f
+ašlim,I became whole;I became sound;I became well;I became uninjured;I became safe;I recovered;I arrived safely;I succeeded;I prospered,v,pret(šalāmum);s;m;f
+išlimū,they became whole;they became sound;they became well;they became uninjured;they became safe;they recovered;they arrived safely;they succeeded;they prospered;they were completed,v,pret(šalāmum);pl;m
+išlimā,they became whole;they became sound;they became well;they became uninjured;they became safe;they recovered;they arrived safely;they succeeded;they prospered;they were completed,v,pret(šalāmum);pl;f
+tašlimā,you became whole;you became sound;you became well;you became uninjured;you became safe;you recovered;you arrived safely;you succeeded;you prospered,v,pret(šalāmum);pl;m;f
+nišlim,we became whole;we became sound;we became well;we became uninjured;we became safe;we recovered;we arrived safely;we succeeded;we prospered,v,pret(šalāmum);pl;m;f
+šalmum,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);s;nom;m
+šalmim,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);s;gen(šalmum);m
+šalmam,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);s;acc(šalmum);m
+šalmūtum,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);pl;nom;m
+šalmūtim,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);pl;gen(šalmūtum);acc(šalmūtum);m
+šalimtum,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);s;nom;f
+šalimtim,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);s;gen(šalimtum);f
+šalimtam,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);s;acc(šalimtum);f
+šalmātum,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);pl;nom;f
+šalmātim,whole;sound;well;safe;in good condition;intact;complete;favorable,adj,va(šalāmum);pl;gen(šalmātum);acc(šalmātum);f
+aẖum,brother,n,s;nom;m
+aẖim,brother,n,s;gen(aẖum);m
+aẖam,brother,n,s;acc(aẖum);m
+aẖū,brothers,n,pl;nom;m
+aẖī,brothers,n,pl;gen(aẖū);acc(aẖū);m
+alpum,ox;bull,n,s;nom;m
+alpim,ox;bull,n,s;gen(alpum);m
+alpam,ox;bull,n,s;acc(alpum);m
+alpū,oxen;bulls,n,pl;nom;m
+alpī,oxen;bulls,n,pl;gen(alpū);acc(alpū);m
+eṭlum,young man;youth,n,s;nom;m
+eṭlim,young man;youth,n,s;gen(eṭlum);m
+eṭlam,young man;youth,n,s;acc(eṭlum);m
+eṭlūtum,young men;youths;youth,n,pl;nom;m
+eṭlūtim,young men;youths;youth,n,pl;gen(eṭlūtum);acc(eṭlūtum);m
+kakkum,weapon,n,s;nom;m
+kakkim,weapon,n,s;gen(kakkum);m
+kakkam,weapon,n,s;acc(kakkum);m
+kakkū,weapons,n,pl;nom;m
+kakkī,weapons,n,pl;gen(kakkū);acc(kakkū);m
+napištum,life;vigor;good health;person;personnel;self;throat,n,s;nom;f
+napištim,life;vigor;good health;person;personnel;self;throat,n,s;gen(napištum);f
+napištam,life;vigor;good health;person;personnel;self;throat,n,s;acc(napištum);f
+napšātum,life;vigor;good health;persons;personnel;selves;throats,n,pl;nom;f
+napšātim,life;vigor;good health;persons;personnel;selves;throats,n,pl;gen(napšātum);acc(napšātum);f
+šamnum,oil;fat,n,s;nom;m
+šamnim,oil;fat,n,s;gen(šamnum);m
+šamnam,oil;fat,n,s;acc(šamnum);m
+šamnū,oils;fats,n,pl;nom;m
+šamnī,oils;fats,n,pl;gen(šamnū);acc(šamnū);m
+šikarum,beer;intoxicating liquid;alcohol,n,s;nom;m
+šikarim,beer;intoxicating liquid;alcohol,n,s;gen(šikarum);m
+šikaram,beer;intoxicating liquid;alcohol,n,s;acc(šikarum);m
+šikarū,beers;intoxicating liquids,n,pl;nom;m
+šikarī,beers;intoxicating liquids,n,pl;gen(šikarū);acc(šikarū);m
+damqum,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);s;nom;m
+damqim,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);s;gen(damqum);m
+damqam,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);s;acc(damqum);m
+damqūtum,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);pl;nom;m
+damqūtim,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);pl;gen(damqūtum);acc(damqūtum);m
+damiqtum,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);s;nom;f
+damiqtim,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);s;gen(damiqtum);f
+damiqtam,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);s;acc(damiqtum);f
+damqātum,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);pl;nom;f
+damqātim,good;of good quality;beautiful;favorable;expert,adj,va(damāqum);pl;gen(damqātum);acc(damqātum);f
+damiqtum,good;goodness;favor;luck;fame,n,subst(damiqtum);s;nom;f
+damiqtim,good;goodness;favor;luck;fame,n,subst(damiqtum);s;gen(damiqtum);f
+damiqtam,good;goodness;favor;luck;fame,n,subst(damiqtum);s;acc(damiqtum);f
+dannum,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);s;nom;m
+dannim,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);s;gen(dannum);m
+dannam,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);s;acc(dannum);m
+dannūtum,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);pl;nom;m
+dannūtim,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);pl;gen(dannūtum);acc(dannūtum);m
+dannatum,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);s;nom;f
+dannatim,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);s;gen(dannatum);f
+dannatam,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);s;acc(dannatum);f
+dannātum,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);pl;nom;f
+dannātim,strong;solid;mighty;powerful;fortified;fierce;savage;severe;difficult;urgent,adj,va(danānum);pl;gen(dannātum);acc(dannātum);f
+dannatum,famine;hard times;fortress,n,subst(dannatum);s;nom;f
+dannatim,famine;hard times;fortress,n,subst(dannatum);s;gen(dannatum);f
+dannatam,famine;hard times;fortress,n,subst(dannatum);s;acc(dannatum);f
+dannātum,famines;hard times;fortresses,n,subst(dannatum);pl;nom;f
+dannātim,famines;hard times;fortresses,n,subst(dannatum);pl;gen(dannātum);acc(dannātum);f
+ẖalqum,escaped;missing;lost,adj,va(ẖalāqum);s;nom;m
+ẖalqim,escaped;missing;lost,adj,va(ẖalāqum);s;gen(ẖalqum);m
+ẖalqam,escaped;missing;lost,adj,va(ẖalāqum);s;acc(ẖalqum);m
+ẖalqūtum,escaped;missing;lost,adj,va(ẖalāqum);pl;nom;m
+ẖalqūtim,escaped;missing;lost,adj,va(ẖalāqum);pl;gen(ẖalqūtum);acc(ẖalqūtum);m
+ẖaliqtum,escaped;missing;lost,adj,va(ẖalāqum);s;nom;f
+ẖaliqtim,escaped;missing;lost,adj,va(ẖalāqum);s;gen(ẖaliqtum);f
+ẖaliqtam,escaped;missing;lost,adj,va(ẖalāqum);s;acc(ẖaliqtum);f
+ẖalqātum,escaped;missing;lost,adj,va(ẖalāqum);pl;nom;f
+ẖalqātim,escaped;missing;lost,adj,va(ẖalāqum);pl;gen(ẖalqātum);acc(ẖalqātum);f
+kašdum,successful;achieved;conquered;having arrived;available,adj,va(kašādum);s;nom;m
+kašdim,successful;achieved;conquered;having arrived;available,adj,va(kašādum);s;gen(kašdum);m
+kašdam,successful;achieved;conquered;having arrived;available,adj,va(kašādum);s;acc(kašdum);m
+kašdūtum,successful;achieved;conquered;having arrived;available,adj,va(kašādum);pl;nom;m
+kašdūtim,successful;achieved;conquered;having arrived;available,adj,va(kašādum);pl;gen(kašdūtum);acc(kašdūtum);m
+kašittum,successful;achieved;conquered;having arrived;available,adj,va(kašādum);s;nom;f
+kašittim,successful;achieved;conquered;having arrived;available,adj,va(kašādum);s;gen(kašittum);f
+kašittam,successful;achieved;conquered;having arrived;available,adj,va(kašādum);s;acc(kašittum);f
+kašdātum,successful;achieved;conquered;having arrived;available,adj,va(kašādum);pl;nom;f
+kašdātim,successful;achieved;conquered;having arrived;available,adj,va(kašādum);pl;gen(kašdātum);acc(kašdātum);f
+maqtum,fallen;collapsed;in ruins,adj,va(maqātum);s;nom;m
+maqtim,fallen;collapsed;in ruins,adj,va(maqātum);s;gen(maqtum);m
+maqtam,fallen;collapsed;in ruins,adj,va(maqātum);s;acc(maqtum);m
+maqtūtum,fallen;collapsed;in ruins,adj,va(maqātum);pl;nom;m
+maqtūtim,fallen;collapsed;in ruins,adj,va(maqātum);pl;gen(maqtūtum);acc(maqtūtum);m
+maqittum,fallen;collapsed;in ruins,adj,va(maqātum);s;nom;f
+maqittim,fallen;collapsed;in ruins,adj,va(maqātum);s;gen(maqittum);f
+maqittam,fallen;collapsed;in ruins,adj,va(maqātum);s;acc(maqittum);f
+maqtātum,fallen;collapsed;in ruins,adj,va(maqātum);pl;nom;f
+maqtātim,fallen;collapsed;in ruins,adj,va(maqātum);pl;gen(maqtātum);acc(maqtātum);f
+marṣum,sick;ill;diseased;painful;difficult,adj,va(marāṣum);s;nom;m
+marṣim,sick;ill;diseased;painful;difficult,adj,va(marāṣum);s;gen(marṣum);m
+marṣam,sick;ill;diseased;painful;difficult,adj,va(marāṣum);s;acc(marṣum);m
+marṣūtum,sick;ill;diseased;painful;difficult,adj,va(marāṣum);pl;nom;m
+marṣūtim,sick;ill;diseased;painful;difficult,adj,va(marāṣum);pl;gen(marṣūtum);acc(marṣūtum);m
+maruštum,sick;ill;diseased;painful;difficult,adj,va(marāṣum);s;nom;f
+maruštim,sick;ill;diseased;painful;difficult,adj,va(marāṣum);s;gen(maruštum);f
+maruštam,sick;ill;diseased;painful;difficult,adj,va(marāṣum);s;acc(maruštum);f
+marṣātum,sick;ill;diseased;painful;difficult,adj,va(marāṣum);pl;nom;f
+marṣātim,sick;ill;diseased;painful;difficult,adj,va(marāṣum);pl;gen(marṣātum);acc(marṣātum);f
+maruštum,difficulty;hardship;trouble;duress,n,subst(maruštum);s;nom;f
+maruštim,difficulty;hardship;trouble;duress,n,subst(maruštum);s;gen(maruštum);f
+maruštam,difficulty;hardship;trouble;duress,n,subst(maruštum);s;acc(maruštum);f
+marṣātum,difficulties;hardships;troubles;duress,n,subst(maruštum);pl;nom;f
+marṣātim,difficulties;hardships;troubles;duress,n,subst(maruštum);pl;gen(marṣātum);acc(marṣātum);f
+nakrum,hostile;inimical;foreign,adj,va(nakārum);s;nom;m
+nakrim,hostile;inimical;foreign,adj,va(nakārum);s;gen(nakrum);m
+nakram,hostile;inimical;foreign,adj,va(nakārum);s;acc(nakrum);m
+nakrūtum,hostile;inimical;foreign,adj,va(nakārum);pl;nom;m
+nakrūtim,hostile;inimical;foreign,adj,va(nakārum);pl;gen(nakrūtum);acc(nakrūtum);m
+nakrātum,hostile;inimical;foreign,adj,va(nakārum);pl;nom;f
+nakrātim,hostile;inimical;foreign,adj,va(nakārum);pl;gen(nakrātum);acc(nakrātum);f
+nakirum,hostile;inimical;foreign,adj,va(nakārum);s;nom;m
+nakirim,hostile;inimical;foreign,adj,va(nakārum);s;gen(nakirum);m
+nakiram,hostile;inimical;foreign,adj,va(nakārum);s;acc(nakirum);m
+nakarum,hostile;inimical;foreign,adj,va(nakārum);s;nom;m
+nakarim,hostile;inimical;foreign,adj,va(nakārum);s;gen(nakarum);m
+nakaram,hostile;inimical;foreign,adj,va(nakārum);s;acc(nakarum);m
+nakirtum,hostile;inimical;foreign,adj,va(nakārum);s;nom;f
+nakirtim,hostile;inimical;foreign,adj,va(nakārum);s;gen(nakirtum);f
+nakirtam,hostile;inimical;foreign,adj,va(nakārum);s;acc(nakirtum);f
+nakartum,hostile;inimical;foreign,adj,va(nakārum);s;nom;f
+nakartim,hostile;inimical;foreign,adj,va(nakārum);s;gen(nakartum);f
+nakartam,hostile;inimical;foreign,adj,va(nakārum);s;acc(nakartum);f
+nakrum,enemy;foe,n,subst(nakrum);s;nom;m
+nakrim,enemy;foe,n,subst(nakrum);s;gen(nakrum);m
+nakram,enemy;foe,n,subst(nakrum);s;acc(nakrum);m
+nakirum,enemy;foe,n,subst(nakirum);s;nom;m
+nakirim,enemy;foe,n,subst(nakirum);s;gen(nakirum);m
+nakiram,enemy;foe,n,subst(nakirum);s;acc(nakirum);m
+nakirtum,enemy;foe,n,subst(nakirum);s;nom;f
+nakirtim,enemy;foe,n,subst(nakirum);s;gen(nakirtum);f
+nakirtam,enemy;foe,n,subst(nakirum);s;acc(nakirtum);f
+nakirū,enemies;foes,n,subst(nakirum);pl;nom;m
+nakirī,enemies;foes,n,subst(nakirum);pl;gen(nakirū);acc(nakirū);m
+nakarum,enemy;foe,n,subst(nakarum);s;nom;m
+nakarim,enemy;foe,n,subst(nakarum);s;gen(nakarum);m
+nakaram,enemy;foe,n,subst(nakarum);s;acc(nakarum);m
+nakartum,enemy;foe,n,subst(nakarum);s;nom;f
+nakartim,enemy;foe,n,subst(nakarum);s;gen(nakartum);f
+nakartam,enemy;foe,n,subst(nakarum);s;acc(nakartum);f
+nakarū,enemies;foes,n,subst(nakarum);pl;nom;m
+nakarī,enemies;foes,n,subst(nakarum);pl;gen(nakarū);acc(nakarū);m
+rapšum,wide;broad,adj,va(rapāšum);s;nom;m
+rapšim,wide;broad,adj,va(rapāšum);s;gen(rapšum);m
+rapšam,wide;broad,adj,va(rapāšum);s;acc(rapšum);m
+rapšūtum,wide;broad,adj,va(rapāšum);pl;nom;m
+rapšūtim,wide;broad,adj,va(rapāšum);pl;gen(rapšūtum);acc(rapšūtum);m
+rapaštum,wide;broad,adj,va(rapāšum);s;nom;f
+rapaštim,wide;broad,adj,va(rapāšum);s;gen(rapaštum);f
+rapaštam,wide;broad,adj,va(rapāšum);s;acc(rapaštum);f
+rapšātum,wide;broad,adj,va(rapāšum);pl;nom;f
+rapšātim,wide;broad,adj,va(rapāšum);pl;gen(rapšātum);acc(rapšātum);f
+uznum rapaštum,great intelligence;understanding,adj,id
+ṣabtum,seized;deposited;captive;prisoner,adj,va(ṣabātum);s;nom;m
+ṣabtim,seized;deposited;captive;prisoner,adj,va(ṣabātum);s;gen(ṣabtum);m
+ṣabtam,seized;deposited;captive;prisoner,adj,va(ṣabātum);s;acc(ṣabtum);m
+ṣabtūtum,seized;deposited;captive;prisoner,adj,va(ṣabātum);pl;nom;m
+ṣabtūtim,seized;deposited;captive;prisoner,adj,va(ṣabātum);pl;gen(ṣabtūtum);acc(ṣabtūtum);m
+ṣabittum,seized;deposited;captive;prisoner,adj,va(ṣabātum);s;nom;f
+ṣabittim,seized;deposited;captive;prisoner,adj,va(ṣabātum);s;gen(ṣabittum);f
+ṣabittam,seized;deposited;captive;prisoner,adj,va(ṣabātum);s;acc(ṣabittum);f
+ṣabtātum,seized;deposited;captive;prisoner,adj,va(ṣabātum);pl;nom;f
+ṣabtātim,seized;deposited;captive;prisoner,adj,va(ṣabātum);pl;gen(ṣabtātum);acc(ṣabtātum);f
+šaknum,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);s;nom;m
+šaknim,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);s;gen(šaknum);m
+šaknam,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);s;acc(šaknum);m
+šaknūtum,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);pl;nom;m
+šaknūtim,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);pl;gen(šaknūtum);acc(šaknūtum);m
+šakittum,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);s;nom;f
+šakittim,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);s;gen(šakittum);f
+šakittam,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);s;acc(šakittum);f
+šaknātum,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);pl;nom;f
+šaknātim,placed;lying;situated;located;present;established;appointed;endowed;provided,adj,va(šakānum);pl;gen(šaknātum);acc(šaknātum);f
+šaknum,governor,n,subst(šaknum);s;nom;m
+šaknim,governor,n,subst(šaknum);s;gen(šaknum);m
+šaknam,governor,n,subst(šaknum);s;acc(šaknum);m
+šaknū,governors,n,subst(šaknum);pl;nom;m
+šaknī,governors,n,subst(šaknum);pl;gen(šaknū);acc(šaknū);m
+šarqum,stolen,adj,va(šarāqum);s;nom;m
+šarqim,stolen,adj,va(šarāqum);s;gen(šarqum);m
+šarqam,stolen,adj,va(šarāqum);s;acc(šarqum);m
+šarqūtum,stolen,adj,va(šarāqum);pl;nom;m
+šarqūtim,stolen,adj,va(šarāqum);pl;gen(šarqūtum);acc(šarqūtum);m
+šariqtum,stolen,adj,va(šarāqum);s;nom;f
+šariqtim,stolen,adj,va(šarāqum);s;gen(šariqtum);f
+šariqtam,stolen,adj,va(šarāqum);s;acc(šariqtum);f
+šarqātum,stolen,adj,va(šarāqum);pl;nom;f
+šarqātim,stolen,adj,va(šarāqum);pl;gen(šarqātum);acc(šarqātum);f
+ṭābum,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);s;nom;m
+ṭābim,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);s;gen(ṭābum);m
+ṭābam,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);s;acc(ṭābum);m
+ṭābūtum,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);pl;nom;m
+ṭābūtim,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);pl;gen(ṭābūtum);acc(ṭābūtum);m
+ṭābtum,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);s;nom;f
+ṭābtim,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);s;gen(ṭābtum);f
+ṭābtam,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);s;acc(ṭābtum);f
+ṭābātum,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);pl;nom;f
+ṭābātim,pleasant;pleasing;sweet;fine;good,adj,va(ṭiābum);pl;gen(ṭābātum);acc(ṭābātum);f
+ul,not,adv
+ula,not,adv
+
+§5 Lesson 5: G Verbs I-n
+nadānum,to give;to grant;to hand over;to deliver;to transfer;to set;to assign;to allow,v,inf;G
+iddin,he/she gave;he/she granted;he/she handed over;he/she delivered;he/she transferred;he/she set;he/she assigned;he/she allowed,v,pret(nadānum);s;m;f
+taddin,you gave;you granted;you handed over;you delivered;you transferred;you set;you assigned;you allowed,v,pret(nadānum);s;m
+taddinī,you gave;you granted;you handed over;you delivered;you transferred;you set;you assigned;you allowed,v,pret(nadānum);s;f
+addin,I gave;I granted;I handed over;I delivered;I transferred;I set;I assigned;I allowed,v,pret(nadānum);s;m;f
+iddinū,they gave;they granted;they handed over;they delivered;they transferred;they set;they assigned;they allowed,v,pret(nadānum);pl;m
+iddinā,they gave;they granted;they handed over;they delivered;they transferred;they set;they assigned;they allowed,v,pret(nadānum);pl;f
+taddinā,you gave;you granted;you handed over;you delivered;you transferred;you set;you assigned;you allowed,v,pret(nadānum);pl;m;f
+niddin,we gave;we granted;we handed over;we delivered;we transferred;we set;we assigned;we allowed,v,pret(nadānum);pl;m;f
+ana kaspim nadānum,to sell,v,id
+naqārum,to tear down;to destroy,v,inf;G
+iqqur,he/she tore down;he/she destroyed,v,pret(naqārum);s;m;f
+taqqur,you tore down;you destroyed,v,pret(naqārum);s;m
+taqqurī,you tore down;you destroyed,v,pret(naqārum);s;f
+aqqur,I tore down;I destroyed,v,pret(naqārum);s;m;f
+iqqurū,they tore down;they destroyed,v,pret(naqārum);pl;m
+iqqurā,they tore down;they destroyed,v,pret(naqārum);pl;f
+taqqurā,you tore down;you destroyed,v,pret(naqārum);pl;m;f
+niqqur,we tore down;we destroyed,v,pret(naqārum);pl;m;f
+nasāẖum,to remove;to tear out;to expel;to reject;to deport;to transfer;to move on;to remove oneself;to pass (of time),v,inf;G
+issuẖ,he/she removed;he/she tore out;he/she expelled;he/she rejected;he/she deported;he/she transferred;he/she moved on;he/she removed themself;it passed (of time),v,pret(nasāẖum);s;m;f
+tassuẖ,you removed;you tore out;you expelled;you rejected;you deported;you transferred;you moved on;you removed yourself,v,pret(nasāẖum);s;m
+tassuẖī,you removed;you tore out;you expelled;you rejected;you deported;you transferred;you moved on;you removed yourself,v,pret(nasāẖum);s;f
+assuẖ,I removed;I tore out;I expelled;I rejected;I deported;I transferred;I moved on;I removed myself,v,pret(nasāẖum);s;m;f
+issuẖū,they removed;they tore out;they expelled;they rejected;they deported;they transferred;they moved on;they removed themselves,v,pret(nasāẖum);pl;m
+issuẖā,they removed;they tore out;they expelled;they rejected;they deported;they transferred;they moved on;they removed themselves,v,pret(nasāẖum);pl;f
+tassuẖā,you removed;you tore out;you expelled;you rejected;you deported;you transferred;you moved on;you removed yourself,v,pret(nasāẖum);pl;m;f
+nissuẖ,we removed;we tore out;we expelled;we rejected;we deported;we transferred;we moved on;we removed ourselves,v,pret(nasāẖum);pl;m;f
+qātam ša X nasāẖum,to keep X away;to keep the claim of X away,v,id
+nasẖum,uprooted;removed (from office),adj,va(nasāẖum);s;nom;m
+nasẖim,uprooted;removed (from office),adj,va(nasāẖum);s;gen(nasẖum);m
+nasẖam,uprooted;removed (from office),adj,va(nasāẖum);s;acc(nasẖum);m
+nasẖūtum,uprooted;removed (from office),adj,va(nasāẖum);pl;nom;m
+nasẖūtim,uprooted;removed (from office),adj,va(nasāẖum);pl;gen(nasẖūtum);acc(nasẖūtum);m
+nasiẖtum,uprooted;removed (from office),adj,va(nasāẖum);s;nom;f
+nasiẖtim,uprooted;removed (from office),adj,va(nasāẖum);s;gen(nasiẖtum);f
+nasiẖtam,uprooted;removed (from office),adj,va(nasāẖum);s;acc(nasiẖtum);f
+nasẖātum,uprooted;removed (from office),adj,va(nasāẖum);pl;nom;f
+nasẖātim,uprooted;removed (from office),adj,va(nasāẖum);pl;gen(nasẖātum);acc(nasẖātum);f
+naṣārum,to watch (over);to protect;to guard;to keep,v,inf;G
+iṣṣur,he/she watched (over);he/she protected;he/she guarded;he/she kept,v,pret(naṣārum);s;m;f
+taṣṣurī,you watched (over);you protected;you guarded;you kept,v,pret(naṣārum);s;m
+taṣṣur,you watched (over);you protected;you guarded;you kept,v,pret(naṣārum);s;f
+aṣṣur,I watched (over);I protected;I guarded;I kept,v,pret(naṣārum);s;m;f
+iṣṣurū,they watched (over);they protected;they guarded;they kept,v,pret(naṣārum);pl;m
+iṣṣurā,they watched (over);they protected;they guarded;they kept,v,pret(naṣārum);pl;f
+taṣṣurā,you watched (over);you protected;you guarded;you kept,v,pret(naṣārum);pl;m;f
+niṣṣur,we watched (over);we protected;we guarded;we kept,v,pret(naṣārum);pl;m;f
+naṣrum,watched;protected;guarded;under guard,adj,va(naṣārum);s;nom;m
+naṣrim,watched;protected;guarded;under guard,adj,va(naṣārum);s;gen(naṣrum);m
+naṣram,watched;protected;guarded;under guard,adj,va(naṣārum);s;acc(naṣrum);m
+naṣrūtum,watched;protected;guarded;under guard,adj,va(naṣārum);pl;nom;m
+naṣrūtim,watched;protected;guarded;under guard,adj,va(naṣārum);pl;gen(naṣrūtum);acc(naṣrūtum);m
+naṣirtum,watched;protected;guarded;under guard,adj,va(naṣārum);s;nom;f
+naṣirtim,watched;protected;guarded;under guard,adj,va(naṣārum);s;gen(naṣirtum);f
+naṣirtam,watched;protected;guarded;under guard,adj,va(naṣārum);s;acc(naṣirtum);f
+naṣrātum,watched;protected;guarded;under guard,adj,va(naṣārum);pl;nom;f
+naṣrātim,watched;protected;guarded;under guard,adj,va(naṣārum);pl;gen(naṣrātum);acc(naṣrātum);f
+paqādum,to hand over;to entrust;to assign;to supply;to deliver;to take care of;to look after;to inspect;to muster,v,inf;G
+ipqid,he/she handed over;he/she entrusted;he/she assigned;he/she supplied;he/she delivered;he/she took care of;he/she looked after;he/she inspected;he/she mustered,v,pret(paqādum);s;m;f
+tapqid,you handed over;you entrusted;you assigned;you supplied;you delivered;you took care of;you looked after;you inspected;you mustered,v,pret(paqādum);s;m
+tapqidī,you handed over;you entrusted;you assigned;you supplied;you delivered;you took care of;you looked after;you inspected;you mustered,v,pret(paqādum);s;f
+apqid,I handed over;I entrusted;I assigned;I supplied;I delivered;I took care of;I looked after;I inspected;I mustered,v,pret(paqādum);s;m;f
+ipqidū,they handed over;they entrusted;they assigned;they supplied;they delivered;they took care of;they looked after;they inspected;they mustered,v,pret(paqādum);pl;m
+ipqidā,they handed over;they entrusted;they assigned;they supplied;they delivered;they took care of;they looked after;they inspected;they mustered,v,pret(paqādum);pl;f
+tapqidā,you handed over;you entrusted;you assigned;you supplied;you delivered;you took care of;you looked after;you inspected;you mustered,v,pret(paqādum);pl;m;f
+nipqid,we handed over;we entrusted;we assigned;we supplied;we delivered;we took care of;we looked after;we inspected;we mustered,v,pret(paqādum);pl;m;f
+paqdum,delivered;assigned,adj,va(paqādum);s;nom;m
+paqdim,delivered;assigned,adj,va(paqādum);s;gen(paqdum);m
+paqdam,delivered;assigned,adj,va(paqādum);s;acc(paqdum);m
+paqdūtum,delivered;assigned,adj,va(paqādum);pl;nom;m
+paqdūtim,delivered;assigned,adj,va(paqādum);pl;gen(paqdūtum);acc(paqdūtum);m
+paqittum,delivered;assigned,adj,va(paqādum);s;nom;f
+paqittim,delivered;assigned,adj,va(paqādum);s;gen(paqittum);f
+paqittam,delivered;assigned,adj,va(paqādum);s;acc(paqittum);f
+paqdātum,delivered;assigned,adj,va(paqādum);pl;nom;f
+paqdātim,delivered;assigned,adj,va(paqādum);pl;gen(paqdātum);acc(paqdātum);f
+pašāšum,to anoint;to rub;to smear,v,inf;G
+ipšuš,he/she anointed;he/she rubbed;he/she smeared,v,pret(pašāšum);s;m;f
+tapšuš,you anointed;you rubbed;you smeared,v,pret(pašāšum);s;m
+tapšušī,you anointed;you rubbed;you smeared,v,pret(pašāšum);s;f
+apšuš,he/she anointed;he/she rubbed;he/she smeared,v,pret(pašāšum);s;m;f
+ipšušū,they anointed;they rubbed;they smeared,v,pret(pašāšum);pl;m
+ipšušā,they anointed;they rubbed;they smeared,v,pret(pašāšum);pl;f
+tapšušā,you anointed;you rubbed;you smeared,v,pret(pašāšum);pl;m;f
+nipšuš,we anointed;we rubbed;we smeared,v,pret(pašāšum);pl;m;f
+paššum,anointed,adj,va(pašāšum);s;nom;m
+paššim,anointed,adj,va(pašāšum);s;gen(paššum);m
+paššam,anointed,adj,va(pašāšum);s;acc(paššum);m
+paššūtum,anointed,adj,va(pašāšum);pl;nom;m
+paššūtim,anointed,adj,va(pašāšum);pl;gen(paššūtum);acc(paššūtum);m
+pašištum,anointed,adj,va(pašāšum);s;nom;f
+pašištim,anointed,adj,va(pašāšum);s;gen(pašištum);f
+pašištam,anointed,adj,va(pašāšum);s;acc(pašištum);f
+paššātum,anointed,adj,va(pašāšum);pl;nom;f
+paššātim,anointed,adj,va(pašāšum);pl;gen(paššātum);acc(paššātum);f
+qatānum,to become thin;to become narrow;to become fine,v,inf;G
+iqtin,he/she became thin;he/she became narrow;he/she became fine;it became thin;it became narrow;it became fine,v,pret(qatānum);s;m;f
+taqtin,you became thin;you became narrow;you became fine,v,pret(qatānum);s;m
+taqtinī,you became thin;you became narrow;you became fine,v,pret(qatānum);s;f
+aqtin,I became thin;I became narrow;I became fine,v,pret(qatānum);s;m;f
+iqtinū,they became thin;they became narrow;they became fine,v,pret(qatānum);pl;m
+iqtinā,they became thin;they became narrow;they became fine,v,pret(qatānum);pl;f
+taqtinā,you became thin;you became narrow;you became fine,v,pret(qatānum);pl;m;f
+niqtin,we became thin;we became narrow;we became fine,v,pret(qatānum);pl;m;f
+qatnum,thin;narrow;fine (textile),adj,va(qatānum);s;nom;m
+qatnim,thin;narrow;fine (textile),adj,va(qatānum);s;gen(qatnum);m
+qatnam,thin;narrow;fine (textile),adj,va(qatānum);s;acc(qatnum);m
+qatnūtum,thin;narrow;fine (textiles),adj,va(qatānum);pl;nom;m
+qatnūtum,thin;narrow;fine (textiles),adj,va(qatānum);pl;gen(qatnūtum);acc(qatnūtum);m
+qatattum,thin;narrow;fine (textile),adj,va(qatānum);s;nom;f
+qatattim,thin;narrow;fine (textile),adj,va(qatānum);s;gen(qatattum);f
+qatattam,thin;narrow;fine (textile),adj,va(qatānum);s;acc(qatattum);f
+qatnātum,thin;narrow;fine (wool);fine (textiles),adj,va(qatānum);pl;nom;f
+qatnātum,thin;narrow;fine (wool);fine (textiles),adj,va(qatānum);pl;gen(qatnātum);acc(qatnātum);f
+rakābum,to mount;to ride;to board,v,inf;G
+irkab,he/she mounted;he/she rode;he/she boarded,v,pret(rakābum);s;m;f
+tarkab,you mounted;you rode;you boarded,v,pret(rakābum);s;m
+tarkabī,you mounted;you rode;you boarded,v,pret(rakābum);s;f
+arkab,I mounted;I rode;I boarded,v,pret(rakābum);s;m;f
+irkabū,they mounted;they rode;they boarded,v,pret(rakābum);pl;m
+irkabā,they mounted;they rode;they boarded,v,pret(rakābum);pl;f
+tarkabā,you mounted;you rode;you boarded,v,pret(rakābum);pl;m;f
+nirkab,we mounted;we rode;we boarded,v,pret(rakābum);pl;m;f
+ẖarrānum,road;path;way;journey;military expedition;military campaign;caravan,n,s;nom;f
+ẖarrānim,road;path;way;journey;military expedition;military campaign;caravan,n,s;gen(ẖarrānum);f
+ẖarrānam,road;path;way;journey;military expedition;military campaign;caravan,n,s;acc(ẖarrānum);f
+ẖarrānātum,roads;paths;ways;journeys;military expeditions;military campaigns;caravans,n,pl;nom;f
+ẖarrānātim,roads;paths;ways;journeys;military expeditions;military campaigns;caravans,n,pl;gen(ẖarrānātum);acc(ẖarrānātum);f
+ẖarrānam ṣabātum,to take to the road;to undertake a campaign,v,id
+kalbum,dog,n,s;nom;m
+kalbim,dog,n,s;gen(kalbum);m
+kalbam,dog,n,s;acc(kalbum);m
+kalbū,dogs,n,pl;nom;m
+kalbī,dogs,n,pl;gen(kalbū);acc(kalbū);m
+kišādum,neck;throat;riverbank,n,s;nom;m
+kišādim,neck;throat;riverbank,n,s;gen(kišādum);m
+kišādam,neck;throat;riverbank,n,s;acc(kišādum);m
+kišādātum,necks;throats;riverbanks,n,pl;nom;f
+kišādātim,necks;throats;riverbanks,n,pl;gen(kišādātum);acc(kišādātum);f
+narkabtum,chariot,n,s;nom;f
+narkabtim,chariot,n,s;gen(narkabtum);f
+narkabtam,chariot,n,s;acc(narkabtum);f
+narkabātum,chariots,n,pl;nom;f
+narkabātim,chariots,n,pl;gen(narkabātum);acc(narkabātum);f
+šēpum,foot,n,s;nom;f
+šēpim,foot,n,s;gen(šēpum);f
+šēpam,foot,n,s;acc(šēpum);f
+šēpān,feet,n,dual;nom;f
+šēpīn,feet,n,dual;gen(šēpān);acc(šēpān);f
+šēpātum,feet,n,pl;nom;f
+šēpātim,feet,n,pl;gen(šēpātum);acc(šēpātum);f
+mādum,much,adj,va(miādum);s;nom;m
+mādim,much,adj,va(miādum);s;gen(mādum);m
+mādam,much,adj,va(miādum);s;acc(mādum);m
+mādūtum,many,adj,va(miādum);pl;nom;m
+mādūtim,many,adj,va(miādum);pl;gen(mādūtum);acc(mādūtum);m
+māttum,much,adj,va(miādum);s;nom;f
+māttim,much,adj,va(miādum);s;gen(māttum);f
+māttam,much,adj,va(miādum);s;acc(māttum);f
+mādātum,many,adj,va(miādum);pl;nom;f
+mādātim,many,adj,va(miādum);pl;gen(mādātum);acc(mādātum);f
+kīma,like;as;according to;instead of,prep
+
+§6 Lesson 6
+nasākum,to throw off;to throw down;to hurl;to shoot;to pile up (grain),v,inf;G
+issuk,he/she threw off;he/she threw down;he/she hurled;he/she shot;he/she piled up (grain),v,pret(nasākum);s;m;f
+tassuk,you threw off;you threw down;you hurled;you shot;you piled up (grain),v,pret(nasākum);s;m
+tassukī,you threw off;you threw down;you hurled;you shot;you piled up (grain),v,pret(nasākum);s;f
+assuk,I threw off;I threw down;I hurled;I shot;I piled up (grain),v,pret(nasākum);s;m;f
+issukū,they threw off;they threw down;they hurled;they shot;they piled up (grain),v,pret(nasākum);pl;m
+issukā,they threw off;they threw down;they hurled;they shot;they piled up (grain),v,pret(nasākum);pl;f
+tassukā,you threw off;you threw down;you hurled;you shot;you piled up (grain),v,pret(nasākum);pl;m;f
+nissuk,we threw off;we threw down;we hurled;we shot;we piled up (grain),v,pret(nasākum);pl;m;f
+naṭālum,to see;to look;to look at;to observe;to consider;to face,v,inf;G
+iṭṭul,he/she saw;he/she looked;he/she looked at;he/she observed;he/she considered;he/she faced,v,pret(naṭālum);s;m;f
+taṭṭul,you saw;you looked;you looked at;you observed;you considered;you faced,v,pret(naṭālum);s;m
+taṭṭulī,you saw;you looked;you looked at;you observed;you considered;you faced,v,pret(naṭālum);s;f
+aṭṭul,I saw;I looked;I looked at;I observed;I considered;I faced,v,pret(naṭālum);s;m;f
+iṭṭul,they saw;they looked;they looked at;they observed;they considered;they faced,v,pret(naṭālum);pl;m
+iṭṭul,they saw;they looked;they looked at;they observed;they considered;they faced,v,pret(naṭālum);pl;f
+taṭṭul,you saw;you looked;you looked at;you observed;you considered;you faced,v,pret(naṭālum);pl;m;f
+niṭṭul,we saw;we looked;we looked at;we observed;we considered;we faced,v,pret(naṭālum);pl;m;f
+parāsum,to divide;to separate;to select;to decide (a legal case);to keep enemies away;to keep demons away,v,inf;G
+iprus,he/she divided;he/she separated;he/she selected;he/she decided (a legal case);he/she kept enemies away;he/she kept demons away,v,pret(parāsum);s;m;f
+taprus,you divided;you separated;you selected;you decided (a legal case);you kept enemies away;you kept demons away,v,pret(parāsum);s;m
+taprusī,you divided;you separated;you selected;you decided (a legal case);you kept enemies away;you kept demons away,v,pret(parāsum);s;f
+aprus,I divided;I separated;I selected;I decided (a legal case);I kept enemies away;I kept demons away,v,pret(parāsum);s;m;f
+iprusū,they divided;they separated;they selected;they decided (a legal case);they kept enemies away;they kept demons away,v,pret(parāsum);pl;m
+iprusā,they divided;they separated;they selected;they decided (a legal case);they kept enemies away;they kept demons away,v,pret(parāsum);pl;f
+taprusā,you divided;you separated;you selected;you decided (a legal case);you kept enemies away;you kept demons away,v,pret(parāsum);pl;m;f
+niprus,we divided;we separated;we selected;we decided (a legal case);we kept enemies away;we kept demons away,v,pret(parāsum);pl;m;f
+parsum,divided;separate;separated,adj,va(parāsum);s;nom;m
+parsim,divided;separate;separated,adj,va(parāsum);s;gen(parsum);m
+parsam,divided;separate;separated,adj,va(parāsum);s;acc(parsum);m
+parsūtum,divided;separate;separated,adj,va(parāsum);pl;nom;m
+parsūtim,divided;separate;separated,adj,va(parāsum);pl;gen(parsūtum);acc(parsūtum);m
+parištum,divided;separate;separated,adj,va(parāsum);s;nom;f
+parištim,divided;separate;separated,adj,va(parāsum);s;gen(parištum);f
+parištam,divided;separate;separated,adj,va(parāsum);s;acc(parištum);f
+parsātum,divided;separate;separated,adj,va(parāsum);pl;nom;f
+parsātim,divided;separate;separated,adj,va(parāsum);pl;gen(parsātum);acc(parsātum);f
+šaṭārum,to inscribe;to write;to write down;to enter;to register (something in an account or list);to assign,v,inf;G
+išṭur,he/she inscribed;he/she wrote;he/she wrote down;he/she entered;he/she registered (something in an account or list);he/she assigned,v,pret(šaṭārum);s;nom;m;f
+tašṭur,you inscribed;you wrote;you wrote down;you entered;you registered (something in an account or list);you assigned,v,pret(šaṭārum);s;nom;m
+tašṭurī,you inscribed;you wrote;you wrote down;you entered;you registered (something in an account or list);you assigned,v,pret(šaṭārum);s;nom;f
+ašṭur,I inscribed;I wrote;I wrote down;I entered;I registered (something in an account or list);I assigned,v,pret(šaṭārum);s;nom;m;f
+išṭurū,they inscribed;they wrote;they wrote down;they entered;they registered (something in an account or list);they assigned,v,pret(šaṭārum);pl;nom;m
+išṭurā,they inscribed;they wrote;they wrote down;they entered;they registered (something in an account or list);they assigned,v,pret(šaṭārum);pl;nom;f
+tašṭurā,you inscribed;you wrote;you wrote down;you entered;you registered (something in an account or list);you assigned,v,pret(šaṭārum);pl;nom;m;f
+nišṭur,we inscribed;we wrote;we wrote down;we entered;we registered (something in an account or list);we assigned,v,pret(šaṭārum);pl;nom;m;f
+šaṭrum,inscribed;registered;assigned,adj,va(šaṭārum);s;nom;m
+šaṭrim,inscribed;registered;assigned,adj,va(šaṭārum);s;gen(šaṭrum);m
+šaṭram,inscribed;registered;assigned,adj,va(šaṭārum);s;acc(šaṭrum);m
+šaṭrūtum,inscribed;registered;assigned,adj,va(šaṭārum);pl;nom;m
+šaṭrūtim,inscribed;registered;assigned,adj,va(šaṭārum);pl;gen(šaṭrūtum);acc(šaṭrūtum);m
+šaṭirtum,inscribed;registered;assigned,adj,va(šaṭārum);s;nom;f
+šaṭirtim,inscribed;registered;assigned,adj,va(šaṭārum);s;gen(šaṭirtum);f
+šaṭirtam,inscribed;registered;assigned,adj,va(šaṭārum);s;acc(šaṭirtum);f
+šaṭrātum,inscribed;registered;assigned,adj,va(šaṭārum);pl;nom;f
+šaṭrātim,inscribed;registered;assigned,adj,va(šaṭārum);pl;gen(šaṭrātum);acc(šaṭrātum);f
+ṭarādum,to send;to dispatch (person);to drive away,v,inf;G
+iṭrud,he/she sent;he/she dispatched (person);he/she drove away,v,pret(ṭarādum);s;m;f
+taṭrud,you sent;you dispatched (person);you drove away,v,pret(ṭarādum);s;m
+taṭrudī,you sent;you dispatched (person);you drove away,v,pret(ṭarādum);s;f
+aṭrud,I sent;I dispatched (person);I drove away,v,pret(ṭarādum);s;m;f
+iṭrudū,they sent;they dispatched (person);they drove away,v,pret(ṭarādum);pl;m
+iṭrudā,they sent;they dispatched (person);they drove away,v,pret(ṭarādum);pl;f
+taṭrudā,you sent;you dispatched (person);you drove away,v,pret(ṭarādum);pl;m;f
+niṭrud,we sent;we dispatched (person);we drove away,v,pret(ṭarādum);pl;m;f
+ṭardum,expelled;banished;exiled,adj,va(ṭarādum);s;nom;m
+ṭardim,expelled;banished;exiled,adj,va(ṭarādum);s;gen(ṭardum);m
+ṭardam,expelled;banished;exiled,adj,va(ṭarādum);s;acc(ṭardum);m
+ṭardūtum,expelled;banished;exiled,adj,va(ṭarādum);pl;nom;m
+ṭardūtim,expelled;banished;exiled,adj,va(ṭarādum);pl;gen(ṭardūtum);acc(ṭardūtum);m
+ṭarittum,expelled;banished;exiled,adj,va(ṭarādum);s;nom;f
+ṭarittim,expelled;banished;exiled,adj,va(ṭarādum);s;gen(ṭarittum);f
+ṭarittam,expelled;banished;exiled,adj,va(ṭarādum);s;acc(ṭarittum);f
+ṭardātum,expelled;banished;exiled,adj,va(ṭarādum);pl;nom;f
+ṭardātim,expelled;banished;exiled,adj,va(ṭarādum);pl;gen(ṭardātum);acc(ṭardātum);f
+dayyānum,judge,n,s;nom;m
+dayyānim,judge,n,s;gen(dayyānum);m
+dayyānam,judge,n,s;acc(dayyānum);m
+dayyānū,judges,n,pl;nom;m
+dayyānī,judges,n,pl;gen(dayyānū);acc(dayyānū);m
+ekallum,palace,n,s;nom;f
+ekallim,palace,n,s;gen(ekallum);f
+ekallam,palace,n,s;acc(ekallum);f
+ekallātum,palaces,n,pl;nom;f
+ekallātim,palaces,n,pl;gen(ekallātum);acc(ekallātum);f
+kussûm,chair;seat;throne,n,s;nom;base(kussi);f
+kussîm,chair;seat;throne,n,s;gen(kussûm);f
+kussiam,chair;seat;throne,n,s;acc(kussûm);f
+kussiātum,chairs;seats;thrones,n,pl;nom;f
+kussiātim,chairs;seats;thrones,n,pl;gen(kussiātum);acc(kussiātum);f
+kussiam ṣabātum,to take the throne,v,id
+purussûm,legal decision;case,n,s;nom;base(purussā);m
+purussêm,legal decision;case,n,s;gen(purussûm);m
+purussâm,legal decision;case,n,s;acc(purussûm);m
+purussû,legal decisions;cases,n,pl;nom;base(purussā);m
+purussê,legal decisions;cases,n,pl;gen(purussû);acc(purussû);m
+rubātum,princess,n,s;nom;base(rubā);f
+rubātim,princess,n,s;gen(rubātum);f
+rubātam,princess,n,s;acc(rubātum);f
+rubâtum,princesses,n,pl;nom;base(rubā);f
+rubâtim,princesses,n,pl;gen(rubâtum);acc(rubâtum);f
+rubûm,prince;ruler,n,s;nom;base(rubā);m
+rubêm,prince;ruler,n,s;gen(rubûm);m
+rubâm,prince;ruler,n,s;acc(rubûm);m
+rubû,princes;rulers,n,pl;nom;base(rubā);m
+rubê,princes;rulers,n,pl;gen(rubû);acc(rubû);m
+šadûm,mountain;mountain region,n,s;nom;base(šadu);m
+šadîm,mountain;mountain region,n,s;gen(šadûm);m
+šadâm,mountain;mountain region,n,s;acc(šadûm);m
+šadû,mountains;mountain regions,n,pl;nom;base(šadu);m
+šadî,mountains;mountain regions,n,pl;gen(šadû);acc(šadû);m
+annûm,this,adj,s;nom;base(anni);m
+annîm,this,adj,s;gen(annûm);m
+anniam,this,adj,s;acc(annûm);m
+annûtum,these,adj,pl;nom;base(anni);m
+annûtim,these,adj,pl;gen(annûtum);acc(annûtum);m
+annītum,this,adj,s;nom;base(anni);f
+annītim,this,adj,s;gen(annītum);f
+annītam,this,adj,s;acc(annītum);f
+anniātum,these,adj,pl;nom;base(anni);f
+anniātim,these,adj,pl;gen(anniātum);acc(anniātum);f
+maẖrûm,first;former;earlier;previous,adj,s;nom;base(maẖrī);m
+maẖrîm,first;former;earlier;previous,adj,s;gen(maẖrûm);m
+maẖriam,first;former;earlier;previous,adj,s;acc(maẖrûm);m
+maẖrûtum,first;former;earlier;previous,adj,pl;nom;base(maẖrī);m
+maẖrûtim,first;former;earlier;previous,adj,pl;gen(maẖrûtum);acc(maẖrûtum);m
+maẖrītum,first;former;earlier;previous,adj,s;nom;base(maẖrī);f
+maẖrītim,first;former;earlier;previous,adj,s;gen(maẖrītum);f
+maẖrītam,first;former;earlier;previous,adj,s;acc(maẖrītum);f
+maẖriātum,first;former;earlier;previous,adj,pl;nom;base(maẖrī);f
+maẖriātim,first;former;earlier;previous,adj,pl;gen(maẖriātum);acc(maẖriātum);f
+šaplûm,lower,adj,s;nom;base(šaplī);m
+šaplîm,lower,adj,s;gen(šaplûm);m
+šapliam,lower,adj,s;acc(šaplûm);m
+šaplûtum,lower,adj,pl;nom;base(šaplī);m
+šaplûtim,lower,adj,pl;gen(šaplûtum);acc(šaplûtum);m
+šaplītum,lower,adj,s;nom;base(šaplī);f
+šaplītim,lower,adj,s;gen(šaplītum);f
+šaplītam,lower,adj,s;acc(šaplītum);f
+šapliātum,lower,adj,pl;nom;base(šaplī);f
+šapliātim,lower,adj,pl;gen(šapliātum);acc(šapliātum);f
+šū,that;the aforementioned;said;this,apr,s;nom;m
+šuāti,that;the aforementioned;said;this,apr,s;gen(šū);acc(šū);m
+šuātu,that;the aforementioned;said;this,apr,s;gen(šū);acc(šū);m
+šâti,that;the aforementioned;said;this,apr,s;gen(šū);acc(šū);m
+šâtu,that;the aforementioned;said;this,apr,s;gen(šū);acc(šū);m
+šuāšim,that;the aforementioned;said;this,apr,s;dat(šū);m
+šâšim,that;the aforementioned;said;this,apr,s;dat(šū);m
+šâšum,that;the aforementioned;said;this,apr,s;dat(šū);m
+šunu,those;the aforementioned;said;these,apr,pl;nom;m
+šunūti,those;the aforementioned;said;these,apr,pl;gen(šunu);acc(šunu);m
+šunūšim,those;the aforementioned;said;these,apr,pl;dat(šunu);m
+šī,that;the aforementioned;said;this,apr,s;nom;f
+šuāti,that;the aforementioned;said;this,apr,s;gen(šī);acc(šī);f
+šâti,that;the aforementioned;said;this,apr,s;gen(šī);acc(šī);f
+šiāti,that;the aforementioned;said;this,apr,s;gen(šī);acc(šī);f
+šuāšim,that;the aforementioned;said;this,apr,s;dat(šī);f
+šâšim,that;the aforementioned;said;this,apr,s;dat(šī);f
+šiāšim,that;the aforementioned;said;this,apr,s;dat(šī);f
+šina,those;the aforementioned;said;these,apr,pl;nom;f
+šināti,those;the aforementioned;said;these,apr,pl;gen(šina);acc(šina);f
+šināšim,those;the aforementioned;said;these,apr,pl;dat(šina);f
+
+§7 Lesson 7: G Verbs III-weak
+banûm,to build;to rebuild;to construct;to create,v,G;inf;3w
+ibni,he/she built;he/she rebuilt;he/she constructed;he/she created,v,pret(banûm);s;m;f
+tabni,you built;you rebuilt;you constructed;you created,v,pret(banûm);s;m
+tabnî,you built;you rebuilt;you constructed;you created,v,pret(banûm);s;f
+abni,I built;I rebuilt;I constructed;I created,v,pret(banûm);s;m;f
+ibnû,they built;they rebuilt;they constructed;they created,v,pret(banûm);pl;m
+ibniā,they built;they rebuilt;they constructed;they created,v,pret(banûm);pl;f
+tabniā,you built;you rebuilt;you constructed;you created,v,pret(banûm);pl;m;f
+nibni,we built;we rebuilt;we constructed;we created,v,pret(banûm);pl;m;f
+banûm,well made;well formed;fine,adj,va(banûm);base(bani);s;nom;m
+banîm,well made;well formed;fine,adj,va(banûm);s;gen(banûm);m
+baniam,well made;well formed;fine,adj,va(banûm);s;acc(banûm);m
+banûtum,well made;well formed;fine,adj,va(banûm);pl;nom;m
+banûtim,well made;well formed;fine,adj,va(banûm);pl;gen(banûtum);acc(banûtum);m
+banītum,well made;well formed;fine,adj,va(banûm);base(bani);s;nom;f
+banītim,well made;well formed;fine,adj,va(banûm);s;gen(banītum);f
+banītam,well made;well formed;fine,adj,va(banûm);s;acc(banītum);f
+baniātum,well made;well formed;fine,adj,va(banûm);pl;nom;f
+baniātim,well made;well formed;fine,adj,va(banûm);pl;gen(baniātum);acc(baniātum);f
+ẖadûm,to rejoice;to be happy,v,inf;G;3w
+iẖdu,he/she rejoiced;he/she was happy,v,pret(ẖadûm);s;m;f
+taẖdu,you rejoiced;you were happy,v,pret(ẖadûm);s;m
+taẖdî,you rejoiced;you were happy,v,pret(ẖadûm);s;f
+aẖdu,I rejoiced;I was happy,v,pret(ẖadûm);s;m;f
+iẖdû,they rejoiced;they were happy,v,pret(ẖadûm);pl;m
+iẖdâ,they rejoiced;they were happy,v,pret(ẖadûm);pl;f
+taẖdâ,you rejoiced;you were happy,v,pret(ẖadûm);pl;m;f
+niẖdu,we rejoiced;we were happy,v,pret(ẖadûm);pl;m;f
+ẖadûm,happy;joyful;rejoicing,adj,va(ẖadûm);s;base(ẖadi);nom;m
+ẖadîm,happy;joyful;rejoicing,adj,va(ẖadûm);s;gen(ẖadûm);m
+ẖadiām,happy;joyful;rejoicing,adj,va(ẖadûm);s;acc(ẖadûm);m
+ẖadûtum,happy;joyful;rejoicing,adj,va(ẖadûm);pl;nom;m
+ẖadûtim,happy;joyful;rejoicing,adj,va(ẖadûm);pl;gen(ẖadûtum);acc(ẖadûtum);m
+ẖadītum,happy;joyful;rejoicing,adj,va(ẖadûm);s;base(ẖadi);nom;f
+ẖadītim,happy;joyful;rejoicing,adj,va(ẖadûm);s;gen(ẖadītum);f
+ẖadītam,happy;joyful;rejoicing,adj,va(ẖadûm);s;acc(ẖadītum);f
+ẖadiātum,happy;joyful;rejoicing,adj,va(ẖadûm);pl;nom;f
+ẖadiātim,happy;joyful;rejoicing,adj,va(ẖadûm);pl;gen(ẖadiātum);acc(ẖadiātum);f
+leqûm,to take (in one's hand);to accept;to receive;to obtain;to take along;to take away;to take a wife;to marry,v,inf;G;3w
+ilqe,he/she took (in his/her hand);he/she accepted;he/she received;he/she obtained;he/she took along;he/she took away;he/she took a wife;he/she married,v,pret(leqûm);s;m;f
+telqe,you took (in your hand);you accepted;you received;you obtained;you took along;you took away;you took a wife;you married,v,pret(leqûm);s;m
+telqî,you took (in your hand);you accepted;you received;you obtained;you took along;you took away;you took a wife;you married,v,pret(leqûm);s;f
+elqe,I took (in my hand);I accepted;I received;I obtained;I took along;I took away;I took a wife;I married,v,pret(leqûm);s;m;f
+ilqû,they took (in their hands);they accepted;they received;they obtained;they took along;they took away;they took a wife;they married,v,pret(leqûm);pl;m
+ilqeā,they took (in their hands);they accepted;they received;they obtained;they took along;they took away;they took a wife;they married,v,pret(leqûm);pl;f
+telqeā,you took (in your hands);you accepted;you received;you obtained;you took along;you took away;you took wives;you married,v,pret(leqûm);pl;m;f
+nilqe,we took (in our hands);we accepted;we received;we obtained;we took along;we took away;we took wives;we married,v,pret(leqûm);pl;m;f
+malûm,to become full of;to fill with;to fill,v,inf;G;3w
+imla,he/she became full of;he/she filled with;he/she filled,v,pret(malûm);s;m;f
+tamla,you became full of;you filled with;you filled,v,pret(malûm);s;m
+tamlî,you became full of;you filled with;you filled,v,pret(malûm);s;f
+amla,I became full of;I filled with;I filled,v,pret(malûm);s;m;f
+imlû,they became full of;they filled with;they filled,v,pret(malûm);pl;m
+imlâ,they became full of;they filled with;they filled,v,pret(malûm);pl;f
+tamlâ,you became full of;you filled with;you filled,v,pret(malûm);pl;m;f
+nimla,we became full of;we filled with;we filled,v,pret(malûm);pl;m;f
+malûm,filled;full,adj,va(malûm);base(mali);s;nom;m
+malîm,filled;full,adj,va(malûm);s;gen(malûm);m
+maliām,filled;full,adj,va(malûm);s;acc(malûm);m
+malûtum,filled;full,adj,va(malûm);pl;nom;m
+malûtim,filled;full,adj,va(malûm);pl;gen(malûtum);acc(malûtum);m
+malītum,filled;full,adj,va(malûm);base(mali);s;nom;f
+malītim,filled;full,adj,va(malûm);s;gen(malītum);f
+malītam,filled;full,adj,va(malûm);s;acc(malītum);f
+maliātum,filled;full,adj,va(malûm);pl;nom;f
+maliātim,filled;full,adj,va(malûm);pl;gen(maliātum);acc(maliātum);f
+rabûm,to become large;to become great;to grow;to grow up;to increase,v,inf;G;3w
+irbi,he/she became large;he/she became great;he/she grew;he/she grew up;it increased,v,pret(rabûm);s;m;f
+tarbi,you became large;you became great;you grew;you grew up,v,pret(rabûm);s;m
+tarbî,you became large;you became great;you grew;you grew up,v,pret(rabûm);s;f
+arbi,I became large;I became great;I grew;I grew up,v,pret(rabûm);s;m;f
+irbû,they became large;they became great;they grew;they grew up;they increased,v,pret(rabûm);pl;m
+irbiā,they became large;they became great;they grew;they grew up;they increased,v,pret(rabûm);pl;f
+tarbiā,you became large;you became great;you grew;you grew up,v,pret(rabûm);pl;m;f
+nirbi,we became large;we became great;we grew;we grew up,v,pret(rabûm);pl;m;f
+rabûm,big;large;great;important;mature,adj,va(rabûm);base(rabi);s;nom;m
+rabîm,big;large;great;important;mature,adj,va(rabûm);s;gen(rabûm);m
+rabiām,big;large;great;important;mature,adj,va(rabûm);s;acc(rabûm);m
+rabûtum,big;large;great;important;mature,adj,va(rabûm);pl;nom;m
+rabûtim,big;large;great;important;mature,adj,va(rabûm);pl;gen(rabûtum);acc(rabûtum);m
+rabītum,big;large;great;important;mature,adj,va(rabûm);s;nom;f
+rabītim,big;large;great;important;mature,adj,va(rabûm);s;gen(rabītum);f
+rabītam,big;large;great;important;mature,adj,va(rabûm);s;acc(rabītum);f
+rabiātum,big;large;great;important;mature,adj,va(rabûm);pl;nom;f
+rabiātim,big;large;great;important;mature,adj,va(rabûm);pl;gen(rabiātum);acc(rabiātum);f
+šemûm,to hear;to listen;to listen to;to obey,v,inf;G;3w
+išme,he/she heard;he/she listened;he/she listened to;he/she obeyed,v,pret(šemûm);s;m;f
+tešme,you heard;you listened;you listened to;you obeyed,v,pret(šemûm);s;m
+tešmî,you heard;you listened;you listened to;you obeyed,v,pret(šemûm);s;f
+ešme,I heard;I listened;I listened to;I obeyed,v,pret(šemûm);s;m;f
+išmû,they heard;they listened;they listened to;they obeyed,v,pret(šemûm);pl;m
+išmeā,they heard;they listened;they listened to;they obeyed,v,pret(šemûm);pl;f
+tešmeā,you heard;you listened;you listened to;you obeyed,v,pret(šemûm);pl;m;f
+nišme,we heard;we listened;we listened to;we obeyed,v,pret(šemûm);pl;m;f
+šemûm,heard;having heard;informed;aware;obedient,adj,va(šemûm);base(šemi);s;nom;m
+šemîm,heard;having heard;informed;aware;obedient,adj,va(šemûm);s;gen(šemûm);m
+šemiām,heard;having heard;informed;aware;obedient,adj,va(šemûm);s;acc(šemûm);m
+šemûtum,heard;having heard;informed;aware;obedient,adj,va(šemûm);pl;nom;m
+šemûtim,heard;having heard;informed;aware;obedient,adj,va(šemûm);pl;gen(šemûtum);acc(šemûtum);m
+šemītum,heard;having heard;informed;aware;obedient,adj,va(šemûm);s;nom;f
+šemītim,heard;having heard;informed;aware;obedient,adj,va(šemûm);s;gen(šemītum);f
+šemītam,heard;having heard;informed;aware;obedient,adj,va(šemûm);s;acc(šemītum);f
+šemiātum,heard;having heard;informed;aware;obedient,adj,va(šemûm);pl;nom;f
+šemiātim,heard;having heard;informed;aware;obedient,adj,va(šemûm);pl;gen(šemiātum);acc(šemiātum);f
+zakûm,to become clean;to become clear;to become free of claims;to become free of obligations,v,inf;G;3w
+izku,he/she became clean;he/she became clear;he/she became free of claims;he/she became free of obligations,v,pret(zakûm);s;m;f
+tazku,you became clean;you became clear;you became free of claims;you became free of obligations,v,pret(zakûm);s;m
+tazkî,you became clean;you became clear;you became free of claims;you became free of obligations,v,pret(zakûm);s;f
+azku,I became clean;I became clear;I became free of claims;I became free of obligations,v,pret(zakûm);s;m;f
+izkû,they became clean;they became clear;they became free of claims;they became free of obligations,v,pret(zakûm);pl;m
+izkâ,they became clean;they became clear;they became free of claims;they became free of obligations,v,pret(zakûm);pl;f
+tazkâ,you became clean;you became clear;you became free of claims;you became free of obligations,v,pret(zakûm);pl;m;f
+nizku,we became clean;we became clear;we became free of claims;we became free of obligations,v,pret(zakûm);pl;m;f
+zakûm,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);base(zaku);s;nom;m
+zakîm,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);s;gen(zakûm);m
+zakâm,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);s;acc(zakûm);m
+zakûtum,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);pl;nom;m
+zakûtim,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);pl;gen(zakûtum);acc(zakûtum);m
+zakūtum,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);s;nom;f
+zakūtim,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);s;gen(zakūtum);f
+zakūtam,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);s;acc(zakūtum);f
+zakâtum,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);pl;nom;f
+zakâtim,clear;clean;cleaned;pure;free of claims,adj,va(zakûm);pl;gen(zakâtum);acc(zakâtum);f
+bēltum,lady;mistress;owner,n,s;nom;f
+bēltim,lady;mistress;owner,n,s;gen(bēltum);f
+bēltam,lady;mistress;owner,n,s;acc(bēltum);f
+bēlētum,ladies;mistresses;owners,n,pl;nom;f
+bēlētim,ladies;mistresses;owners,n,pl;gen(bēlētum);acc(bēlētum);f
+eqlum,plot of land;field;area;region,n,s;nom;m
+eqlim,plot of land;field;area;region,n,s;gen(eqlum);m
+eqlam,plot of land;field;area;region,n,s;acc(eqlum);m
+eqlētum,plots of land;fields;areas;regions,n,pl;nom;f
+eqlētim,plots of land;fields;areas;regions,n,pl;gen(eqlētum);acc(eqlētum);f
+mû,water;liquid,n,pl;nom;m
+mê,water;liquid,n,pl;gen(mû);acc(mû);m
+narûm,stela;stele,n,base(naru/narā);s;nom;m
+narîm,stela;stele,n,s;gen(narûm);m
+narêm,stela;stele,n,s;gen(narûm);m
+narâm,stela;stele,n,s;acc(narûm);m
+narû,stelae,n,pl;nom;m
+narî,stelae,n,pl;gen(narû);acc(narû);m
+narê,stelae,n,pl;gen(narû);acc(narû);m
+qīštum,gift;fee;votive offering,n,s;nom;f
+qīštim,gift;fee;votive offering,n,s;gen(qīštum);f
+qīštam,gift;fee;votive offering,n,s;acc(qīštum);f
+qīšātum,gifts;fees;votive offerings,n,pl;nom;f
+qīšātim,gifts;fees;votive offerings,n,pl;gen(qīšātum);acc(qīšātum);f
+ṣibittum,prison;imprisonment,n,s;nom;f
+ṣibittim,prison;imprisonment,n,s;gen(ṣibittum);f
+ṣibittam,prison;imprisonment,n,s;acc(ṣibittum);f
+ṣibitātum,prisons,n,pl;nom;f
+ṣibitātim,prisons,n,pl;gen(ṣibitātum);acc(ṣibitātum);f
+ṭēmum,information;news;report;command;mind;attitude;intention;decision,n,s;nom;m
+ṭēmim,information;news;report;command;mind;attitude;intention;decision,n,s;gen(ṭēmum);m
+ṭēmam,information;news;report;command;mind;attitude;intention;decision,n,s;acc(ṭēmum);m
+ṭēmū,news;reports;commands;minds;attitudes;intentions;decisions,n,pl;nom;m
+ṭēmî,news;reports;commands;minds;attitudes;intentions;decisions,n,pl;gen(ṭēmū);acc(ṭēmū);m
+ṭēmētum,news;reports;commands;minds;attitudes;intentions;decisions,n,pl;nom;m
+ṭēmētim,news;reports;commands;minds;attitudes;intentions;decisions,n,pl;gen(ṭēmētum);acc(ṭēmētum);m
+ṭēmam ṣabātum,to take action,v,id
+ṭēmam šakānum,to give a report;to give information,v,id
+ṣeẖrum,small;young,adj,va(ṣeẖērum);base(ṣeẖer);s;nom;m
+ṣeẖrim,small;young,adj,va(ṣeẖērum);s;gen(ṣeẖrum);m
+ṣeẖram,small;young,adj,va(ṣeẖērum);s;acc(ṣeẖrum);m
+ṣeẖrūtum,small;young,adj,va(ṣeẖērum);pl;nom;m
+ṣeẖrūtim,small;young,adj,va(ṣeẖērum);pl;gen(ṣeẖrūtum);acc(ṣeẖrūtum);m
+ṣeẖertum,small;young,adj,va(ṣeẖērum);s;nom;f
+ṣeẖertim,small;young,adj,va(ṣeẖērum);s;gen(ṣeẖertum);f
+ṣeẖertam,small;young,adj,va(ṣeẖērum);s;acc(ṣeẖertum);f
+ṣeẖrētum,small;young,adj,va(ṣeẖērum);pl;nom;f
+ṣeẖrētim,small;young,adj,va(ṣeẖērum);pl;gen(ṣeẖrētum);acc(ṣeẖrētum);f
+
+§8 Lesson 8: G Verbs I-a and I-e, Bound Form of the Noun
+abi,father of,n,bf(abum);s;nom;gen(abi);acc(abi);m
+abū,fathers of,n,bf(abū);pl;nom;m
+abī,fathers of,n,bf(abī);pl;gen(abū);acc(abū);m
+aẖi,brother of,n,bf(aẖum);s;nom;gen(aẖi);acc(aẖi);m
+aẖū,brothers of,n,bf(aẖū);pl;nom;m
+aẖī,brothers of,n,bf(aẖī);pl;gen(aẖū);acc(aẖū);m
+alap,ox of;bull of,n,bf(alpum);s;nom;gen(alap);acc(alap);m
+alpū,oxen of;bulls of,n,bf(alpū);pl;nom;m
+alpī,oxen of;bulls of,n,bf(alpī);pl;gen(alpū);acc(alpū);m
+āl,town of;city of,n,bf(ālum);s;nom;gen(āl);acc(āl);m
+āli,town of;city of,n,bf(ālum);s;nom;gen(āli);acc(āli);m
+ālū,towns of;cities of,n,bf(ālū);pl;nom;m
+ālī,towns of;cities of,n,bf(ālī);pl;gen(ālū);acc(ālū);m
+amat,female slave of;womanservant of,n,bf(amtum);s;nom;gen(amat);acc(amat);f
+amāt,female slaves of;womanservants of,n,bf(amātum);pl;nom;gen(amāt);acc(amāt);f
+aššat,wife of,n,bf(aššatum);s;nom;gen(aššat);acc(aššat);f
+aššāt,wives of,n,bf(aššātum);pl;nom;gen(aššāt);acc(aššāt);f
+awīl,human being of;person of;grown man of;free man of;boss of;man of,n,bf(awīlum);s;nom;gen(awīl);acc(awīl);m
+awīlū,human beings of;people of;grown men of;free men of;bosses of;men of,n,bf(awīlū);pl;nom;m
+awīlī,human beings of;people of;grown men of;free men of;bosses of;men of,n,bf(awīlī);pl;gen(awīlū);acc(awīlū);m
+bēlet,lady of;mistress of;owner of,n,bf(bēltum);s;nom;gen(bēlet);acc(bēlet);f
+bēlēt,ladies of;mistresses of;owners of,n,bf(bēlētum);pl;nom;gen(bēlēt);acc(bēlēt);f
+bēl,lord of;owner of;master of,n,bf(bēlum);s;nom;gen(bēl);acc(bēl);m
+bēli,lord of;owner of;master of,n,bf(bēlum);s;nom;gen(bēli);acc(bēli);m
+bēlū,lords of;owners of;masters of,n,bf(bēlū);pl;nom;m
+bēlī,lords of;owners of;masters of,n,bf(bēlī);pl;gen(bēlū);acc(bēlū);m
+bīt,house of;estate of;household of,n,bf(bītum);s;nom;gen(bīt);acc(bīt);m
+bīti,house of;estate of;household of,n,bf(bītum);s;nom;gen(bīti);acc(bīti);m
+bītāt,houses of;estates of;households of,n,bf(bītātum);pl;nom;gen(bītāt);acc(bītāt);f
+damiqti,good of;goodness of;favor of;luck of;fame of,n,bf(damiqtum);s;nom;gen(damiqti);acc(damiqti);f
+damiq,good one of;one of good quality of;beautiful one of;favorable one of;expert one of,adj,bf(damqum);s;nom;gen(damiq);acc(damiq);m
+damqūt,good ones of;ones of good quality of;beautiful ones of;favorable ones of;expert ones of,adj,bf(damqūtum);pl;nom;gen(damqūt);acc(damqūt);m
+damiqti,good one of;one of good quality of;beautiful one of;favorable one of;expert one of,adj,bf(damiqtum);s;nom;gen(damiqti);acc(damiqti);f
+damqāt,good ones of;ones of good quality of;beautiful ones of;favorable ones of;expert ones of,adj,bf(damqātum);pl;nom;gen(damqāt);acc(damqāt);f
+dannat,famine of;hard times of;fortress of,n,bf(dannatum);s;nom;gen(dannat);acc(dannat);f
+dannāt,famines of;hard times of;fortresses of,n,bf(dannātum);pl;nom;gen(dannāt);acc(dannāt);f
+dan,the strong one of;solid one of;mighty one of;powerful one of;fortified one of;fierce one of;savage one of;severe one of;difficult one of;urgent one of,adj,bf(dannum);s;nom;gen(dan);acc(dan);m
+danni,the strong one of;solid one of;mighty one of;powerful one of;fortified one of;fierce one of;savage one of;severe one of;difficult one of;urgent one of,adj,bf(dannum);s;nom;gen(danni);acc(danni);m
+dannūt,strong ones of;solid ones of;mighty ones of;powerful ones of;fortified ones of;fierce ones of;savage ones of;severe ones of;difficult ones of;urgent ones of,adj,bf(dannūtum);pl;nom;gen(dannūt);acc(dannūt);m
+dannat,strong one of;solid one of;mighty one of;powerful one of;fortified one of;fierce one of;savage one of;severe one of;difficult one of;urgent one of,adj,bf(dannum);s;nom;gen(dannat);acc(dannat);f
+dannāt,strong ones of;solid ones of;mighty ones of;powerful ones of;fortified ones of;fierce ones of;savage ones of;severe ones of;difficult ones of;urgent ones of,adj,bf(dannātum);pl;nom;gen(dannāt);acc(dannāt);f
+dayyān,judge of,n,bf(dayyānum);s;nom;gen(dayyān);acc(dayyān);m
+dayyānū,judges of,n,bf(dayyānū);pl;nom;m
+dayyānī,judges of,n,bf(dayyānī);pl;gen(dayyānū);acc(dayyānū);m
+ekal,palace of,n,bf(ekallum);s;nom;gen(ekal);acc(ekal);f
+ekallāt,palaces of,n,bf(ekallātum);pl;nom;gen(ekallāt);acc(ekallāt);f
+emūq,strength of;power of;force of;ability of;armed forces of;value of,n,bf(emūqum);s;nom;gen(emūq);acc(emūq);m
+emūqū,strengths of;powers of;forces of;abilities of;armed forces of;values of,n,bf(emūqū);pl;nom;m
+emūqī,strengths of;powers of;forces of;abilities of;armed forces of;values of,n,bf(emūqī);pl;gen(emūqū);acc(emūqū);m
+emūqā,strength of;power of;force of;ability of;armed forces of;value of,n,bf(emūqān);dual;nom;f
+emūqī,strength of;power of;force of;ability of;armed forces of;value of,n,bf(emūqīn);dual;gen(emūqā);acc(emūqā);f
+emūqāt,strengths of;powers of;forces of;abilities of;armed forces of;values of,n,bf(emūqātum);pl;nom;gen(emūqāt);acc(emūqāt);f
+eqel,plot of land of;field of;area of;region of,n,bf(eqlum);s;nom;gen(eqel);acc(eqel);m
+eqlēt,plots of land of;fields of;areas of;regions of,n,bf(eqlētum);pl;nom;gen(eqlēt);acc(eqlēt);f
+eṭel,young man of;youth of,n,bf(eṭlum);s;nom;gen(eṭel);acc(eṭel);m
+eṭlūt,young men of;youths of;youth of,n,bf(eṭlūt);pl;nom;gen(eṭlūt);acc(eṭlūt);m
+ẖaliq,escaped one of;missing one of;lost one of,adj,bf(ẖalqum);s;nom;gen(ẖaliq);acc(ẖaliq);m
+ẖalqūt,escaped ones of;missing ones of;lost ones of,adj,bf(ẖalqūtum);pl;nom;gen(ẖalqūt);acc(ẖalqūt);m
+ẖaliqti,escaped one of;missing one of;lost one of,adj,bf(ẖaliqtum);s;nom;gen(ẖaliqti);acc(ẖaliqti);f
+ẖalqāt,escaped ones of;missing ones of;lost ones of,adj,bf(ẖalqātum);pl;nom;gen(ẖalqāt);acc(ẖalqāt);f
+ẖarrān,road of;path of;way of;journey of;military expedition of;military campaign of;caravan of,n,bf(ẖarrānum);s;nom;gen(ẖarrān);acc(ẖarrān);f
+ẖarrānāt,roads of;paths of;ways of;journeys of;military expeditions of;military campaigns of;caravans of,n,bf(ẖarrānātum);pl;nom;gen(ẖarrānāt);acc(ẖarrānāt);f
+ẖurāṣ,gold of,n,bf(ẖurāṣum);s;nom;gen(ẖurāṣ);acc(ẖurāṣ);m
+ilat,goddess of,n,bf(iltum);s;nom;gen(ilat);acc(ilat);f
+ilāt,goddesses of,n,bf(ilātum);pl;nom;gen(ilāt);acc(ilāt);f
+il,god of,n,bf(ilum);s;nom;gen(il);acc(il);m
+ili,god of,n,bf(ilum);s;nom;gen(ili);acc(ili);m
+ilū,gods of,n,bf(ilū);pl;nom;m
+ilī,gods of,n,bf(ilī);pl;gen(ilū);acc(ilū);m
+īn,eye of;spring of,n,bf(īnum);s;nom;gen(īn);acc(īn);f
+īni,eye of;spring of,n,bf(īnum);s;nom;gen(īni);acc(īni);f
+īnā,eyes of,n,bf(īnān);dual;nom;f
+īnī,eyes of,n,bf(īnīn);dual;gen(īnā);acc(īnā);f
+īnāt,eyes of;springs of,n,bf(īnātum);pl;nom;gen(īnāt);acc(īnāt);f
+išid,base of;foundation of;bottom of;administration of,n,bf(išdum);s;nom;gen(išid);acc(išid);m
+išdā,base of;foundation of;bottom of;administration of;buttocks of,n,bf(išdān);dual;nom;f
+išdī,base of;foundation of;bottom of;administration of;buttocks of,n,bf(išdīn);dual;gen(išdā);acc(išdā);f
+išdāt,bases of;foundations of;bottoms of;administrations of,n,bf(išdātum);pl;nom;gen(išdāt);acc(išdāt);f
+kak,weapon of,n,bf(kakkum);s;nom;gen(kak);acc(kak);m
+kakki,weapon of,n,bf(kakkum);s;nom;gen(kakki);acc(kakki);m
+kakkū,weapons of,n,bf(kakkū);pl;nom;m
+kakkī,weapons of,n,bf(kakkī);pl;gen(kakkū);acc(kakkū);m
+kalab,dog of,n,bf(kalbum);s;nom;gen(kalab);acc(kalab);m
+kalbū,dogs of,n,bf(kalbū);pl;nom;m
+kalbī,dogs of,n,bf(kalbī);pl;gen(kalbū);acc(kalbū);m
+kasap,silver of,n,bf(kaspum);s;nom;gen(kasap);acc(kasap);m
+kišād,neck of;throat of;riverbank of,n,bf(kišādum);s;nom;gen(kišād);acc(kišād);m
+kišādāt,necks of;throats of;riverbanks of,n,bf(kišādātum);pl;nom;gen(kišādāt);acc(kišādāt);f
+kussi,chair of;seat of;throne of,n,bf(kussûm);s;nom;gen(kussi);acc(kussi);f
+kussiāt,chairs of;seats of;thrones of,n,bf(kussiātum);pl;nom;gen(kussiāt);acc(kussiāt);f
+libbi,heart of;mind of;thought of;wish of;inside of;center of;midst of,n,bf(libbum);s;nom;gen(libbi);acc(libbi);m
+libbū,hearts of;minds of;thoughts of;wishes of;insides of;centers of;midsts of,n,bf(libbū);pl;nom;m
+libbī,hearts of;minds of;thoughts of;wishes of;insides of;centers of;midsts of,n,bf(libbī);pl;gen(libbū);acc(libbū);m
+mād,much of,adj,bf(mādum);s;nom;gen(mād);acc(mād);m
+mādi,much of,adj,bf(mādum);s;nom;gen(mādi);acc(mādi);m
+mādūt,many of,adj,bf(mādūtum);pl;nom;gen(mādūt);acc(mādūt);m
+mātti,much of,adj,bf(māttum);s;nom;gen(mātti);acc(mātti);f
+mādāt,many of,adj,bf(mādātum);pl;nom;gen(mādāt);acc(mādāt);f
+maqit,fallen one of;collapsed one of;one in ruins of,adj,bf(maqtum);s;nom;gen(maqit);acc(maqit);m
+maqtūt,fallen ones of;collapsed ones of;ones in ruins of,adj,bf(maqtūtum);pl;nom;gen(maqtūt);acc(maqtūt);m
+maqitti,fallen one of;collapsed one of;one in ruins of,adj,bf(maqittum);s;nom;gen(maqitti);acc(maqitti);f
+maqtāt,fallen ones of;collapsed ones of;ones in ruins of,adj,bf(maqtātum);pl;nom;gen(maqtāt);acc(maqtāt);f
+maruṣ,sick one of;ill one of;diseased one of;painful one of;difficult one of,adj,bf(marṣum);s;nom;gen(maruṣ);acc(maruṣ);m
+marṣūt,sick ones of;ill ones of;diseased ones of;painful ones of;difficult ones of,adj,bf(marṣūtum);pl;nom;gen(marṣūt);acc(marṣūt);m
+marušti,sick one of;ill one of;diseased one of;painful one of;difficult one of,adj,bf(maruštum);s;nom;gen(marušti);acc(marušti);f
+marṣāt,sick ones of;ill ones of;diseased ones of;painful ones of;difficult ones of,adj,bf(marṣātum);pl;nom;gen(marṣāt);acc(marṣāt);f
+mārat,daughter of,n,bf(mārtum);s;nom;gen(mārat);acc(mārat);f
+mārāt,daughters of,n,bf(mārātum);pl;nom;gen(mārāt);acc(mārāt);f
+mār,son of,n,bf(mārum);s;nom;gen(mār);acc(mār);m
+māri,son of,n,bf(mārum);s;nom;gen(māri);acc(māri);m
+mārū,sons of,n,bf(mārū);pl;nom;m
+mārī,sons of,n,bf(mārī);pl;gen(mārū);acc(mārū);m
+marušti,difficulty of;hardship of;trouble of;duress of,n,bf(maruštum);s;nom;gen(marušti);acc(marušti);f
+marṣāt,difficulties of;hardships of;troubles of;duress of,n,bf(marṣātum);pl;nom;gen(marṣāt);acc(marṣāt);f
+māt,country of;native land of;land of;open country of,n,bf(mātum);s;nom;gen(māt);acc(māt);f
+māti,country of;native land of;land of;open country of,n,bf(mātum);s;nom;gen(māti);acc(māti);f
+mātāt,countries of;native lands of;lands of;open countries of,n,bf(mātātum);pl;nom;gen(mātāt);acc(mātāt);f
+mû,water of;liquid of,n,bf(mû);pl;nom;m
+mê,water of;liquid of,n,bf(mê);pl;gen(mû);acc(mû);m
+mut,husband of;man of,n,bf(mutum);s;nom;gen(mut);acc(mut);m
+muti,husband of;man of,n,bf(mutum);s;nom;gen(muti);acc(muti);m
+mutū,husbands of;men of,n,bf(mutū);pl;nom;m
+mutī,husbands of;men of,n,bf(mutī);pl;gen(mutū);acc(mutū);m
+nakir,enemy of;foe of,n,bf(nakrum);bf(nakirum);s;nom;gen(nakir);acc(nakir);m
+nakirū,enemies of;foes of,n,bf(nakirū);pl;nom;m
+nakirī,enemies of;foes of,n,bf(nakirī);pl;gen(nakirū);acc(nakirū);m
+nakar,enemy of;foe of,n,bf(nakrum);bf(nakarum);s;nom;gen(nakar);acc(nakar);m
+nakarū,enemies of;foes of,n,bf(nakarū);pl;nom;m
+nakarī,enemies of;foes of,n,bf(nakarī);pl;gen(nakarū);acc(nakarū);m
+nakir,hostile one of;inimical one of;foreign one of,adj,bf(nakrum);bf(nakirum);s;nom;gen(nakir);acc(nakir);m
+nakrūt,hostile ones of;inimical ones of;foreign ones of,adj,bf(nakrūtum);pl;nom;gen(nakrūt);acc(nakrūt);m
+nakirti,hostile one of;inimical one of;foreign one of,adj,bf(nakirtum);s;nom;gen(nakirti);acc(nakirti);f
+nakrāt,hostile ones of;inimical ones of;foreign ones of,adj,bf(nakrātum);pl;nom;gen(nakrāt);acc(nakrāt);f
+nakar,hostile one of;inimical one of;foreign one of,adj,bf(nakrum);bf(nakarum);s;nom;gen(nakar);acc(nakar);m
+nakarti,hostile one of;inimical one of;foreign one of,adj,bf(nakartum);s;nom;gen(nakarti);acc(nakarti);f
+napišti,life of;vigor of;good health of;person of;personnel of;self of;throat of,n,bf(napištum);s;nom;gen(napišti);acc(napišti);f
+napšāt,life of;vigor of;good health of;persons of;personnel of;selves of;throats of,n,bf(napšātum);pl;nom;gen(napšāt);acc(napšāt);f
+narkabti,chariot of,n,bf(narkabtum);s;nom;gen(narkabti);acc(narkabti);f
+narkabāt,chariots of,n,bf(narkabātum);pl;nom;gen(narkabāt);acc(narkabāt);f
+naru,stela of;stele of,n,bf(narûm);s;nom;gen(naru);acc(naru);m
+nari,stela of;stele of,n,bf(narûm);s;nom;gen(nari);acc(nari);m
+nar,stela of;stele of,n,bf(narûm);s;nom;gen(nar);acc(nar);m
+narû,stelae of,n,bf(narû);pl;nom;m
+narî,stelae of,n,bf(narî);pl;gen(narû);acc(narû);m
+narê,stelae of,n,bf(narê);pl;gen(narû);acc(narû);m
+nār,river of;canal of,n,bf(nārum);s;nom;gen(nār);acc(nār);f
+nāri,river of;canal of,n,bf(nārum);s;nom;gen(nāri);acc(nāri);f
+nārāt,rivers of;canals of,n,bf(nārātum);pl;nom;gen(nārāt);acc(nārāt);f
+purussê,legal decision of;case of,n,bf(purussûm);s;nom;gen(purussê);acc(purussê);m
+purussi,legal decision of;case of,n,bf(purussûm);s;nom;gen(purussi);acc(purussi);m
+purussā,legal decision of;case of,n,bf(purussûm);s;nom;gen(purussā);acc(purussā);m
+purussû,legal decisions of;cases of,n,bf(purussû);pl;nom;m
+purussê,legal decisions of;cases of,n,bf(purussê);pl;gen(purussû);acc(purussû);m
+qaqqad,head of;top of;person of;principal amount of,n,bf(qaqqadum);s;nom;gen(qaqqad);acc(qaqqad);m
+qaqqadū,heads of;tops of;persons of;principal amounts of,n,bf(qaqqadū);pl;nom;m
+qaqqadī,heads of;tops of;persons of;principal amounts of,n,bf(qaqqadī);pl;gen(qaqqadū);acc(qaqqadū);m
+qatan,thin one of;narrow one of;fine (textile) of,adj,bf(qatnum);s;nom;gen(qatan);acc(qatan);m
+qatnūt,thin ones of;narrow ones of;fine (textiles) of,adj,bf(qatnūtum);pl;nom;gen(qatnūt);acc(qatnūt);m
+qatatti,thin one of;narrow one of;fine (textile) of,adj,bf(qatattum);s;nom;gen(qatatti);acc(qatatti);f
+qatnāt,thin ones of;narrow ones of;fine (textiles) of,adj,bf(qatnātum);pl;nom;gen(qatnāt);acc(qatnāt);f
+qāt,hand of;care of;charge of;responsibility of,n,bf(qātum);s;nom;gen(qāt);acc(qāt);f
+qāti,hand of;care of;charge of;responsibility of,n,bf(qātum);s;nom;gen(qāti);acc(qāti);f
+qātā,hands of,n,bf(qātān);dual;nom;f
+qātī,hands of,n,bf(qātīn);dual;gen(qātā);acc(qātā);f
+qātāt,guarantee of;security of;pledge of,n,bf(qātātum);pl;nom;gen(qātāt);acc(qātāt);f
+qīšti,gift of;fee of;votive offering of,n,bf(qīštum);s;nom;gen(qīšti);acc(qīšti);f
+qīšāt,gifts of;fees of;votive offerings of,n,bf(qīšātum);pl;nom;gen(qīšāt);acc(qīšāt);f
+rapaš,wide one of;broad one of,adj,bf(rapšum);s;nom;gen(rapaš);acc(rapaš);m
+rapšūt,wide ones of;broad ones of,adj,bf(rapšūtum);pl;nom;gen(rapšūt);acc(rapšūt);m
+rapašti,wide one of;broad one of,adj,bf(rapaštum);s;nom;gen(rapašti);acc(rapašti);f
+rapšāt,wide ones of;broad ones of,adj,bf(rapšātum);pl;nom;gen(rapšāt);acc(rapšāt);f
+rubāt,princess of,n,bf(rubātum);s;nom;gen(rubāt);acc(rubāt);f
+rubât,princesses of,n,bf(rubâtum);pl;nom;gen(rubât);acc(rubât);f
+rubê,prince of;ruler of,n,bf(rubûm);s;nom;gen(rubê);acc(rubê);m
+rubi,prince of;ruler of,n,bf(rubûm);s;nom;gen(rubi);acc(rubi);m
+rubā,prince of;ruler of,n,bf(rubûm);s;nom;gen(rubā);acc(rubā);m
+rubû,princes of;rulers of,n,bf(rubû);pl;nom;m
+rubê,princes of;rulers of,n,bf(rubê);pl;gen(rubû);acc(rubû);m
+ṣabit,seized one of;deposited one of;captive one of;prisoner of,adj,bf(ṣabtum);s;nom;gen(ṣabit);acc(ṣabit);m
+ṣabtūt,seized ones of;deposited ones of;captive ones of;prisoners of,adj,bf(ṣabtūtum);pl;nom;gen(ṣabtūt);acc(ṣabtūt);m
+ṣabitti,seized one of;deposited one of;captive one of;prisoner of,adj,bf(ṣabittum);s;nom;gen(ṣabitti);acc(ṣabitti);f
+ṣabtāt,seized ones of;deposited ones of;captive ones of;prisoners of,adj,bf(ṣabtātum);pl;nom;gen(ṣabtāt);acc(ṣabtāt);f
+ṣāb,gang of;army of;troops of;worker of;soldier of,n,bf(ṣābum);s;nom;gen(ṣāb);acc(ṣāb);m
+ṣābi,gang of;army of;troops of;worker of;soldier of,n,bf(ṣābum);s;nom;gen(ṣābi);acc(ṣābi);m
+ṣābū,gangs of;armies of;troops of;workers of;soldiers of,n,bf(ṣābū);pl;nom;m
+ṣābī,gangs of;armies of;troops of;workers of;soldiers of,n,bf(ṣābī);pl;gen(ṣābū);acc(ṣābū);m
+ṣeẖer,small one of;young one of,adj,bf(ṣeẖrum);s;nom;gen(ṣeẖer);acc(ṣeẖer);m
+ṣeẖrūt,small ones of;young ones of,adj,bf(ṣeẖrūtum);pl;nom;gen(ṣeẖrūt);acc(ṣeẖrūt);m
+ṣeẖerti,small one of;young one of,adj,bf(ṣeẖertum);s;nom;gen(ṣeẖerti);acc(ṣeẖerti);f
+ṣeẖrēt,small ones of;young ones of,adj,bf(ṣeẖrētum);pl;nom;gen(ṣeẖrēt);acc(ṣeẖrēt);f
+ṣibitti,prison of;imprisonment of,n,bf(ṣibittum);s;nom;gen(ṣibitti);acc(ṣibitti);f
+ṣibitāt,prisons of,n,bf(ṣibitātum);pl;nom;gen(ṣibitāt);acc(ṣibitāt);f
+šadi,mountain of;mountain region of,n,bf(šadûm);s;nom;gen(šadi);acc(šadi);m
+šad,mountain of;mountain region of,n,bf(šadûm);s;nom;gen(šad);acc(šad);m
+šadû,mountains of;mountain regions of,n,bf(šadû);pl;nom;m
+šadî,mountains of;mountain regions of,n,bf(šadî);pl;gen(šadû);acc(šadû);m
+šakin,placed one of;lying one of;situated one of;located one of;present one of;established one of;appointed one of;endowed one of;provided one of,adj,bf(šaknum);s;nom;gen(šakin);acc(šakin);m
+šaknūt,placed ones of;lying ones of;situated ones of;located ones of;present ones of;established ones of;appointed ones of;endowed ones of;provided ones of,adj,bf(šaknūtum);pl;nom;gen(šaknūt);acc(šaknūt);m
+šakitti,placed one of;lying one of;situated one of;located one of;present one of;established one of;appointed one of;endowed one of;provided one of,adj,bf(šakittum);s;nom;gen(šakitti);acc(šakitti);f
+šaknāt,placed ones of;lying ones of;situated ones of;located ones of;present ones of;established ones of;appointed ones of;endowed ones of;provided ones of,adj,bf(šaknātum);pl;nom;gen(šaknāt);acc(šaknāt);f
+šaman,oil of;fat of,n,bf(šamnum);s;nom;gen(šaman);acc(šaman);m
+šamnū,oils of;fats of,n,bf(šamnū);pl;nom;m
+šamnī,oils of;fats of,n,bf(šamnī);pl;gen(šamnū);acc(šamnū);m
+šariq,stolen one of,adj,bf(šarqum);s;nom;gen(šariq);acc(šariq);m
+šarqūt,stolen ones of,adj,bf(šarqūtum);pl;nom;gen(šarqūt);acc(šarqūt);m
+šariqti,stolen one of,adj,bf(šariqtum);s;nom;gen(šariqti);acc(šariqti);f
+šarqāt,stolen ones of,adj,bf(šarqātum);pl;nom;gen(šarqāt);acc(šarqāt);f
+šarrāq,thief of,n,bf(šarrāqum);s;nom;gen(šarrāq);acc(šarrāq);m
+šarrāqū,thieves of,n,bf(šarrāqū);pl;nom;m
+šarrāqī,thieves of,n,bf(šarrāqī);pl;gen(šarrāqū);acc(šarrāqū);m
+šarrat,queen of,n,bf(šarratum);s;nom;gen(šarrat);acc(šarrat);f
+šarrāt,queens of,n,bf(šarrātum);pl;nom;gen(šarrāt);acc(šarrāt);f
+šar,king of,n,bf(šarrum);s;nom;gen(šar);acc(šar);m
+šarri,king of,n,bf(šarrum);s;nom;gen(šarri);acc(šarri);m
+šarrū,kings of,n,bf(šarrū);pl;nom;m
+šarrī,kings of,n,bf(šarrī);pl;gen(šarrū);acc(šarrū);m
+šēp,foot of,n,bf(šēpum);s;nom;gen(šēp);acc(šēp);f
+šēpi,foot of,n,bf(šēpum);s;nom;gen(šēpi);acc(šēpi);f
+šēpā,feet of,n,bf(šēpān);dual;nom;f
+šēpī,feet of,n,bf(šēpīn);dual;gen(šēpā);acc(šēpā);f
+šēpāt,feet of,n,bf(šēpātum);pl;nom;gen(šēpāt);acc(šēpāt);f
+šikar,beer of;intoxicating liquid of;alcohol of,n,bf(šikarum);s;nom;gen(šikar);acc(šikar);m
+šikarū,beers of;intoxicating liquids of,n,bf(šikarū);pl;nom;m
+šikarī,beers of;intoxicating liquids of,n,bf(šikarī);pl;gen(šikarū);acc(šikarū);m
+šīpāt,wool of,n,bf(šīpātum);pl;nom;gen(šīpāt);acc(šīpāt);f
+ṭāb,pleasant one of;pleasing one of;sweet one of;fine one of;good one of,adj,bf(ṭābum);s;nom;gen(ṭāb);acc(ṭāb);m
+ṭābi,pleasant one of;pleasing one of;sweet one of;fine one of;good one of,adj,bf(ṭābum);s;nom;gen(ṭābi);acc(ṭābi);m
+ṭābūt,pleasant ones of;pleasing ones of;sweet ones of;fine ones of;good ones of,adj,bf(ṭābūtum);pl;nom;gen(ṭābūt);acc(ṭābūt);m
+ṭābti,pleasant one of;pleasing one of;sweet one of;fine one of;good one of,adj,bf(ṭābtum);s;nom;gen(ṭābti);acc(ṭābti);f
+ṭābāt,pleasant ones of;pleasing ones of;sweet ones of;fine ones of;good ones of,adj,bf(ṭābātum);pl;nom;gen(ṭābāt);acc(ṭābāt);f
+ṭēm,information of;news of;report of;command of;mind of;attitude of;intention of;decision of,n,bf(ṭēmum);s;nom;gen(ṭēm);acc(ṭēm);m
+ṭēmi,information of;news of;report of;command of;mind of;attitude of;intention of;decision of,n,bf(ṭēmum);s;nom;gen(ṭēmi);acc(ṭēmi);m
+ṭēmū,news of;reports of;commands of;minds of;attitudes of;intentions of;decisions of,n,bf(ṭēmū);pl;nom;m
+ṭēmī,news of;reports of;commands of;minds of;attitudes of;intentions of;decisions of,n,bf(ṭēmī);pl;gen(ṭēmū);acc(ṭēmū);m
+ṭuppi,tablet of;document of;letter of,n,bf(ṭuppum);s;nom;gen(ṭuppi);acc(ṭuppi);m
+ṭuppū,tablets of;documents of;letters of,n,bf(ṭuppū);pl;nom;m
+ṭuppī,tablets of;documents of;letters of,n,bf(ṭuppī);pl;gen(ṭuppū);acc(ṭuppū);m
+ṭuppāt,tablets of;documents of;letters of,n,bf(ṭuppātum);pl;nom;gen(ṭuppāt);acc(ṭuppāt);f
+ummi,mother of,n,bf(ummum);s;nom;gen(ummi);acc(ummi);f
+ummāt,mothers of,n,bf(ummātum);pl;nom;gen(ummāt);acc(ummāt);f
+uzun,ear of;wisdom of;understanding of,n,bf(uznum);s;nom;gen(uzun);acc(uzun);f
+uznā,ears of,n,bf(uznān);dual;nom;f
+uznī,ears of,n,bf(uznīn);dual;gen(uznā);acc(uznā);f
+warad,male slave of;manservant of,n,bf(wardum);s;nom;gen(warad);acc(warad);m
+wardū,male slaves of;manservants of,n,bf(wardū);pl;nom;m
+wardī,male slaves of;manservants of,n,bf(wardī);pl;gen(wardū);acc(wardū);m
+aẖāzum,to seize;to hold;to take a wife;to marry;to learn,v,inf;G;1w
+īẖuz,he/she seized;he/she held;he/she took a wife;he/she married;he/she learned,v,pret(aẖāzum);s;m;f
+tāẖuz,you seized;you held;you took a wife;you married;you learned,v,pret(aẖāzum);s;m
+tāẖuzī,you seized;you held;you took a wife;you married;you learned,v,pret(aẖāzum);s;f
+āẖuz,I seized;I held;I took a wife;I married;I learned,v,pret(aẖāzum);s;m;f
+īẖuzū,they seized;they held;they took wives;they married;they learned,v,pret(aẖāzum);pl;m
+īẖuzā,they seized;they held;they took wives;they married;they learned,v,pret(aẖāzum);pl;f
+tāẖuzā,you seized;you held;you took wives;you married;you learned,v,pret(aẖāzum);pl;m;f
+nīẖuz,we seized;we held;we took wives;we married;we learned,v,pret(aẖāzum);pl;m;f
+alākum,to go;to walk;to move;to act,v,inf;G;1w
+illik,he/she went;he/she walked;he/she moved;he/she acted,v,pret(alākum);s;m;f
+tallik,you went;you walked;you moved;you acted,v,pret(alākum);s;m
+tallikī,you went;you walked;you moved;you acted,v,pret(alākum);s;f
+allik,I went;I walked;I moved;I acted,v,pret(alākum);s;m;f
+illikū,they went;they walked;they moved;they acted,v,pret(alākum);pl;m
+illikā,they went;they walked;they moved;they acted,v,pret(alākum);pl;f
+tallikā,you went;you walked;you moved;you acted,v,pret(alākum);pl;m;f
+nillik,we went;we walked;we moved;we acted,v,pret(alākum);pl;m;f
+alākam epēšum,to travel,v,id
+ẖarrānam alākum,to travel;to undertake a military campaign;to do corvee service;to perform corvee service,v,id
+amārum,to see;to look at;to observe;to find;to discover;to experience;to read,v,inf;G;1w
+īmur,he/she saw;he/she looked at;he/she observed;he/she found;he/she discovered;he/she experienced;he/she read,v,pret(amārum);s;m;f
+tāmur,you saw;you looked at;you observed;you found;you discovered;you experienced;you read,v,pret(amārum);s;m
+tāmurī,you saw;you looked at;you observed;you found;you discovered;you experienced;you read,v,pret(amārum);s;f
+āmur,I saw;I looked at;I observed;I found;I discovered;I experienced;I read,v,pret(amārum);s;m;f
+īmurū,they saw;they looked at;they observed;they found;they discovered;they experienced;they read,v,pret(amārum);pl;m
+īmurā,they saw;they looked at;they observed;they found;they discovered;they experienced;they read,v,pret(amārum);pl;f
+tāmurā,you saw;you looked at;you observed;you found;you discovered;you experienced;you read,v,pret(amārum);pl;m;f
+nīmur,we saw;we looked at;we observed;we found;we discovered;we experienced;we read,v,pret(amārum);pl;m;f
+amrum,seen;checked,adj,va(amārum);s;nom;m
+amrim,seen;checked,adj,va(amārum);s;gen(amrum);m
+amram,seen;checked,adj,va(amārum);s;acc(amrum);m
+amrūtum,seen;checked,adj,va(amārum);pl;nom;m
+amrūtim,seen;checked,adj,va(amārum);pl;gen(amrūtum);acc(amrūtum);m
+amirtum,seen;checked,adj,va(amārum);s;nom;f
+amirtim,seen;checked,adj,va(amārum);s;gen(amirtum);f
+amirtam,seen;checked,adj,va(amārum);s;acc(amirtum);f
+amrātum,seen;checked,adj,va(amārum);pl;nom;f
+amrātim,seen;checked,adj,va(amārum);pl;gen(amrātum);acc(amrātum);f
+arākum,to become long;to last long;to be delayed,v,inf;G;1w
+īrik,it became long;it lasted long;he/she was delayed,v,pret(arākum);s;m;f
+tārik,you were delayed,v,pret(arākum);s;m
+tārikī,you were delayed,v,pret(arākum);s;f
+ārik,I was delayed,v,pret(arākum);s;m;f
+īrikū,they became long;they lasted long;they were delayed,v,pret(arākum);pl;m
+īrikā,they became long;they lasted long;they were delayed,v,pret(arākum);pl;f
+tārikā,you were delayed,v,pret(arākum);pl;m;f
+nīrik,we were delayed,v,pret(arākum);pl;m;f
+arkum,long,adj,va(arākum);s;nom;m
+arkim,long,adj,va(arākum);s;gen(arkum);m
+arkam,long,adj,va(arākum);s;acc(arkum);m
+arkūtum,long,adj,va(arākum);pl;nom;m
+arkūtim,long,adj,va(arākum);pl;gen(arkūtum);acc(arkūtum);m
+ariktum,long,adj,va(arākum);s;nom;f
+ariktim,long,adj,va(arākum);s;gen(ariktum);f
+ariktam,long,adj,va(arākum);s;acc(ariktum);f
+arkātum,long,adj,va(arākum);pl;nom;f
+arkātim,long,adj,va(arākum);pl;gen(arkātum);acc(arkātum);f
+epēšum,to do;to do something;to do something to;to act;to be active;to make;to build;to construct;to treat;to treat for,v,inf;G;1w
+īpuš,he/she did;he/she did something;he/she did something to;he/she acted;he/she was active;he/she made;he/she built;he/she constructed;he/she treated;he/she treated for,v,pret(epēšum);s;m;f
+tēpuš,you did;you did something;you did something to;you acted;you were active;you made;you built;you constructed;you treated;you treated for,v,pret(epēšum);s;m
+tēpušī,you did;you did something;you did something to;you acted;you were active;you made;you built;you constructed;you treated;you treated for,v,pret(epēšum);s;f
+ēpuš,I did;I did something;I did something to;I acted;I was active;I made;I built;I constructed;I treated;I treated for,v,pret(epēšum);s;m;f
+īpušū,they did;they did something;they did something to;they acted;they were active;they made;they built;they constructed;they treated;they treated for,v,pret(epēšum);pl;m
+īpušā,they did;they did something;they did something to;they acted;they were active;they made;they built;they constructed;they treated;they treated for,v,pret(epēšum);pl;f
+tēpušā,you did;you did something;you did something to;you acted;you were active;you made;you built;you constructed;you treated;you treated for,v,pret(epēšum);pl;m;f
+nīpuš,we did;we did something;we did something to;we acted;we were active;we made;we built;we constructed;we treated;we treated for,v,pret(epēšum);pl;m;f
+kakkī epēšum,to fight;to do battle;to make war,v,id
+epšum,built;cultivated;worked,adj,va(epēšum);s;nom;m
+epšim,built;cultivated;worked,adj,va(epēšum);s;gen(epšum);m
+epšam,built;cultivated;worked,adj,va(epēšum);s;acc(epšum);m
+epšūtum,built;cultivated;worked,adj,va(epēšum);pl;nom;m
+epšūtim,built;cultivated;worked,adj,va(epēšum);pl;gen(epšūtum);acc(epšūtum);m
+epištum,built;cultivated;worked,adj,va(epēšum);s;nom;f
+epištim,built;cultivated;worked,adj,va(epēšum);s;gen(epištum);f
+epištam,built;cultivated;worked,adj,va(epēšum);s;acc(epištum);f
+epšētum,built;cultivated;worked,adj,va(epēšum);pl;nom;f
+epšētim,built;cultivated;worked,adj,va(epēšum);pl;gen(epšētum);acc(epšētum);f
+epištum,work;construction;act;activity;achievement,n,subst(epištum);s;nom;f
+epištim,work;construction;act;activity;achievement,n,s;gen(epištum);f
+epištam,work;construction;act;activity;achievement,n,s;acc(epištum);f
+epšētum,work;construction;acts;activities;achievements,n,pl;nom;f
+epšētim,work;construction;acts;activities;achievements,n,pl;gen(epšētum);acc(epšētum);f
+epišti,work of;construction of;act of;activity of;achievement of,n,bf(epištum);s;nom;gen(epišti);acc(epišti);f
+epšēt,work of;construction of;acts of;activities of;achievements of,n,bf(epšētum);pl;nom;gen(epšēt);acc(epšēt);f
+epšēt qātim,handiwork,n,id
+eqel epšētim,a field worked;a field prepared;a field worked for something;a field prepared for something,n,id
+erēbum,to enter;to arrive;to invade,v,inf;G;1w
+īrub,he/she entered;he/she arrived;he/she invaded,v,pret(erēbum);s;m;f
+tērub,you entered;you arrived;you invaded,v,pret(erēbum);s;m
+tērubī,you entered;you arrived;you invaded,v,pret(erēbum);s;f
+ērub,I entered;I arrived;I invaded,v,pret(erēbum);s;m;f
+īrubū,they entered;they arrived;they invaded,v,pret(erēbum);pl;m
+īrubā,they entered;they arrived;they invaded,v,pret(erēbum);pl;f
+tērubā,you entered;you arrived;you invaded,v,pret(erēbum);pl;m;f
+nīrub,we entered;we arrived;we invaded,v,pret(erēbum);pl;m;f
+ešērum,to become straight;to move straight toward;to charge;to prosper,v,inf;G;1w
+īšir,he/she became straight;he/she moved straight toward;he/she charged;he/she prospered,v,pret(ešērum);s;m;f
+tēšir,you became straight;you moved straight toward;you charged;you prospered,v,pret(ešērum);s;m
+tēširī,you became straight;you moved straight toward;you charged;you prospered,v,pret(ešērum);s;f
+ēšir,I became straight;I moved straight toward;I charged;I prospered,v,pret(ešērum);s;m;f
+īširū,they became straight;they moved straight toward;they charged;they prospered,v,pret(ešērum);pl;m
+īširā,they became straight;they moved straight toward;they charged;they prospered,v,pret(ešērum);pl;f
+tēširā,you became straight;you moved straight toward;you charged;you prospered,v,pret(ešērum);pl;m;f
+nīšir,we became straight;we moved straight toward;we charged;we prospered,v,pret(ešērum);pl;m;f
+išarum,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);s;nom;m
+išarim,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);s;gen(išarum);m
+išaram,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);s;acc(išarum);m
+išarūtum,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);pl;nom;m
+išarūtim,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);pl;gen(išarūtum);acc(išarūtum);m
+išartum,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);s;nom;f
+išartim,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);s;gen(išarum);f
+išartam,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);s;acc(išarum);f
+išarātum,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);pl;nom;f
+išarātim,regular;normal;correct;fair;just;in good condition;prosperous,adj,va(ešērum);pl;gen(išarātum);acc(išarātum);f
+ezēbum,to leave;to leave behind;to abandon;to neglect;to leave something;to entrust;to divorce;to make out (a legal document),v,inf;G;1w
+īzib,he/she left;he/she left behind;he/she abandoned;he/she neglected;he/she left something;he/she entrusted;he/she divorced;he/she made out (a legal document),v,pret(ezēbum);s;m;f
+tēzib,you left;you left behind;you abandoned;you neglected;you left something;you entrusted;you divorced;you made out (a legal document),v,pret(ezēbum);s;m
+tēzibī,you left;you left behind;you abandoned;you neglected;you left something;you entrusted;you divorced;you made out (a legal document),v,pret(ezēbum);s;f
+ēzib,I left;I left behind;I abandoned;I neglected;I left something;I entrusted;I divorced;I made out (a legal document),v,pret(ezēbum);s;m;f
+īzibū,they left;they left behind;they abandoned;they neglected;they left something;they entrusted;they divorced;they made out (a legal document),v,pret(ezēbum);pl;m
+īzibā,they left;they left behind;they abandoned;they neglected;they left something;they entrusted;they divorced;they made out (a legal document),v,pret(ezēbum);pl;f
+tēzibā,you left;you left behind;you abandoned;you neglected;you left something;you entrusted;you divorced;you made out (a legal document),v,pret(ezēbum);pl;m;f
+nīzib,we left;we left behind;we abandoned;we neglected;we left something;we entrusted;we divorced;we made out (a legal document),v,pret(ezēbum);pl;m;f
+akalum,bread;food,n,s;nom;m
+akalim,bread;food,n,s;gen(akalum);m
+akalam,bread;food,n,s;acc(akalum);m
+akalū,bread;food,n,pl;nom;m
+akalī,bread;food,n,pl;gen(akalū);acc(akalū);m
+aklum,bread;food,n,s;nom;m
+aklim,bread;food,n,s;gen(aklum);m
+aklam,bread;food,n,s;acc(aklum);m
+aklū,bread;food,n,pl;nom;m
+aklī,bread;food,n,pl;gen(aklū);acc(aklū);m
+akal,bread of;food of,n,bf(akalum);bf(aklum);s;nom;gen(akal);acc(akal);m
+akalū,bread of;food of,n,bf(akalū);pl;nom;m
+akalī,bread of;food of,n,bf(akalī);pl;gen(akalū);acc(akalū);m
+aklū,bread of;food of,n,bf(aklū);pl;nom;m
+aklī,bread of;food of,n,bf(aklī);pl;gen(aklū);acc(aklū);m
+awātum,word;message;command;matter;affair;thing,n,s;nom;f
+awātim,word;message;command;matter;affair;thing,n,s;gen(awātum);f
+awātam,word;message;command;matter;affair;thing,n,s;acc(awātum);f
+awâtum,words;messages;commands;matters;affairs;things,n,pl;nom;f
+awâtim,words;messages;commands;matters;affairs;things,n,pl;gen(awâtum);acc(awâtum);f
+awāt,word of;message of;command of;matter of;affair of;thing of,n,bf(awātum);s;nom;gen(awāt);acc(awāt);f
+awât,words of;messages of;commands of;matters pf;affairs of;things of,n,bf(awâtum);pl;nom;gen(awât);acc(awât);f
+awātam amārum,to investigate;to look into a matter;to look into a case;to look into a situation,v,id
+awâtim amārum,to investigate;to look into a matter;to look into a case;to look into a situation,v,id
+dīnum,legal decision;verdict;legal case;lawsuit,n,s;nom;m
+dīnim,legal decision;verdict;legal case;lawsuit,n,s;gen(dīnum);m
+dīnam,legal decision;verdict;legal case;lawsuit,n,s;acc(dīnum);m
+dīnātum,legal decisions;verdicts;legal cases;lawsuits,n,pl;nom;f
+dīnātim,legal decisions;verdicts;legal cases;lawsuits,n,pl;gen(dīnātum);acc(dīnātum);f
+dīn,legal decision of;verdict of;legal case of;lawsuit of,n,bf(dīnum);s;nom;gen(dīn);acc(dīn);m
+dīni,legal decision of;verdict of;legal case of;lawsuit of,n,bf(dīnum);s;nom;gen(dīni);acc(dīni);m
+dīnāt,legal decisions of;verdicts of;legal cases of;lawsuits of,n,bf(dīnātum);pl;nom;gen(dīnāt);acc(dīnāt);f
+puẖrum,gathering;assembly;council meeting;totality,n,s;nom;m
+puẖrim,gathering;assembly;council meeting;totality,n,s;gen(puẖrum);m
+puẖram,gathering;assembly;council meeting;totality,n,s;acc(puẖrum);m
+puẖrātum,gatherings;assemblies;council meetings;totalities,n,pl;nom;f
+puẖrātim,gatherings;assemblies;council meetings;totalities,n,pl;gen(puẖrātum);acc(puẖrātum);f
+puẖur,gathering of;assembly of;council meeting of;totality of,n,bf(puẖrum);s;nom;gen(puẖur);acc(puẖur);m
+puẖrāt,gatherings of;assemblies of;council meetings of;totalities of,n,bf(puẖrāt);pl;nom;gen(puẖrāt);acc(puẖrāt);f
+qarrādum,warrior;hero,n,s;nom;m
+qarrādim,warrior;hero,n,s;gen(qarrādum);m
+qarrādam,warrior;hero,n,s;acc(qarrādum);m
+qarrādū,warriors;heroes,n,pl;nom;m
+qarrādī,warriors;heroes,n,pl;gen(qarrādū);acc(qarrādū);m
+qarrād,warrior of;hero of,n,bf(qarrādum);s;nom;gen(qarrād);acc(qarrād);m
+qarrādū,warriors of;heroes of,n,bf(qarrādū);s;nom;m
+qarrādī,warriors of;heroes of,n,bf(qarrādī);s;gen(qarrādū);acc(qarrādū);m
+šumum,name;fame;reputation;line (of a tablet);meaning,n,s;nom;m
+šumim,name;fame;reputation;line (of a tablet);meaning,n,s;gen(šumum);m
+šumam,name;fame;reputation;line (of a tablet);meaning,n,s;acc(šumum);m
+šumū,names;fame;reputations;lines (of a tablet);meanings,n,pl;nom;m
+šumī,names;fame;reputations;lines (of a tablet);meanings,n,pl;gen(šumū);acc(šumū);m
+šumātum,names;fame;reputations;lines (of a tablet);meanings,n,pl;nom;f
+šumātim,names;fame;reputations;lines (of a tablet);meanings,n,pl;gen(šumātum);acc(šumātum);f
+šum,name of;fame of;reputation of;line (of a tablet) of;meaning of,n,bf(šumum);s;nom;gen(šum);acc(šum);m
+šumi,name of;fame of;reputation of;line (of a tablet) of;meaning of,n,bf(šumum);s;nom;gen(šumi);acc(šumi);m
+šumū,names of;fame of;reputations of;lines (of a tablet) of;meanings of,n,bf(šumū);pl;nom;m
+šumī,names of;fame of;reputations of;lines (of a tablet) of;meanings of,n,bf(šumī);pl;gen(šumū);acc(šumū);m
+šumāt,names of;fame of;reputations of;lines (of a tablet) of;meanings of,n,bf(šumātum);pl;nom;gen(šumāt);acc(šumāt);f
+ūmum,day;daytime,n,s;nom;m
+ūmim,day;daytime,n,s;gen(ūmum);m
+ūmam,day;daytime,n,s;acc(ūmum);m
+ūmū,days,n,pl;nom;m
+ūmī,days,n,pl;gen(ūmū);acc(ūmū);m
+ūmātum,days,n,pl;nom;f
+ūmātim,days,n,pl;gen(ūmātum);acc(ūmātum);f
+ūm,day of;daytime of,n,bf(ūmum);s;nom;gen(ūm);acc(ūm);m
+ūmi,day of;daytime of,n,bf(ūmum);s;nom;gen(ūmi);acc(ūmi);m
+ūmū,days of,n,bf(ūmū);pl;nom;m
+ūmī,days of,n,bf(ūmī);pl;gen(ūmū);acc(ūmū);m
+ūmāt,days of,n,bf(ūmātum);pl;nom;gen(ūmāt);acc(ūmāt);f

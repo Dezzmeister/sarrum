@@ -65,3 +65,7 @@ buck-out/
 
 store_passwd.txt
 key_passwd.txt
+
+# vim
+*.swp
+*.swo

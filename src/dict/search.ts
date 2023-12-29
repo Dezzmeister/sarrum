@@ -43,8 +43,6 @@ export function levSearch(dict: Dictionary, query: string, limit: number, cutoff
 		results.splice(limit, results.length - limit);
 	}
 
-	console.log(results);
-
 	return results.map(r => r[1]);
 }
 

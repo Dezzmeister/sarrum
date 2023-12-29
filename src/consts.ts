@@ -1,10 +1,9 @@
 export const Consts = {
-	dictUrl: "https://obama69.com/sarrum/dict",
-	dictVersionUrl: "https://obama69.com/sarrum/version",
+	dictUrl: "http://10.0.0.115:3000/sarrum/dict",
+	dictVersionUrl: "http://10.0.0.115:3000/sarrum/version",
 	cacheKeys: {
 		dict: "@dict",
 		version: "@version",
-		lines: "@lines",
-		maxLines: "@max_lines",
+        sections: "@sections",
 	},
-};
+} as const;

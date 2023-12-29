@@ -1,6 +1,6 @@
 import {arrCmp} from "../util";
 import {basicSearch, englSearch, levSearch} from "./search";
-import {getDictText, getMaxLines, setMaxLines} from "../cache";
+import {getDictText, getSections, setSections} from "../cache";
 
 type StrMap = {
 	[key: string]: string;
@@ -84,6 +84,16 @@ export const RELATION_NAMES: {
 	HasDative: "Dative",
 };
 
+// If a line in the dictionary does not start with one of these chars, it will
+// be ignored. This allows me to add new features to the dictionary file format without breaking
+// parsing for old versions of the app.
+const WHITELISTED_ROW_LEADERS = [
+    "a", "b", "d", "e", "g", "i", "k", "l",
+    "m", "n", "p", "q", "r", "s", "t", "u", "w",
+    "y", "z", "š", "ṣ", "ṭ", "ẖ", "ā", "â", "ē",
+    "ê", "ī", "î", "ū", "û", "§"
+];
+
 export class WordRelation {
 	readonly kind: WordRelationKind;
 	readonly word: string;
@@ -106,17 +116,23 @@ export class DictEntry {
 	readonly wordAttrs: WordAttr[];
 	readonly defns: string[];
 	readonly grammarKind: GrammarKind;
+    readonly sectionNum: number;
 	relations: WordRelation[];
 
-	constructor(wordAttrs: WordAttr[], defns: string[], grammarKind: GrammarKind, relations: WordRelation[] = []) {
+	constructor(wordAttrs: WordAttr[], defns: string[], grammarKind: GrammarKind, sectionNum: number, relations: WordRelation[] = []) {
 		this.wordAttrs = wordAttrs;
 		this.defns = defns;
 		this.grammarKind = grammarKind;
+        this.sectionNum = sectionNum;
 		this.relations = relations;
 
 		this.wordAttrs.sort();
 		this.relations.sort(WordRelation.cmp);
 	}
+
+    copy(): DictEntry {
+        return new DictEntry(this.wordAttrs, this.defns, this.grammarKind, this.sectionNum, [...this.relations]);
+    }
 
 	addRelation(rel: WordRelation): void {
 		for (const relation of this.relations) {
@@ -158,12 +174,19 @@ export class DictEntry {
 		const defns = dedup([...this.defns, ...other.defns], (t, v) => t.localeCompare(v));
 		const rels = dedup([...this.relations, ...other.relations], WordRelation.cmp, WordRelation.equ);
 
-		return new DictEntry(this.wordAttrs, defns, this.grammarKind, rels);
+		return new DictEntry(this.wordAttrs, defns, this.grammarKind, this.sectionNum, rels);
 	}
 }
 
 type DictEntries = {
 	[key: string]: DictEntry[];
+};
+
+// Section metadata
+export type Section = {
+    num: number;
+    name: string;
+    size: number;
 };
 
 export class Dictionary {
@@ -172,7 +195,7 @@ export class Dictionary {
 	readonly englKeys: string[];
 	readonly akkKeys: string[];
 	readonly totalLines: number;
-	readonly maxLines: number;
+    readonly sections: Section[];
 
 	private constructor(
 		englToAkk: DictEntries,
@@ -180,14 +203,14 @@ export class Dictionary {
 		englKeys: string[],
 		akkKeys: string[],
 		totalLines: number,
-		maxLines: number,
+        sections: Section[],
 	) {
 		this.englToAkk = englToAkk;
 		this.akkToEngl = akkToEngl;
 		this.englKeys = englKeys;
 		this.akkKeys = akkKeys;
 		this.totalLines = totalLines;
-		this.maxLines = maxLines;
+        this.sections = sections;
 	}
 
 	getDefn(word: string, engl: boolean): DictEntry[] {
@@ -221,12 +244,61 @@ export class Dictionary {
 		return [word, entry];
 	}
 
+    /**
+     * Creates a dictionary with only the specified sections. If `sections` is undefined, all
+     * sections are included.
+     */
+    withSections(sections?: number[]): Dictionary {
+        if (!sections || arrEq(sections, this.sections.map(s => s.num))) {
+            return this;
+        }
+
+        const newEnglKeys: string[] = [];
+        const newAkkKeys: string[] = [];
+        const newEnglToAkk: DictEntries = {};
+        const newAkkToEngl: DictEntries = {};
+
+        for (const akkWord of this.akkKeys) {
+            const defns = this.akkToEngl[akkWord];
+            const newDefns: DictEntry[] = [];
+
+            for (const defn of defns) {
+                if (sections.includes(defn.sectionNum)) {
+                    newDefns.push(defn.copy());
+                }
+            }
+
+            if (newDefns.length) {
+                newAkkKeys.push(akkWord);
+                newAkkToEngl[akkWord] = newDefns;
+            }
+        }
+
+        for (const englWord of this.englKeys) {
+            const defns = this.englToAkk[englWord];
+            const newDefns: DictEntry[] = [];
+
+            for (const defn of defns) {
+                if (sections.includes(defn.sectionNum)) {
+                    newDefns.push(defn.copy());
+                }
+            }
+
+            if (newDefns.length) {
+                newEnglKeys.push(englWord);
+                newEnglToAkk[englWord] = newDefns;
+            }
+        }
+
+        const newSections = this.sections.filter(s => sections.includes(s.num));
+
+        return new Dictionary(newEnglToAkk, newAkkToEngl, newEnglKeys, newAkkKeys, this.totalLines, newSections);
+    }
+
 	/**
-	 * Creates a dictionary from the dictionary URL or the cache. `lines` is the number of
-	 * lines in the original dictionary file to keep, or -1 (default) to keep them all.
-	 * This corresponds to the number of words that will exist in the dictionary object.
+	 * Creates a dictionary from the dictionary URL or the cache.
 	 */
-	static async create(lines = -1): Promise<Dictionary | undefined> {
+	static async create(): Promise<Dictionary | undefined> {
 		const rawDictText = await getDictText();
 
 		if (rawDictText === undefined) {
@@ -244,24 +316,57 @@ export class Dictionary {
 		const akkToEngl: DictEntries = {};
 		const englKeys: string[] = [];
 		const akkKeys: string[] = [];
+        const sections: Section[] = [];
 
 		let lineNum = 1;
+        // Default section. Any definitions that are not in a named section will be in
+        // the default section.
+        let currentSectionNum = 0;
 
 		const totalLines = rows.length;
-		const knownMaxLines = await getMaxLines();
-		let maxLines = knownMaxLines;
 
-		if (knownMaxLines < totalLines) {
-			await setMaxLines(totalLines);
-			maxLines = totalLines;
-		}
+		for (let row of rows) {
+            row = row.trim();
 
-		for (const row of rows) {
-			if (lines !== -1 && lineNum - 1 >= lines) {
-				break;
-			}
+            if (!row.length) {
+                lineNum++;
+                continue;
+            }
 
-			const fields = row.trim().split(",");
+            if (!WHITELISTED_ROW_LEADERS.includes(row[0])) {
+                console.log(`Unprocessable line (${lineNum}): ${row}`);
+                lineNum++;
+                continue;
+            }
+
+            if (row.startsWith("§")) {
+                const parts = row.match(/^§(\d+)\s+(.+)$/);
+
+                if (!parts || !parts[1] || !parts[2]) {
+                    console.log(`Invalid section header: line ${lineNum}`);
+                    return undefined;
+                }
+
+                const sectionNum = Number(parts[1]);
+                const sectionName = parts[2];
+
+                if (!sectionName || Number.isNaN(sectionNum)) {
+                    console.log(`Invalid section header: line ${lineNum}`);
+                    return undefined;
+                }
+
+                currentSectionNum = sectionNum;
+                sections.push({
+                    num: sectionNum,
+                    name: sectionName,
+                    size: 0,
+                });
+
+                lineNum++;
+                continue;
+            }
+
+			const fields = row.split(",");
 
 			if (fields.length < 3 || fields.length > 4) {
 				console.log(`Less than 3 or more than 4 fields: line ${lineNum}`);
@@ -291,11 +396,15 @@ export class Dictionary {
 				unresolvedRels.push([akkWord, grammarKind, attrs[1]]);
 			}
 
-			const akkEntry = new DictEntry(attrs[0], defns, grammarKind, attrs[1]);
+			const akkEntry = new DictEntry(attrs[0], defns, grammarKind, currentSectionNum, attrs[1]);
 			Dictionary.insertDefn(akkToEngl, akkKeys, akkWord, akkEntry);
 
+            if (sections.length) {
+                sections[sections.length - 1].size++;
+            }
+
 			for (const engl of defns) {
-				const englEntry = new DictEntry(attrs[0], [akkWord], grammarKind, attrs[1]);
+				const englEntry = new DictEntry(attrs[0], [akkWord], grammarKind, currentSectionNum, attrs[1]);
 				Dictionary.insertDefn(englToAkk, englKeys, engl, englEntry);
 			}
 
@@ -310,10 +419,18 @@ export class Dictionary {
 		englKeys.sort();
 
 		console.log(
-			`Read ${lineNum - 1} lines, ${akkKeys.length} Akkadian entries, and ${englKeys.length} English entries`,
+			`Read ${lineNum - 1} lines, ${sections.length} sections, ${akkKeys.length} Akkadian entries, and ${englKeys.length} English entries`,
 		);
+ 
+        if (!sections.length) {
+            sections.push({
+                num: 0,
+                name: "Akkadian-English Dictionary",
+                size: lineNum - 1,
+            });
+        }
 
-		return new Dictionary(englToAkk, akkToEngl, englKeys, akkKeys, lines === -1 ? rows.length : lines, maxLines);
+		return new Dictionary(englToAkk, akkToEngl, englKeys, akkKeys, lineNum - 1, sections);
 	}
 
 	static insertDefn(dict: DictEntries, keys: string[], word: string, entry: DictEntry): void {
@@ -447,6 +564,25 @@ export class Dictionary {
 	}
 }
 
+function arrEq<T>(xs: T[], ys: T[]): boolean {
+    if (xs.length !== ys.length) {
+        return false;
+    }
+
+    const sortedXs = [...xs];
+    const sortedYs = [...ys];
+    sortedXs.sort();
+    sortedYs.sort();
+
+    for (let i = 0; i < xs.length; i++) {
+        if (sortedXs[i] !== sortedYs[i]) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
 /**
  * Checks if all items in 'test' are also in 'ts'. Both arrays must be sorted!
  */
@@ -491,7 +627,7 @@ function parseWordAttrs(str: string): [WordAttr[], WordRelation[]] | undefined {
 
 		if (lpos === -1) {
 			if (!isValOf(WordAttrs, token)) {
-				console.log(`Not a word attr: ${token}${token}${token}}`);
+				console.log(`Not a word attr: ${token}`);
 				return undefined;
 			}
 

@@ -7,40 +7,22 @@ export type DictText = {
 	version: number | null;
 };
 
-export async function getMaxLines(): Promise<number> {
-	const maxLines = await AsyncStorage.getItem(Consts.cacheKeys.maxLines)
-		.then(v => (v !== null ? Number(v) : null))
-		.catch(_ => null);
+export async function getSections(): Promise<number[] | undefined> {
+    return AsyncStorage.getItem(Consts.cacheKeys.sections)
+        .then(v => {
+            if (!v) {
+                return undefined;
+            }
 
-	if (maxLines === null) {
-		return -1;
-	}
-
-	console.log(`Loaded max lines from cache: ${maxLines} lines`);
-
-	return maxLines;
+            return v.split(",").map(s => Number(s)).filter(n => !Number.isNaN(n));
+        })
+        .catch(_ => undefined);
 }
 
-export async function setMaxLines(maxLines: number): Promise<void> {
-	await AsyncStorage.setItem(Consts.cacheKeys.maxLines, `${maxLines}`);
-}
-
-export async function getLines(): Promise<number> {
-	const lines = await AsyncStorage.getItem(Consts.cacheKeys.lines)
-		.then(v => (v !== null ? Number(v) : null))
-		.catch(_ => null);
-
-	if (lines === null) {
-		return -1;
-	}
-
-	console.log(`Loaded lines from cache: ${lines} lines`);
-
-	return lines;
-}
-
-export async function setLines(lines: number): Promise<void> {
-	await AsyncStorage.setItem(Consts.cacheKeys.lines, `${lines}`);
+export async function setSections(sections?: number[]): Promise<void> {
+    if (sections) {
+        await AsyncStorage.setItem(Consts.cacheKeys.sections, sections.join(","));
+    }
 }
 
 export async function getDictText(): Promise<DictText | undefined> {
@@ -51,14 +33,20 @@ export async function getDictText(): Promise<DictText | undefined> {
 	const version: number | null = await fetch(Consts.dictVersionUrl)
 		.then(res => res.json())
 		.then(data => data.version)
-		.catch(_ => null);
+		.catch(err => { 
+            console.log(`Error fetching dictionary version: ${err}`);
+            return null;
+        });
 
 	// There is a newer dictionary - update local copy
 	if (cachedVersion === null || (version !== null && cachedVersion !== version)) {
 		// Query for dict
 		const rawText = await fetch(Consts.dictUrl)
 			.then(res => res.text())
-			.catch(_ => null);
+            .catch(err => {
+                console.log(`Error fetching new dictionary: ${err}`);
+                return null;
+            });
 
 		if (rawText === null) {
 			const cachedText = await AsyncStorage.getItem(Consts.cacheKeys.dict).catch(_ => null);
@@ -99,7 +87,10 @@ export async function getDictText(): Promise<DictText | undefined> {
 	// Try URL as a last resort
 	const rawText = await fetch(Consts.dictUrl)
 		.then(res => res.text())
-		.catch(_ => null);
+		.catch(err => { 
+            console.log(`Error fetching dictionary: ${err}`); 
+            return null; 
+        });
 
 	if (rawText !== null) {
 		await AsyncStorage.setItem(Consts.cacheKeys.version, `${version}`);
