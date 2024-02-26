@@ -1059,7 +1059,7 @@ narâm,stela;stele,n,s;acc(narûm);m
 narû,stelae,n,pl;nom;m
 narî,stelae,n,pl;gen(narû);acc(narû);m
 narê,stelae,n,pl;gen(narû);acc(narû);m
-qīštum,gift;fee;votive offering,n,s;nom;f
+qīštum,gift;fee;votive offering,n,subst(qīštum);s;nom;f
 qīštim,gift;fee;votive offering,n,s;gen(qīštum);f
 qīštam,gift;fee;votive offering,n,s;acc(qīštum);f
 qīšātum,gifts;fees;votive offerings,n,pl;nom;f
@@ -1531,3 +1531,184 @@ qarrādī,warriors of;heroes of,n,bf(qarrādī);s;gen(qarrādū);acc(qarrādū);
 ūmū,days of,n,bf(ūmū);pl;nom;m
 ūmī,days of,n,bf(ūmī);pl;gen(ūmū);acc(ūmū);m
 ūmāt,days of,n,bf(ūmātum);pl;nom;gen(ūmāt);acc(ūmāt);f
+
+§9 Lesson 9: G Verbs II-weak
+agārum,to hire;to rent,v,G;inf;1w
+īgur,he/she hired;he/she rented,v,pret(agārum);s;m;f
+tāgur,you hired;you rented,v,pret(agārum);s;m
+tāgurī,you hired;you rented,v,pret(agārum);s;f
+āgur,I hired;I rented,v,pret(agārum);s;m;f
+īgurū,they hired;they rented,v,pret(agārum);pl;m
+īgurā,they hired;they rented,v,pret(agārum);pl;f
+tāgurā,you hired;you rented,v,pret(agārum);pl;m;f
+nīgur,we hired;we rented,v,pret(agārum);pl;m;f
+agrum,hired;rented,adj,va(agārum);base(agir);s;nom;m
+agrim,hired;rented,adj,va(agārum);s;gen(agrum);m
+agram,hired;rented,adj,va(agārum);s;acc(agrum);m
+agrūtum,hired;rented,adj,va(agārum);pl;nom;m
+agrūtim,hired;rented,adj,va(agārum);pl;gen(agrūtum);acc(agrūtum);m
+agirtum,hired;rented,adj,va(agārum);base(agir);s;nom;f
+agirtim,hired;rented,adj,va(agārum);s;gen(agirtum);f
+agirtam,hired;rented,adj,va(agārum);s;acc(agirtum);f
+agrātum,hired;rented,adj,va(agārum);pl;nom;f
+agrātim,hired;rented,adj,va(agārum);pl;gen(agrātum);acc(agrātum);f
+agrum,hireling,n,subst(agrum);s;nom;m
+agrim,hireling,n,s;gen(agrum);m
+agram,hireling,n,s;acc(agrum);m
+agrū,hirelings,n,pl;nom;m
+agrī,hirelings,n,pl;gen(agrū);acc(agrū);m
+enēšum,to be weak;to be impoverished;to become weak;to become impoverished,v,G;inf;1w
+īniš,he/she was weak;he/she was impoverished;he/she became weak;he/she became impoverished,v,pret(enēšum);s;m;f
+tēniš,you were weak;you were impoverished;you became weak;you became impoverished,v,pret(enēšum);s;m
+tēnišī,you were weak;you were impoverished;you became weak;you became impoverished,v,pret(enēšum);s;f
+ēniš,I was weak;I was impoverished;I became weak;I became impoverished,v,pret(enēšum);s;m;f
+īnišū,they were weak;they were impoverished;they became weak;they became impoverished,v,pret(enēšum);pl;m
+īnišā,they were weak;they were impoverished;they became weak;they became impoverished,v,pret(enēšum);pl;f
+tēnišā,you were weak;you were impoverished;you became weak;you became impoverished,v,pret(enēšum);pl;m;f
+nīniš,we were weak;we were impoverished;we became weak;we became impoverished,v,pret(enēšum);pl;m;f
+enšum,weak;powerless,adj,va(enēšum);base(eniš);s;nom;m
+enšim,weak;powerless,adj,va(enēšum);s;gen(enšum);m
+enšam,weak;powerless,adj,va(enēšum);s;acc(enšum);m
+enšūtum,weak;powerless,adj,va(enēšum);pl;nom;m
+enšūtim,weak;powerless,adj,va(enēšum);pl;gen(enšūtum);acc(enšūtum);m
+eništum,weak;powerless,adj,va(enēšum);base(eniš);s;nom;f
+eništim,weak;powerless,adj,va(enēšum);s;gen(eništum);f
+eništam,weak;powerless,adj,va(enēšum);s;acc(eništum);f
+enšētum,weak;powerless,adj,va(enēšum);pl;nom;f
+enšētim,weak;powerless,adj,va(enēšum);pl;gen(enšētum);acc(enšētum);f
+kânum,to be true;to be just;to be honest;to be correct;to become true;to become just;to become honest;to become correct;to be firm;to be fixed;to be secure;to become firm;to become fixed;to become secure;to endure;to last,v,G;inf;2w
+ikūn,he/she was true;he/she was just;he/she was honest;he/she was correct;he/she became true;he/she became just;he/she became honest;he/she became correct;he/she was firm;he/she was fixed;he/she was secure;he/she became firm;he/she became fixed;he/she became secure;he/she endured;he/she lasted,v,pret(kânum);s;m;f
+takūn,you were true;you were just;you were honest;you were correct;you became true;you became just;you became honest;you became correct;you were firm;you were fixed;you were secure;you became firm;you became fixed;you became secure;you endured;you lasted,v,pret(kânum);s;m
+takūnī,you were true;you were just;you were honest;you were correct;you became true;you became just;you became honest;you became correct;you were firm;you were fixed;you were secure;you became firm;you became fixed;you became secure;you endured;you lasted,v,pret(kânum);s;f
+akūn,I was true;I was just;I was honest;I was correct;I became true;I became just;I became honest;I became correct;I was firm;I was fixed;I was secure;I became firm;I became fixed;I became secure;I endured;I lasted,v,pret(kânum);s;m;f
+ikūnū,they were true;they were just;they were honest;they were correct;they became true;they became just;they became honest;they became correct;they were firm;they were fixed;they were secure;they became firm;they became fixed;they became secure;they endured;they lasted,v,pret(kânum);pl;m
+ikūnā,they were true;they were just;they were honest;they were correct;they became true;they became just;they became honest;they became correct;they were firm;they were fixed;they were secure;they became firm;they became fixed;they became secure;they endured;they lasted,v,pret(kânum);pl;f
+takūnā,you were true;you were just;you were honest;you were correct;you became true;you became just;you became honest;you became correct;you were firm;you were fixed;you were secure;you became firm;you became fixed;you became secure;you endured;you lasted,v,pret(kânum);pl;m;f
+nikūn,we were true;we were just;we were honest;we were correct;we became true;we became just;we became honest;we became correct;we were firm;we were fixed;we were secure;we became firm;we became fixed;we became secure;we endured;we lasted,v,pret(kânum);pl;m;f
+kīnum,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);base(kīn);s;nom;m
+kīnim,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);s;gen(kīnum);m
+kīnam,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);s;acc(kīnum);m
+kīnūtum,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);pl;nom;m
+kīnūtim,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);pl;gen(kīnūtum);acc(kīnūtum);m
+kīntum,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);base(kīn);s;nom;f
+kīntim,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);s;gen(kīntum);f
+kīntam,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);s;acc(kīntum);f
+kīnātum,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);pl;nom;f
+kīnātim,true;just;honest;loyal;normal;regular;correct;proper;legitimate;firm;fixed,adj,va(kânum);pl;gen(kīnātum);acc(kīnātum);f
+kīttum,truth;justice;honesty;loyalty;normal situation;correctness,n,subst(kīntum);s;nom;f
+kīttim,truth;justice;honesty;loyalty;normal situation;correctness,n,s;gen(kīttum);f
+kīttam,truth;justice;honesty;loyalty;normal situation;correctness,n,s;acc(kīttum);f
+kītātum,truths;justices;honesty;loyalties;normal situations;correctnesses,n,pl;nom;f
+kītātim,truths;justices;honesty;loyalties;normal situations;correctnesses,n,pl;gen(kītātum);acc(kītātum);f
+kītti,truth of;justice of;honesty of;loyalty of;normal situation of;correctness of,n,bf(kīttum);s;nom;gen(kītti);acc(kītti);f
+kītāt,truths of;justices of;honesty of;loyalties of;normal situations of;correctnesses of,n,bf(kītātum);pl;nom;gen(kītāt);acc(kītāt);f
+miādum,to increase;to be much;to be abundant;to be numerous;to be plentiful;to become much;to become abundant;to become numerous;to become plentiful,v,G;inf;2w
+imīd,it increased;it was much;it was abundant;it was numerous;it was plentiful;it became much;it became abundant;it became numerous;it became plentiful,v,pret(miādum);s;m;f
+tamīd,you increased;you were much;you were abundant;you were numerous;you were plentiful;you became much;you became abundant;you became numerous;you became plentiful,v,pret(miādum);s;m
+tamīdī,you increased;you were much;you were abundant;you were numerous;you were plentiful;you became much;you became abundant;you became numerous;you became plentiful,v,pret(miādum);s;f
+amīd,I increased;I was much;I was abundant;I was numerous;I was plentiful;I became much;I became abundant;I became numerous;I became plentiful,v,pret(miādum);s;m;f
+imīdū,they incrased;they were much;they were abundant;they were numerous;they were plentiful;they became much;they became abundant;they became numerous;they became plentiful,v,pret(miādum);pl;m
+imīdā,they incrased;they were much;they were abundant;they were numerous;they were plentiful;they became much;they became abundant;they became numerous;they became plentiful,v,pret(miādum);pl;f
+tamīdā,you increased;you were much;you were abundant;you were numerous;you were plentiful;you became much;you became abundant;you became numerous;you became plentiful,v,pret(miādum);pl;m;f
+nimīd,we increased;we were much;we were abundant;we were numerous;we were plentiful;we became much;we became abundant;we became numerous;we became plentiful,v,pret(miādum);pl;m;f
+nêrum,to slay;to kill;to strike;to destroy;to defeat,v,G;inf;2w
+inēr,he/she slew;he/she killed;he/she struck;he/she destroyed;he/she defeated,v,pret(nêrum);s;m;f
+tenēr,you slew;you killed;you struck;you destroyed;you defeated,v,pret(nêrum);s;m
+tenērī,you slew;you killed;you struck;you destroyed;you defeated,v,pret(nêrum);s;f
+enēr,I slew;I killed;I struck;I destroyed;I defeated,v,pret(nêrum);s;m;f
+inērū,they slew;they killed;they struck;they destroyed;they defeated,v,pret(nêrum);pl;m
+inērā,they slew;they killed;they struck;they destroyed;they defeated,v,pret(nêrum);pl;f
+tenērā,you slew;you killed;you struck;you destroyed;you defeated,v,pret(nêrum);pl;m;f
+ninēr,we slew;we killed;we struck;we destroyed;we defeated,v,pret(nêrum);pl;m;f
+nârum,to slay;to kill;to strike;to destroy;to defeat,v,G;inf;2w
+inār,he/she slew;he/she killed;he/she struck;he/she destroyed;he/she defeated,v,pret(nârum);s;m;f
+tanār,you slew;you killed;you struck;you destroyed;you defeated,v,pret(nârum);s;m
+tanārī,you slew;you killed;you struck;you destroyed;you defeated,v,pret(nârum);s;f
+anār,I slew;I killed;I struck;I destroyed;I defeated,v,pret(nârum);s;m;f
+inārū,they slew;they killed;they struck;they destroyed;they defeated,v,pret(nârum);pl;m
+inārā,they slew;they killed;they struck;they destroyed;they defeated,v,pret(nârum);pl;f
+tanārā,you slew;you killed;you struck;you destroyed;you defeated,v,pret(nârum);pl;m;f
+ninār,we slew;we killed;we struck;we destroyed;we defeated,v,pret(nârum);pl;m;f
+qiāšum,to give;to bestow;to grant,v,G;inf;2w
+iqīš,he/she gave;he/she bestowed;he/she granted,v,pret(qiāšum);s;m;f
+taqīš,you gave;you bestowed;you granted,v,pret(qiāšum);s;m
+taqīšī,you gave;you bestowed;you granted,v,pret(qiāšum);s;f
+aqīš,I gave;I bestowed;I granted,v,pret(qiāšum);s;m;f
+iqīšū,they gave;they bestowed;they granted,v,pret(qiāšum);pl;m
+iqīšā,they gave;they bestowed;they granted,v,pret(qiāšum);pl;f
+taqīšā,you gave;you bestowed;you granted,v,pret(qiāšum);pl;m;f
+niqīš,we gave;we bestowed;we granted,v,pret(qiāšum);pl;m;f
+qīšum,bestowed;granted,adj,va(qiāšum);base(qīš);s;nom;m
+qīšim,bestowed;granted,adj,va(qiāšum);s;gen(qīšum);m
+qīšam,bestowed;granted,adj,va(qiāšum);s;acc(qīšum);m
+qīšūtum,bestowed;granted,adj,va(qiāšum);pl;nom;m
+qīšūtim,bestowed;granted,adj,va(qiāšum);pl;gen(qīšūtum);acc(qīšūtum);m
+qīštum,bestowed;granted,adj,va(qiāšum);base(qīš);s;nom;f
+qīštim,bestowed;granted,adj,va(qiāšum);s;gen(qīštum);f
+qīštam,bestowed;granted,adj,va(qiāšum);s;acc(qīštum);f
+qīšātum,bestowed;granted,adj,va(qiāšum);pl;nom;f
+qīšātim,bestowed;granted,adj,va(qiāšum);pl;gen(qīšātum);acc(qīšātum);f
+šâmum,to buy;to purchase,v,G;inf;2w
+išām,he/she bought;he/she purchased,v,pret(šâmum);s;m;f
+tašām,you bought;you purchased,v,pret(šâmum);s;m
+tašāmī,you bought;you purchased,v,pret(šâmum);s;f
+ašām,I bought;I purchased,v,pret(šâmum);s;m;f
+išāmū,they bought;they purchased,v,pret(šâmum);pl;m
+išāmā,they bought;they purchased,v,pret(šâmum);pl;f
+tašāmā,you bought;you purchased,v,pret(šâmum);pl;m;f
+nišām,we bought;we purchased,v,pret(šâmum);pl;m;f
+šāmum,purchased;bought,adj,va(šâmum);base(šām);s;nom;m
+šāmim,purchased;bought,adj,va(šâmum);s;gen(šāmum);m
+šāmam,purchased;bought,adj,va(šâmum);s;acc(šāmum);m
+šāmūtum,purchased;bought,adj,va(šâmum);pl;nom;m
+šāmūtim,purchased;bought,adj,va(šâmum);pl;gen(šāmūtum);acc(šāmūtum);m
+šāmtum,purchased;bought,adj,va(šâmum);base(šām);s;nom;f
+šāmtum,purchased;bought,adj,va(šâmum);s;gen(šāmtum);f
+šāmtum,purchased;bought,adj,va(šâmum);s;acc(šāmtum);f
+šāmātum,purchased;bought,adj,va(šâmum);pl;nom;f
+šāmātim,purchased;bought,adj,va(šâmum);pl;gen(šāmātum);acc(šāmātum);f
+šatûm,to drink,v,G;inf;3w
+išti,he/she drank,v,pret(šatûm);s;m;f
+tašti,you drank,v,pret(šatûm);s;m
+taštî,you drank,v,pret(šatûm);s;f
+ašti,I drank,v,pret(šatûm);s;m;f
+ištû,they drank,v,pret(šatûm);pl;m
+ištiā,they drank,v,pret(šatûm);pl;f
+taštiā,you drank,v,pret(šatûm);pl;m;f
+ništi,we drank,v,pret(šatûm);pl;m;f
+târum,to return;to go back;to come back;to turn back;to turn into;to become,v,G;inf;2w
+itūr,he/she returned;he/she went back;he/she came back;he/she turned back;he/she turned into;he/she became,v,pret(târum);s;m;f
+tatūr,you returned;you went back;you came back;you turned back;you turned into;you became,v,pret(târum);s;m
+tatūrī,you returned;you went back;you came back;you turned back;you turned into;you became,v,pret(târum);s;f
+atūr,I returned;I went back;I came back;I turned back;I turned into;I became,v,pret(târum);s;m;f
+itūrū,they returned;they went back;they came back;they turned back;they turned into;they became,v,pret(târum);pl;m
+itūrā,they returned;they went back;they came back;they turned back;they turned into;they became,v,pret(târum);pl;f
+tatūrā,you returned;you went back;you came back;you turned back;you turned into;you became,v,pret(târum);pl;m;f
+nitūr,we returned;we went back;we came back;we turned back;we turned into;we became,v,pret(târum);pl;m;f
+ṭiābum,to become pleasant;to become pleasing;to become pleasing to;to become sweet;to become good;to become satisfied,v,G;inf;2w
+iṭīb,he/she became pleasant;he/she became pleasing;he/she became pleasing to;he/she became sweet;he/she became good;he/she became satisfied;it became pleasant;it became pleasing;it became pleasing to;it became sweet;it became good,v,pret(ṭiābum);s;m;f
+taṭīb,you became pleasant;you became pleasing;you became pleasing to;you became sweet;you became good;you became satisfied,v,pret(ṭiābum);s;m
+taṭībī,you became pleasant;you became pleasing;you became pleasing to;you became sweet;you became good;you became satisfied,v,pret(ṭiābum);s;f
+aṭīb,I became pleasant;I became pleasing;I became pleasing to;I became sweet;I became good;I became satisfied,v,pret(ṭiābum);s;m;f
+iṭībū,they became pleasant;they became pleasing;they became pleasing to;they became sweet;they became good;they became satisfied,v,pret(ṭiābum);pl;m
+iṭībā,they became pleasant;they became pleasing;they became pleasing to;they became sweet;they became good;they became satisfied,v,pret(ṭiābum);pl;f
+taṭībā,you became pleasant;you became pleasing;you became pleasing to;you became sweet;you became good;you became satisfied,v,pret(ṭiābum);pl;m;f
+niṭīb,we became pleasant;we became pleasing;we became pleasing to;we became sweet;we became good;we became satisfied,v,pret(ṭiābum);pl;m;f
+kunukkum,seal;cylinder seal;seal impression;sealed tablet;document,n,s;nom;m
+kunukkim,seal;cylinder seal;seal impression;sealed tablet;document,n,s;gen(kunukkum);m
+kunukkam,seal;cylinder seal;seal impression;sealed tablet;document,n,s;acc(kunukkum);m
+kunukkū,seals;cylinder seals;seal impressions;sealed tablets;documents,n,pl;nom;m
+kunukkī,seals;cylinder seals;seal impressions;sealed tablets;documents,n,pl;gen(kunukkū);acc(kunukkū);m
+kunukkātum,seals;cylinder seals;seal impressions;sealed tablets;documents,n,pl;nom;f
+kunukkātim,seals;cylinder seals;seal impressions;sealed tablets;documents,n,pl;gen(kunukkātum);acc(kunukkātum);f
+kunuk,seal of;cylinder seal of;seal impression of;sealed tablet of;document of,n,bf(kunukkum);s;nom;gen(kunuk);acc(kunuk);m
+kunukkū,seals of;cylinder seals of;seal impressions of;sealed tablets of;documents of,n,bf(kunukkū);pl;nom;m
+kunukkī,seals of;cylinder seals of;seal impressions of;sealed tablets of;documents of,n,bf(kunukkī);pl;gen(kunukkū);acc(kunukkū);m
+kunukkāt,seals of;cylinder seals of;seal impressions of;sealed tablets of;documents of,n,bf(kunukkātum);pl;nom;gen(kunukkāt);acc(kunukkāt);f
+ummānum,army;gang;crowd,n,s;nom;f
+ummānim,army;gang;crowd,n,s;gen(ummānum);f
+ummānam,army;gang;crowd,n,s;acc(ummānum);f
+ummānātum,armies;gangs;crowds,n,pl;nom;f
+ummānātim,armies;gangs;crowds,n,pl;gen(ummānātum);acc(ummānātum);f
+ummān,army of;gang of;crowd of,n,bf(ummānum);s;nom;gen(ummān);acc(ummān);f
+ummānāt,army of;gang of;crowd of,n,bf(ummānātum);pl;nom;gen(ummānāt);acc(ummānāt);f
